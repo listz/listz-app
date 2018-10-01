@@ -9,8 +9,8 @@ export default {
 }
 </script>
 
-<template>
+<style>
   
-</template>
+</style>
 
 
