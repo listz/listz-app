@@ -8,9 +8,9 @@
       </div>
 
       <!-- Center column -->
-      <div class="col-xs-12 col-sm-8 col-lg-4 listz-center d-flex flex-column p-4">
+      <div class="listz-center col-xs-12 col-sm-8 col-lg-4 d-flex flex-column">
         <form-component :listz="listz"></form-component>
-        <list-component></list-component>
+        <list-component :items="resultItems()"></list-component>
       </div>
 
       <!-- Right column -->
@@ -47,6 +47,9 @@ export default {
     this.loadListzFromUrl();
   },
   methods: {
+    resultItems() {
+      return this.listz.items;
+    },
     loadListzFromUrl() {
       let requestParameters = queryString.parse(location.search);
       this.loadListz(requestParameters.listz);
@@ -54,14 +57,15 @@ export default {
     loadListz(listzName) {
 
       axios.get(this.generateListzUrl(listzName)).then(function (response) {
+        console.log(response);
         let result = Listz.validate(JSON.stringify(response.data));
+        console.log(result);
 
         this.listz = result.result;
         this.isValid = result.isValid;
 
         document.title = this.listz.name;
 
-        console.log(result);
       }.bind(this)).catch(function (error) {
         console.log("No valid Listz domain.");
       }.bind(this));
@@ -89,8 +93,8 @@ export default {
   --listz-background-color-form-from: #004a7f;
   --listz-background-color-form-to: #0f619b;
 
-  --listz-gradient-color-from: #db455e;
-  --listz-gradient-color-to: #f35c75;
+  --listz-gradient-color-from: #da3e58;
+  --listz-gradient-color-to: #f1677e;
 
   --listz-brush-width: 100px;
 }
@@ -120,6 +124,9 @@ body {
 
 .listz-center {
   background-color: var(--listz-background-color-center);
+  padding: 20px;
+  padding-right: 20px;
+  z-index: 5;
 }
 
 .listz-aside {
@@ -129,6 +136,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  z-index: 1;
 }
 
 .listz-brush,
@@ -142,6 +150,8 @@ body {
   background-color: transparent;
   background-size: contain;
   background-repeat: repeat-y;
+
+  z-index: 2;
 }
 
 .listz-brush {
@@ -150,6 +160,6 @@ body {
 
 .listz-brush-left {
   right: 0;
-  transform: scale(-1);
+  background-image: url("~./assets/img/brushed-left.png");
 }
 </style>
