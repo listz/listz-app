@@ -152,7 +152,7 @@ export default {
 
 .listz-item-detail {
   width: 100%;
-  background-color: #BFBFBF;
+  background-color: #EAEAEA;
   padding: 25px;
 }
 </style>
