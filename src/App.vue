@@ -97,6 +97,12 @@ export default {
   --listz-gradient-color-to: #f1677e;
 
   --listz-brush-width: 100px;
+
+  --listz-scroll-overflow: 40px;
+  --listz-center-padding: 20px;
+
+  --listz-item-padding: 10px;
+  --listz-item-tag-hover: #da3e58;
 }
 
 .listz-gradient {
@@ -124,9 +130,8 @@ body {
 
 .listz-center {
   background-color: var(--listz-background-color-center);
-  padding: 20px;
-  padding-right: 20px;
   z-index: 5;
+  padding: 0;
 }
 
 .listz-aside {

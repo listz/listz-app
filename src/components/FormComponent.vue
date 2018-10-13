@@ -1,5 +1,5 @@
 <template>
-  <div id="listz-form" class="listz-normal-gradient row rounded p-3">
+  <div id="listz-form" class="listz-normal-gradient row rounded">
 
     <div id="listz-form-title-container" class="d-flex justify-content-between align-items-center">
       <h2 class="listz-gradient rounded">{{listz.name}}</h2>
@@ -44,8 +44,11 @@ export default {
   position: relative;
   background-color: var(--listz-background-color-form);
 
-  padding-top: 2em !important;
-  margin-top: 25px;
+  padding: 25px;
+  padding-top: 2em;
+
+  margin: var(--listz-center-padding);
+  margin-top: 3em;
 
   font-family: 'K2D', sans-serif;
   color: white;
@@ -64,6 +67,7 @@ export default {
 #listz-form-title-container h2 {
   font-size: 1.2em;
   padding: 10px;
+  margin-right: 10px;
 }
 
 #listz-form-title-arrow {
