@@ -10,9 +10,9 @@
 
       <!-- Overview -->
       <div class="listz-item-overview">
-        <h4>{{listzItem.name}}</h4>
+        <h4><a :href="listzItem.link">{{listzItem.name}}</a></h4>
         <div class="listz-item-tags">
-          <div :key="index" v-for="(itemTag, index) in listzItem.tags" class="listz-item-tag">{{itemTag}}</div>
+          <div :key="index" v-for="(itemTag, index) in listzItem.tags" @click="onTagClicked(itemTag)" class="listz-item-tag">{{itemTag}}</div>
         </div>
       </div>
 
@@ -34,8 +34,9 @@
 export default {
   name: "listz-list",
   props: {
-    items: Array 
-  }
+    items: Array,
+    onTagClicked: Function
+  },
 }
 </script>
 
@@ -121,6 +122,15 @@ export default {
 
 .listz-item .listz-item-overview > h4 {
   line-height: 50px;
+}
+
+.listz-item .listz-item-overview > h4 > a {
+  text-decoration: none;
+  color: black;
+}
+
+.listz-item .listz-item-overview > h4 > a:hover {
+  color: var(--listz-title-hover);
 }
 
 .listz-item-tags {

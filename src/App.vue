@@ -9,8 +9,8 @@
 
       <!-- Center column -->
       <div class="listz-center col-xs-12 col-sm-8 col-lg-4 d-flex flex-column">
-        <form-component :listz="listz" :onSearchInputChange="onSearchInputChange"></form-component>
-        <list-component :items="resultListz"></list-component>
+        <form-component :listz="listz" :searchInput="searchInput" :onSearchInputChange="onSearchInputChange"></form-component>
+        <list-component :items="resultListz" :onTagClicked="onTagClicked"></list-component>
       </div>
 
       <!-- Right column -->
@@ -43,7 +43,7 @@ export default {
       isValid: true,
 
       // Search
-      searchInput: "Hello",
+      searchInput: "",
 
       // Filters
       filterTagsLiterally: true
@@ -113,6 +113,10 @@ export default {
     onSearchInputChange(searchValue) {
       this.searchInput = searchValue;
       this.searchItems();
+    },
+    onTagClicked(tag) {
+      this.searchInput = tag;
+      this.searchItems();
     }
 
   }
@@ -143,6 +147,7 @@ export default {
 
   --listz-item-padding: 10px;
   --listz-item-tag-hover: #da3e58;
+  --listz-title-hover: #da3e58;
 }
 
 .listz-gradient {

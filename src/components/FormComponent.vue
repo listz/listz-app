@@ -14,7 +14,7 @@
         {{listz.description}}
     </div>
 
-    <input type="text" class="mt-3 form-control" placeholder="🔍" v-model="searchInput" @keyup="onFormInputChange">
+    <input type="text" class="mt-3 form-control" placeholder="🔍" v-model="formSearchInput" @keyup="onFormInputChange(searchInput)">
 
   </div>
 </template>
@@ -25,20 +25,21 @@ export default {
   props: {
     listz: Object,
     onSearchInputChange: Function,
+    searchInput: ""
   },
   data() {
     return {
       // Class style bindings
       moreVisible: false,
-      searchInput: ""
+      formSearchInput: ""
     }
   },
   methods: {
     toggleMore() {
       this.moreVisible = !this.moreVisible;
     },
-    onFormInputChange() {
-      this.onSearchInputChange(this.searchInput);
+    onFormInputChange(searchValue) {
+      this.onSearchInputChange(searchValue);
     }
   }
 };
