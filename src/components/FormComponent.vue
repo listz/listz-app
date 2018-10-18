@@ -5,7 +5,7 @@
       <h2 class="listz-gradient rounded">{{listz.name}}</h2>
       <h2 id="listz-form-title-arrow" class="listz-gradient rounded listz-form-arrow" 
           :class="{ 'listz-arrow-turned' : moreVisible  }" 
-          v-on:click="toggleMore">
+          @click="toggleMore">
         <i class="fas fa-angle-down"></i>
       </h2>
     </div>
@@ -14,7 +14,7 @@
         {{listz.description}}
     </div>
 
-    <input type="text" class="mt-3 form-control" placeholder="🔍">
+    <input type="text" class="mt-3 form-control" placeholder="🔍" v-model="searchInput" @keyup="onFormInputChange">
 
   </div>
 </template>
@@ -23,17 +23,22 @@
 export default {
   name: "listz-form",
   props: {
-    listz: Object
+    listz: Object,
+    onSearchInputChange: Function,
   },
   data() {
     return {
       // Class style bindings
       moreVisible: false,
+      searchInput: ""
     }
   },
   methods: {
     toggleMore() {
       this.moreVisible = !this.moreVisible;
+    },
+    onFormInputChange() {
+      this.onSearchInputChange(this.searchInput);
     }
   }
 };

@@ -9,8 +9,8 @@
 
       <!-- Center column -->
       <div class="listz-center col-xs-12 col-sm-8 col-lg-4 d-flex flex-column">
-        <form-component :listz="listz"></form-component>
-        <list-component :items="resultItems()"></list-component>
+        <form-component :listz="listz" :onSearchInputChange="onSearchInputChange"></form-component>
+        <list-component :items="resultListz"></list-component>
       </div>
 
       <!-- Right column -->
@@ -38,9 +38,15 @@ export default {
   },
   data() {
     return {
-      msg: "Welcome to Your Vue.js App",
       listz: new Listz(),
+      resultListz: new Array(),
       isValid: true,
+
+      // Search
+      searchInput: "Hello",
+
+      // Filters
+      filterTagsLiterally: true
     };
   },
   mounted() {
@@ -49,6 +55,8 @@ export default {
   methods: {
     resultItems() {
       return this.listz.items;
+      //if (!this.resultListz) this.resultListz = this.listz.items;
+      //return this.listz.items;
     },
     loadListzFromUrl() {
       let requestParameters = queryString.parse(location.search);
@@ -57,14 +65,13 @@ export default {
     loadListz(listzName) {
 
       axios.get(this.generateListzUrl(listzName)).then(function (response) {
-        console.log(response);
         let result = Listz.validate(JSON.stringify(response.data));
-        console.log(result);
 
         this.listz = result.result;
         this.isValid = result.isValid;
 
         document.title = this.listz.name;
+        this.searchItems();
 
       }.bind(this)).catch(function (error) {
         console.log("No valid Listz domain.");
@@ -74,7 +81,40 @@ export default {
       if (typeof listzName == "undefined" || listzName == null)
         return "https://listz.github.io/listz-all/listz.json";
       return `https://listz.github.io/${listzName}/listz.json`;
+    },
+    searchItems() {
+
+      if (this.searchInput == "") this.resultListz = Array.from(this.listz.items);
+      
+      let newResultList = new Set();
+
+      for (let item of this.listz.items) {
+
+        // if substr => 0 in name;
+        if (item.name.indexOf(this.searchInput) >= 0) newResultList.add(item);
+        else if (item.description.indexOf(this.searchInput) >= 0) newResultList.add(item);
+        else {
+
+          for (let tag of item.tags) {
+            if (this.filterTagsLiterally) if (tag.toLowerCase() == this.searchInput.toLowerCase()) newResultList.add(item);
+            else {
+              if (tag.toLowerCase().indexOf(this.searchInput.toLowerCase())) newResultList.add(item);
+            }
+          }
+        }
+      }
+
+      // Clear results
+      while(this.resultListz.length > 0) this.resultListz.pop();
+
+      // Add new results
+      for (let item of newResultList) this.resultListz.push(item);
+    },
+    onSearchInputChange(searchValue) {
+      this.searchInput = searchValue;
+      this.searchItems();
     }
+
   }
 };
 </script>

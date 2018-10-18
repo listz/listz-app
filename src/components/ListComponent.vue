@@ -34,7 +34,7 @@
 export default {
   name: "listz-list",
   props: {
-    items: Array
+    items: Array 
   }
 }
 </script>
