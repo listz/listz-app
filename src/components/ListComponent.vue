@@ -3,7 +3,7 @@
 
     <div id="listz-list-container">
 
-    <div :key="index" v-for="(listzItem, index) in items" class="listz-item">
+    <div :key="index" v-for="(listzItem, index) in $store.getters.resultItems" class="listz-item">
 
       <!-- Listz image -->
       <img :src="listzItem.image">
@@ -31,12 +31,19 @@
 </template>
 
 <script>
+import Actions from './../store/Actions';
+
 export default {
   name: "listz-list",
-  props: {
-    items: Array,
-    onTagClicked: Function
-  },
+    methods: {
+    onTagClicked(tag) {
+
+      this.$store.dispatch({
+        type: Actions.TAG_CLICKED,
+        tag
+      });
+    }
+  }
 }
 </script>
 

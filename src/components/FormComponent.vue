@@ -2,7 +2,7 @@
   <div id="listz-form" class="listz-normal-gradient row rounded">
 
     <div id="listz-form-title-container" class="d-flex justify-content-between align-items-center">
-      <h2 class="listz-gradient rounded">{{listz.name}}</h2>
+      <h2 class="listz-gradient rounded">{{$store.state.listz.name}}</h2>
       <h2 id="listz-form-title-arrow" class="listz-gradient rounded listz-form-arrow" 
           :class="{ 'listz-arrow-turned' : moreVisible  }" 
           @click="toggleMore">
@@ -11,35 +11,49 @@
     </div>
 
     <div :class="{ 'listz-form-more-hidden': !moreVisible, 'listz-form-more-visible': moreVisible }">
-        {{listz.description}}
+        {{$store.state.listz.description}}
     </div>
 
-    <input type="text" class="mt-3 form-control" placeholder="🔍" v-model="formSearchInput" @keyup="onFormInputChange(searchInput)">
+    <input type="text" class="mt-3 form-control" placeholder="🔍" v-model="searchInput">
 
   </div>
 </template>
 
 <script>
+import debounce from "lodash.debounce";
+import Actions from "./../store/Actions";
+
 export default {
   name: "listz-form",
-  props: {
-    listz: Object,
-    onSearchInputChange: Function,
-    searchInput: ""
-  },
   data() {
     return {
       // Class style bindings
       moreVisible: false,
       formSearchInput: ""
+    };
+  },
+  computed: {
+
+    searchInput: {
+      get() {
+        return this.$store.state.query;
+      },
+      set(value) {
+        this.debounceInput(value);
+      }
     }
   },
   methods: {
+
+    debounceInput: debounce(function (query) {
+      this.$store.commit({
+        type: Actions.SET_QUERY,
+        query
+      });
+    }, 500),
+
     toggleMore() {
       this.moreVisible = !this.moreVisible;
-    },
-    onFormInputChange(searchValue) {
-      this.onSearchInputChange(searchValue);
     }
   }
 };
@@ -56,7 +70,7 @@ export default {
   margin: var(--listz-center-padding);
   margin-top: 3em;
 
-  font-family: 'K2D', sans-serif;
+  font-family: "K2D", sans-serif;
   color: white;
 }
 
@@ -85,7 +99,8 @@ export default {
   transform: rotate(180deg);
 }
 
-.listz-form-more-hidden, .listz-form-more-visible {
+.listz-form-more-hidden,
+.listz-form-more-visible {
   overflow: hidden;
   transition: max-height 0.5s;
   transition-timing-function: linear;
@@ -98,9 +113,5 @@ export default {
 .listz-form-more-visible {
   max-height: 500px;
 }
-
-.listz-form-search-input {
-}
-
 </style>
 

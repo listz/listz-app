@@ -9,8 +9,8 @@
 
       <!-- Center column -->
       <div class="listz-center col-xs-12 col-sm-8 col-lg-4 d-flex flex-column">
-        <form-component :listz="listz" :searchInput="searchInput" :onSearchInputChange="onSearchInputChange"></form-component>
-        <list-component :items="resultListz" :onTagClicked="onTagClicked"></list-component>
+        <form-component></form-component>
+        <list-component></list-component>
       </div>
 
       <!-- Right column -->
@@ -27,8 +27,9 @@ import ListComponent from "./components/ListComponent.vue";
 import FormComponent from "./components/FormComponent.vue";
 
 import Listz from "listz";
-import axios from "axios";
 import queryString from "query-string";
+
+import Actions from './store/Actions';
 
 export default {
   name: "app",
@@ -38,87 +39,34 @@ export default {
   },
   data() {
     return {
-      listz: new Listz(),
-      resultListz: new Array(),
-      isValid: true,
-
-      // Search
-      searchInput: "",
-
       // Filters
       filterTagsLiterally: true
     };
   },
   mounted() {
+
     this.loadListzFromUrl();
   },
   methods: {
-    resultItems() {
-      return this.listz.items;
-      //if (!this.resultListz) this.resultListz = this.listz.items;
-      //return this.listz.items;
-    },
     loadListzFromUrl() {
+
       let requestParameters = queryString.parse(location.search);
       this.loadListz(requestParameters.listz);
     },
     loadListz(listzName) {
 
-      axios.get(this.generateListzUrl(listzName)).then(function (response) {
-        let result = Listz.validate(JSON.stringify(response.data));
+      this.$store.dispatch({
+        type: Actions.LOAD_LISTZ_FROM_URL,
+        listzUrl: this.generateListzUrl(listzName)
+      });
 
-        this.listz = result.result;
-        this.isValid = result.isValid;
-
-        document.title = this.listz.name;
-        this.searchItems();
-
-      }.bind(this)).catch(function (error) {
-        console.log("No valid Listz domain.");
-      }.bind(this));
     },
     generateListzUrl(listzName) {
+
       if (typeof listzName == "undefined" || listzName == null)
         return "https://listz.github.io/listz-all/listz.json";
       return `https://listz.github.io/${listzName}/listz.json`;
-    },
-    searchItems() {
-
-      if (this.searchInput == "") this.resultListz = Array.from(this.listz.items);
-      
-      let newResultList = new Set();
-
-      for (let item of this.listz.items) {
-
-        // if substr => 0 in name;
-        if (item.name.indexOf(this.searchInput) >= 0) newResultList.add(item);
-        else if (item.description.indexOf(this.searchInput) >= 0) newResultList.add(item);
-        else {
-
-          for (let tag of item.tags) {
-            if (this.filterTagsLiterally) if (tag.toLowerCase() == this.searchInput.toLowerCase()) newResultList.add(item);
-            else {
-              if (tag.toLowerCase().indexOf(this.searchInput.toLowerCase())) newResultList.add(item);
-            }
-          }
-        }
-      }
-
-      // Clear results
-      while(this.resultListz.length > 0) this.resultListz.pop();
-
-      // Add new results
-      for (let item of newResultList) this.resultListz.push(item);
-    },
-    onSearchInputChange(searchValue) {
-      this.searchInput = searchValue;
-      this.searchItems();
-    },
-    onTagClicked(tag) {
-      this.searchInput = tag;
-      this.searchItems();
     }
-
   }
 };
 </script>
