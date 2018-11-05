@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/listz-app/dist/";
+/******/ 	__webpack_require__.p = "./dist/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 67);
@@ -34015,7 +34015,6 @@ var store = exports.store = new _vuex2.default.Store({
           for (var _iterator = items[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
             var item = _step.value;
 
-            console.log(item.name);
             if (item.name.toLowerCase().indexOf(query) >= 0) itemSet.add(item);else if (item.description.toLowerCase().indexOf(query) >= 0) itemSet.add(item);else {
               var _iteratorNormalCompletion2 = true;
               var _didIteratorError2 = false;

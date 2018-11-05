@@ -27,7 +27,6 @@ export const store = new Vuex.Store({
         let itemSet = new Set();
 
         for (let item of items) {
-          console.log(item.name);
           if (item.name.toLowerCase().indexOf(query) >= 0) itemSet.add(item);
           else if (item.description.toLowerCase().indexOf(query) >= 0) itemSet.add(item);
           else {
