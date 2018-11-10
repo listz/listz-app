@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: './dist/',
+    publicPath: '/dist/',
     filename: 'build.js'
   },
   module: {
@@ -59,11 +59,7 @@ module.exports = {
 
 if (process.env.NODE_ENV === 'production') {
 
-  module.exports.output = {
-    path: path.resolve(__dirname, './dist'),
-      publicPath: './listz-app/dist/',
-        filename: 'build.js'
-  }
+  module.exports.output.publicPath = '/listz-app/dist/';
 
   module.exports.devtool = '#source-map';
   // http://vue-loader.vuejs.org/en/workflow/production.html
