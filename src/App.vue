@@ -3,18 +3,18 @@
     <div class="row h-100">
 
       <!-- Left column -->
-      <div class="d-none d-sm-block col-sm-2 col-lg-4 listz-aside">
+      <div class="d-none d-lg-block col-lg-2 col-xl-4 listz-aside">
         <div class="listz-brush-left"></div>
       </div>
 
       <!-- Center column -->
-      <div class="listz-center col-xs-12 col-sm-8 col-lg-4 d-flex flex-column">
+      <div class="listz-center col-md-12 col-lg-8 col-xl-4 d-flex flex-column">
         <form-component></form-component>
         <list-component></list-component>
       </div>
 
       <!-- Right column -->
-      <div class="d-none d-sm-block col-sm-2 col-lg-4 listz-aside">
+      <div class="d-none d-lg-block col-lg-2 col-xl-4 listz-aside">
         <div class="listz-brush"></div>
       </div>
       
