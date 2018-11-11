@@ -10,6 +10,7 @@ const actions = {
   // Mutations
   SET_LISTZ: "SET_LISTZ",
   SET_QUERY: "SET_QUERY",
+  SET_LISTZ_URL_QUERY_STRING: "SET_LISTZ_URL_QUERY_STRING",
 
   // Fields updated
   QUERY_UPDATED: "QUERY_UPDATED"

@@ -3,27 +3,32 @@
 
     <div id="listz-list-container">
 
-    <div :key="index" v-for="(listzItem, index) in $store.getters.resultItems" class="listz-item">
+      <form class="listz-item-add-container">
+        <a :href="getEditUrl()" class="listz-item-add-button listz-gradient">+</a>
+        <h4><a :href="getEditUrl()">Add an item.</a></h4>
+      </form>
 
-      <!-- Listz image -->
-      <img :src="listzItem.image">
+      <div :key="index" v-for="(listzItem, index) in $store.getters.resultItems" class="listz-item">
 
-      <!-- Overview -->
-      <div class="listz-item-overview">
-        <h4><a :href="listzItem.link">{{listzItem.name}}</a></h4>
-        <div class="listz-item-tags">
-          <div :key="index" v-for="(itemTag, index) in listzItem.tags" @click="onTagClicked(itemTag)" class="listz-item-tag">{{itemTag}}</div>
+        <!-- Listz image -->
+        <img :src="listzItem.image">
+
+        <!-- Overview -->
+        <div class="listz-item-overview">
+          <h4><a :href="listzItem.link">{{listzItem.name}}</a></h4>
+          <div class="listz-item-tags">
+            <div :key="index" v-for="(itemTag, index) in listzItem.tags" @click="onTagClicked(itemTag)" class="listz-item-tag">{{itemTag}}</div>
+          </div>
+        </div>
+
+        <!-- Details -->
+        <div class="listz-item-detail-divider"></div>
+        <div class="listz-item-detail">
+          {{listzItem.description}}
         </div>
       </div>
 
-      <!-- Details -->
-      <div class="listz-item-detail-divider"></div>
-      <div class="listz-item-detail">
-        {{listzItem.description}}
       </div>
-    </div>
-
-    </div>
 
     <div class="fade-bottom"></div>
 
@@ -31,20 +36,26 @@
 </template>
 
 <script>
-import Actions from './../store/Actions';
+import Actions from "./../store/Actions";
 
 export default {
   name: "listz-list",
-    methods: {
+  methods: {
     onTagClicked(tag) {
-
       this.$store.dispatch({
         type: Actions.TAG_CLICKED,
         tag
       });
+    },
+    getEditUrl() {
+
+      let editListzUrl = `https://github.com/listz/${this.$store.state.queryString}/edit/master/listz.json`;
+      let addListzUrl = "https://github.com/listz/listz/issues/new?template=request-a-new-listz-repository.md";
+
+      return this.$store.state.queryString == "listz-all" ? addListzUrl : editListzUrl;
     }
   }
-}
+};
 </script>
 
 <style>
@@ -57,7 +68,6 @@ export default {
 }
 
 .fade-bottom {
-
   z-index: 2;
 
   position: absolute;
@@ -67,7 +77,7 @@ export default {
   width: 100%;
   height: 100px;
 
-  background-image: url('~../assets/img/fade.png');
+  background-image: url("~../assets/img/fade.png");
   background-size: contain;
   background-repeat: repeat-x;
 }
@@ -84,8 +94,66 @@ export default {
   overflow-y: scroll;
 }
 
-.listz-item {
+.listz-item-add-container {
+  display: flex;
+  align-items: center;
+
   width: calc(100% - var(--listz-scroll-overflow) - var(--listz-center-padding) - 5px);
+  margin-left: var(--listz-center-padding);
+  padding-bottom: 5px;
+}
+
+.listz-item-add-button {
+  margin-right: 5px;
+
+  padding: 5px;
+  width: 50px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 5px;
+
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  padding-top: 0;
+
+  cursor: pointer;
+
+  transition: transform 0.2s;
+}
+
+.listz-item-add-button:hover {
+  color: white;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+.listz-item-add-container h4 {
+  padding: 5px;
+  margin: 0;
+}
+
+.listz-item-add-container h4 a { 
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+.listz-item-add-container h4 a:hover {  
+  color: var(--listz-title-hover);
+}
+
+.listz-item {
+  width: calc(
+    100% - var(--listz-scroll-overflow) - var(--listz-center-padding) - 5px
+  );
   max-height: 100px;
 
   margin-left: var(--listz-center-padding);
@@ -162,14 +230,14 @@ export default {
 .listz-item-detail-divider {
   width: 100%;
   height: 25px;
-  background-image: url('~./../assets/img/fade-gray.png');
+  background-image: url("~./../assets/img/fade-gray.png");
   background-repeat: repeat-x;
   background-size: contain;
 }
 
 .listz-item-detail {
   width: 100%;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   padding: 25px;
 }
 </style>

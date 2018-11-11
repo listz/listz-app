@@ -51,6 +51,12 @@ export default {
     loadListzFromUrl() {
 
       let requestParameters = queryString.parse(location.search);
+
+      this.$store.commit({
+        type: Actions.SET_LISTZ_URL_QUERY_STRING,
+        queryString: typeof requestParameters.listz == "undefined" ? "listz-all" : requestParameters.listz
+      });
+
       this.loadListz(requestParameters.listz);
     },
     loadListz(listzName) {

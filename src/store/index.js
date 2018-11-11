@@ -12,6 +12,7 @@ export const store = new Vuex.Store({
     // Initial Listz
     listz: new Listz(),
     query: "",
+    queryString: "",
 
   },
   getters: {
@@ -53,6 +54,11 @@ export const store = new Vuex.Store({
     [Actions.SET_QUERY](state, payload) {
 
       state.query = payload.query;
+    },
+
+    [Actions.SET_LISTZ_URL_QUERY_STRING](state, payload) {
+
+      state.queryString = payload.queryString;
     }
   },
   actions: {
