@@ -4,6 +4,8 @@ import Listz from 'listz';
 import Actions from './Actions';
 import axios from "axios";
 
+const octokit = require('@octokit/rest')();
+
 Vue.use(Vuex);
 
 export const store = new Vuex.Store({
@@ -13,6 +15,7 @@ export const store = new Vuex.Store({
     listz: new Listz(),
     query: "",
     queryString: "",
+    commits: new Array(),
 
   },
   getters: {
@@ -59,6 +62,11 @@ export const store = new Vuex.Store({
     [Actions.SET_LISTZ_URL_QUERY_STRING](state, payload) {
 
       state.queryString = payload.queryString;
+    },
+
+    [Actions.SET_COMMITS](state, payload) {
+
+      state.commits = payload.commits;
     }
   },
   actions: {
@@ -86,7 +94,7 @@ export const store = new Vuex.Store({
       }.bind(this));
     },
 
-    [Actions.TAG_CLICKED]({ dispatch, commit }, payload) {
+    [Actions.TAG_CLICKED]({ commit }, payload) {
 
       commit({
         type: Actions.SET_QUERY,
@@ -94,5 +102,28 @@ export const store = new Vuex.Store({
       });
 
     },
+
+    [Actions.SET_LISTZ_URL_QUERY_STRING]({ commit, dispatch }, payload) {
+
+      commit({
+        type: Actions.SET_LISTZ_URL_QUERY_STRING,
+        queryString: payload.queryString
+      });
+ 
+      dispatch({
+        type: Actions.LOAD_COMMITS
+      });
+    },
+
+    [Actions.LOAD_COMMITS]({ commit }) {
+
+      octokit.repos.getCommits({owner: "listz", repo: this.state.queryString }).then(response => {
+
+        commit({
+          type: Actions.SET_COMMITS,
+          commits: response.data
+        })
+      });
+    }
   }
 });

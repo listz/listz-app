@@ -114,7 +114,7 @@ export default {
   align-items: center;
   justify-content: center;
 
-  border-radius: 5px;
+  border-radius: var(--listz-border-radius);
 
   text-align: center;
   font-weight: bolder;
@@ -161,7 +161,8 @@ export default {
   margin-bottom: 50px;
 
   cursor: pointer;
-  transition: box-shadow 1s;
+  transition: border-radius 1s, box-shadow 1s, max-height 1s;
+  border-radius: 0;
 
   overflow: hidden;
 }
@@ -170,6 +171,7 @@ export default {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
   transition: max-height 1s;
   max-height: 500px;
+  border-radius: var(--listz-border-radius);
 }
 
 .listz-item:last-of-type {

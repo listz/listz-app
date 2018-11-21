@@ -4,6 +4,7 @@
 
       <!-- Left column -->
       <div class="d-none d-lg-block col-lg-2 col-xl-4 listz-aside">
+        <activity-component></activity-component>
         <div class="listz-brush-left"></div>
       </div>
 
@@ -25,6 +26,7 @@
 <script>
 import ListComponent from "./components/ListComponent.vue";
 import FormComponent from "./components/FormComponent.vue";
+import ActivityComponent from "./components/ActivityComponent.vue";
 
 import Listz from "listz";
 import queryString from "query-string";
@@ -35,7 +37,8 @@ export default {
   name: "app",
   components: {
     FormComponent,
-    ListComponent
+    ListComponent,
+    ActivityComponent,
   },
   data() {
     return {
@@ -52,7 +55,7 @@ export default {
 
       let requestParameters = queryString.parse(location.search);
 
-      this.$store.commit({
+      this.$store.dispatch({
         type: Actions.SET_LISTZ_URL_QUERY_STRING,
         queryString: typeof requestParameters.listz == "undefined" ? "listz-all" : requestParameters.listz
       });
@@ -98,10 +101,13 @@ export default {
 
   --listz-scroll-overflow: 40px;
   --listz-center-padding: 20px;
+  --listz-border-radius: 10px;
 
   --listz-item-padding: 10px;
   --listz-item-tag-hover: #da3e58;
   --listz-title-hover: #da3e58;
+  
+  --listz-activity-color: rgba(255, 255, 255, 0.8);
 }
 
 .listz-gradient {

@@ -12,6 +12,10 @@ const actions = {
   SET_QUERY: "SET_QUERY",
   SET_LISTZ_URL_QUERY_STRING: "SET_LISTZ_URL_QUERY_STRING",
 
+  // Commits (Activity)
+  SET_COMMITS: "SET_COMMITS",
+  LOAD_COMMITS: "LOAD_COMMITS",
+
   // Fields updated
   QUERY_UPDATED: "QUERY_UPDATED"
 }
