@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "/listz-app/dist/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 162);
+/******/ 	return __webpack_require__(__webpack_require__.s = 163);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -68,24 +68,24 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__addEventListenerOnce__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__addEventListenerOnce__ = __webpack_require__(170);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__object__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dom__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__copyProps__ = __webpack_require__(170);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__key_codes__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__copyProps__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__key_codes__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__lowerFirst__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__identity__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__loose_equal__ = __webpack_require__(172);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_vue_functional_data_merge__ = __webpack_require__(173);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__memoize__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__observe_dom__ = __webpack_require__(175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pluckProps__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__prefixPropName__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__plugins__ = __webpack_require__(178);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__stable_sort__ = __webpack_require__(179);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__suffixPropName__ = __webpack_require__(180);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__unPrefixPropName__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__loose_equal__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_vue_functional_data_merge__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__memoize__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__observe_dom__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pluckProps__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__prefixPropName__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__plugins__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__stable_sort__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__suffixPropName__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__unPrefixPropName__ = __webpack_require__(182);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__upperFirst__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__warn__ = __webpack_require__(48);
 /* unused harmony reexport addEventListenerOnce */
@@ -228,19 +228,19 @@ function readonlyDescriptor() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__card_mixin__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__card_mixin__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__clickout__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dropdown__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__form__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__form_custom__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__form_options__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__form_radio_check__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__form_size__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__form_state__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__id__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dropdown__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__form__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__form_custom__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__form_options__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__form_radio_check__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__form_size__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__form_state__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__id__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__listen_on_root__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pagination__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__toolpop__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pagination__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__toolpop__ = __webpack_require__(208);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__card_mixin__["a"]; });
 /* unused harmony reexport clickOutMixin */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__dropdown__["a"]; });
@@ -687,8 +687,8 @@ var eventOff = function eventOff(el, evtName, handler) {
 "use strict";
 
 
-var bind = __webpack_require__(118);
-var isBuffer = __webpack_require__(343);
+var bind = __webpack_require__(119);
+var isBuffer = __webpack_require__(348);
 
 /*global toString:true*/
 
@@ -1304,21 +1304,6 @@ function clickHandlerFactory(_ref3) {
 
 /***/ }),
 /* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var freeGlobal = __webpack_require__(127);
-
-/** Detect free variable `self`. */
-var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
-
-/** Used as a reference to the global object. */
-var root = freeGlobal || freeSelf || Function('return this')();
-
-module.exports = root;
-
-
-/***/ }),
-/* 10 */
 /***/ (function(module, exports) {
 
 /*
@@ -1400,7 +1385,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 11 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -1419,7 +1404,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(237)
+var listToStyles = __webpack_require__(238)
 
 /*
 type StyleObject = {
@@ -1628,7 +1613,7 @@ function applyToTag (styleElement, obj) {
 
 
 /***/ }),
-/* 12 */
+/* 11 */
 /***/ (function(module, exports) {
 
 /* globals __VUE_SSR_CONTEXT__ */
@@ -1737,6 +1722,21 @@ module.exports = function normalizeComponent (
 
 
 /***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var freeGlobal = __webpack_require__(128);
+
+/** Detect free variable `self`. */
+var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
+
+/** Used as a reference to the global object. */
+var root = freeGlobal || freeSelf || Function('return this')();
+
+module.exports = root;
+
+
+/***/ }),
 /* 13 */
 /***/ (function(module, exports) {
 
@@ -1820,8 +1820,8 @@ function deprecate (message) {
 /* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseIsNative = __webpack_require__(363),
-    getValue = __webpack_require__(368);
+var baseIsNative = __webpack_require__(368),
+    getValue = __webpack_require__(373);
 
 /**
  * Gets the native function at `key` of `object`.
@@ -1844,8 +1844,8 @@ module.exports = getNative;
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(18),
-    getRawTag = __webpack_require__(364),
-    objectToString = __webpack_require__(365);
+    getRawTag = __webpack_require__(369),
+    objectToString = __webpack_require__(370);
 
 /** `Object#toString` result references. */
 var nullTag = '[object Null]',
@@ -1877,7 +1877,7 @@ module.exports = baseGetTag;
 /* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var root = __webpack_require__(9);
+var root = __webpack_require__(12);
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -1980,8 +1980,8 @@ module.exports = copyObject;
 
 var isArray = __webpack_require__(7),
     isKey = __webpack_require__(70),
-    stringToPath = __webpack_require__(412),
-    toString = __webpack_require__(415);
+    stringToPath = __webpack_require__(417),
+    toString = __webpack_require__(420);
 
 /**
  * Casts `value` to a path array if it's not one.
@@ -2222,8 +2222,8 @@ process.umask = function() { return 0; };
 /* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayLikeKeys = __webpack_require__(140),
-    baseKeysIn = __webpack_require__(401),
+var arrayLikeKeys = __webpack_require__(141),
+    baseKeysIn = __webpack_require__(406),
     isArrayLike = __webpack_require__(37);
 
 /**
@@ -2260,8 +2260,8 @@ module.exports = keysIn;
 /* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayLikeKeys = __webpack_require__(140),
-    baseKeys = __webpack_require__(434),
+var arrayLikeKeys = __webpack_require__(141),
+    baseKeys = __webpack_require__(439),
     isArrayLike = __webpack_require__(37);
 
 /**
@@ -4888,6 +4888,10 @@ var actions = {
   SET_COMMITS: "SET_COMMITS",
   LOAD_COMMITS: "LOAD_COMMITS",
 
+  // Contributors
+  LOAD_CONTRIBUTORS: "LOAD_CONTRIBUTORS",
+  SET_CONTRIBUTORS: "SET_CONTRIBUTORS",
+
   // Fields updated
   QUERY_UPDATED: "QUERY_UPDATED"
 };
@@ -4899,8 +4903,8 @@ exports.default = actions;
 /***/ (function(module, exports, __webpack_require__) {
 
 var identity = __webpack_require__(56),
-    overRest = __webpack_require__(124),
-    setToString = __webpack_require__(125);
+    overRest = __webpack_require__(125),
+    setToString = __webpack_require__(126);
 
 /**
  * The base implementation of `_.rest` which doesn't validate or coerce arguments.
@@ -4922,11 +4926,11 @@ module.exports = baseRest;
 /***/ (function(module, exports, __webpack_require__) {
 
 var ListCache = __webpack_require__(31),
-    stackClear = __webpack_require__(376),
-    stackDelete = __webpack_require__(377),
-    stackGet = __webpack_require__(378),
-    stackHas = __webpack_require__(379),
-    stackSet = __webpack_require__(380);
+    stackClear = __webpack_require__(381),
+    stackDelete = __webpack_require__(382),
+    stackGet = __webpack_require__(383),
+    stackHas = __webpack_require__(384),
+    stackSet = __webpack_require__(385);
 
 /**
  * Creates a stack cache object to store key-value pairs.
@@ -4954,11 +4958,11 @@ module.exports = Stack;
 /* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var listCacheClear = __webpack_require__(371),
-    listCacheDelete = __webpack_require__(372),
-    listCacheGet = __webpack_require__(373),
-    listCacheHas = __webpack_require__(374),
-    listCacheSet = __webpack_require__(375);
+var listCacheClear = __webpack_require__(376),
+    listCacheDelete = __webpack_require__(377),
+    listCacheGet = __webpack_require__(378),
+    listCacheHas = __webpack_require__(379),
+    listCacheSet = __webpack_require__(380);
 
 /**
  * Creates an list cache object.
@@ -5031,7 +5035,7 @@ module.exports = nativeCreate;
 /* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isKeyable = __webpack_require__(389);
+var isKeyable = __webpack_require__(394);
 
 /**
  * Gets the data for `map`.
@@ -5055,7 +5059,7 @@ module.exports = getMapData;
 /* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var defineProperty = __webpack_require__(126);
+var defineProperty = __webpack_require__(127);
 
 /**
  * The base implementation of `assignValue` and `assignMergeValue` without
@@ -5086,7 +5090,7 @@ module.exports = baseAssignValue;
 /* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseIsArguments = __webpack_require__(396),
+var baseIsArguments = __webpack_require__(401),
     isObjectLike = __webpack_require__(13);
 
 /** Used for built-in method references. */
@@ -5167,8 +5171,8 @@ module.exports = isArrayLike;
 /* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(9),
-    stubFalse = __webpack_require__(397);
+/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(12),
+    stubFalse = __webpack_require__(402);
 
 /** Detect free variable `exports`. */
 var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
@@ -5320,13 +5324,13 @@ module.exports = arrayMap;
 /* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var DataView = __webpack_require__(445),
+var DataView = __webpack_require__(450),
     Map = __webpack_require__(58),
-    Promise = __webpack_require__(446),
-    Set = __webpack_require__(156),
-    WeakMap = __webpack_require__(447),
+    Promise = __webpack_require__(451),
+    Set = __webpack_require__(157),
+    WeakMap = __webpack_require__(452),
     baseGetTag = __webpack_require__(17),
-    toSource = __webpack_require__(128);
+    toSource = __webpack_require__(129);
 
 /** `Object#toString` result references. */
 var mapTag = '[object Map]',
@@ -5837,11 +5841,11 @@ var props = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dropdown__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dropdown_item__ = __webpack_require__(218);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dropdown_item_button__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dropdown_header__ = __webpack_require__(220);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dropdown_divider__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dropdown__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dropdown_item__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dropdown_item_button__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dropdown_header__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dropdown_divider__ = __webpack_require__(222);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils__ = __webpack_require__(0);
 
 
@@ -7005,7 +7009,7 @@ var ToolTip = function () {
 /* WEBPACK VAR INJECTION */(function(process) {
 
 var utils = __webpack_require__(5);
-var normalizeHeaderName = __webpack_require__(345);
+var normalizeHeaderName = __webpack_require__(350);
 
 var DEFAULT_CONTENT_TYPE = {
   'Content-Type': 'application/x-www-form-urlencoded'
@@ -7021,10 +7025,10 @@ function getDefaultAdapter() {
   var adapter;
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
-    adapter = __webpack_require__(119);
+    adapter = __webpack_require__(120);
   } else if (typeof process !== 'undefined') {
     // For node use HTTP adapter
-    adapter = __webpack_require__(119);
+    adapter = __webpack_require__(120);
   }
   return adapter;
 }
@@ -7105,10 +7109,10 @@ module.exports = defaults;
 /* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var apply = __webpack_require__(123),
+var apply = __webpack_require__(124),
     baseRest = __webpack_require__(29),
-    customDefaultsMerge = __webpack_require__(370),
-    mergeWith = __webpack_require__(403);
+    customDefaultsMerge = __webpack_require__(375),
+    mergeWith = __webpack_require__(408);
 
 /**
  * This method is like `_.defaults` except that it recursively assigns
@@ -7212,7 +7216,7 @@ module.exports = isFunction;
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(16),
-    root = __webpack_require__(9);
+    root = __webpack_require__(12);
 
 /* Built-in method references that are verified to be native. */
 var Map = getNative(root, 'Map');
@@ -7224,11 +7228,11 @@ module.exports = Map;
 /* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var mapCacheClear = __webpack_require__(381),
-    mapCacheDelete = __webpack_require__(388),
-    mapCacheGet = __webpack_require__(390),
-    mapCacheHas = __webpack_require__(391),
-    mapCacheSet = __webpack_require__(392);
+var mapCacheClear = __webpack_require__(386),
+    mapCacheDelete = __webpack_require__(393),
+    mapCacheGet = __webpack_require__(395),
+    mapCacheHas = __webpack_require__(396),
+    mapCacheSet = __webpack_require__(397);
 
 /**
  * Creates a map cache object to store key-value pairs.
@@ -7290,7 +7294,7 @@ module.exports = function(module) {
 /* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Uint8Array = __webpack_require__(134);
+var Uint8Array = __webpack_require__(135);
 
 /**
  * Creates a clone of `arrayBuffer`.
@@ -7312,7 +7316,7 @@ module.exports = cloneArrayBuffer;
 /* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(137);
+var overArg = __webpack_require__(138);
 
 /** Built-in value references. */
 var getPrototype = overArg(Object.getPrototypeOf, Object);
@@ -7457,7 +7461,7 @@ module.exports = isPlainObject;
 /* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseIsTypedArray = __webpack_require__(398),
+var baseIsTypedArray = __webpack_require__(403),
     baseUnary = __webpack_require__(39),
     nodeUtil = __webpack_require__(67);
 
@@ -7490,7 +7494,7 @@ module.exports = isTypedArray;
 /* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(127);
+/* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(128);
 
 /** Detect free variable `exports`. */
 var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
@@ -7561,8 +7565,8 @@ module.exports = assignValue;
 /* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var basePick = __webpack_require__(410),
-    flatRest = __webpack_require__(145);
+var basePick = __webpack_require__(415),
+    flatRest = __webpack_require__(146);
 
 /**
  * Creates an object composed of the picked `object` properties.
@@ -7689,8 +7693,8 @@ module.exports = arrayPush;
 /***/ (function(module, exports, __webpack_require__) {
 
 var MapCache = __webpack_require__(59),
-    setCacheAdd = __webpack_require__(426),
-    setCacheHas = __webpack_require__(427);
+    setCacheAdd = __webpack_require__(431),
+    setCacheHas = __webpack_require__(432);
 
 /**
  *
@@ -7764,8 +7768,8 @@ module.exports = setToArray;
 /* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayFilter = __webpack_require__(444),
-    stubArray = __webpack_require__(155);
+var arrayFilter = __webpack_require__(449),
+    stubArray = __webpack_require__(156);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -18819,7 +18823,7 @@ Vue.compile = compileToFunctions;
 
 /* harmony default export */ __webpack_exports__["default"] = (Vue);
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(14), __webpack_require__(163).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(14), __webpack_require__(164).setImmediate))
 
 /***/ }),
 /* 80 */
@@ -19332,7 +19336,7 @@ var props = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__collapse__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__collapse__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_toggle__ = __webpack_require__(92);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils__ = __webpack_require__(0);
 
@@ -19361,7 +19365,7 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__toggle__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__toggle__ = __webpack_require__(217);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -19850,7 +19854,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _formInput = __webpack_require__(238);
+var _formInput = __webpack_require__(239);
 
 var _formInput2 = _interopRequireDefault(_formInput);
 
@@ -19891,7 +19895,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _formFile = __webpack_require__(246);
+var _formFile = __webpack_require__(247);
 
 var _formFile2 = _interopRequireDefault(_formFile);
 
@@ -20054,7 +20058,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _modal = __webpack_require__(264);
+var _modal = __webpack_require__(265);
 
 var _modal2 = _interopRequireDefault(_modal);
 
@@ -20161,7 +20165,7 @@ var BvEvent = function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modal__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modal__ = __webpack_require__(266);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -20187,11 +20191,11 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__nav__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__nav_item__ = __webpack_require__(267);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nav_text__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nav_form__ = __webpack_require__(269);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__nav_item_dropdown__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__nav__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__nav_item__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nav_text__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nav_form__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__nav_item_dropdown__ = __webpack_require__(271);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__dropdown__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__utils__ = __webpack_require__(0);
 
@@ -20394,7 +20398,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _progress = __webpack_require__(287);
+var _progress = __webpack_require__(288);
 
 var _progress2 = _interopRequireDefault(_progress);
 
@@ -20537,7 +20541,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _table = __webpack_require__(293);
+var _table = __webpack_require__(294);
 
 var _table2 = _interopRequireDefault(_table);
 
@@ -20837,23 +20841,27 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _ListComponent = __webpack_require__(314);
+var _ListComponent = __webpack_require__(315);
 
 var _ListComponent2 = _interopRequireDefault(_ListComponent);
 
-var _FormComponent = __webpack_require__(320);
+var _FormComponent = __webpack_require__(321);
 
 var _FormComponent2 = _interopRequireDefault(_FormComponent);
 
-var _ActivityComponent = __webpack_require__(325);
+var _ActivityComponent = __webpack_require__(326);
 
 var _ActivityComponent2 = _interopRequireDefault(_ActivityComponent);
 
-var _listz = __webpack_require__(117);
+var _ContributorsComponent = __webpack_require__(330);
+
+var _ContributorsComponent2 = _interopRequireDefault(_ContributorsComponent);
+
+var _listz = __webpack_require__(118);
 
 var _listz2 = _interopRequireDefault(_listz);
 
-var _queryString = __webpack_require__(331);
+var _queryString = __webpack_require__(336);
 
 var _queryString2 = _interopRequireDefault(_queryString);
 
@@ -20863,38 +20871,14 @@ var _Actions2 = _interopRequireDefault(_Actions);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 exports.default = {
   name: "app",
   components: {
     FormComponent: _FormComponent2.default,
     ListComponent: _ListComponent2.default,
-    ActivityComponent: _ActivityComponent2.default
+    ActivityComponent: _ActivityComponent2.default,
+    ContributorsComponent: _ContributorsComponent2.default
+
   },
   data: function data() {
     return {
@@ -20932,7 +20916,32 @@ exports.default = {
       return "https://listz.github.io/" + listzName + "/listz.json";
     }
   }
-};
+}; //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 114 */
@@ -21017,7 +21026,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _lodash = __webpack_require__(323);
+var _lodash = __webpack_require__(324);
 
 var _lodash2 = _interopRequireDefault(_lodash);
 
@@ -21130,18 +21139,49 @@ exports.default = {
       location.href = commitUrl;
     }
   }
-
 };
 
 /***/ }),
 /* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Listz = __webpack_require__(329);
-module.exports = Listz;
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+exports.default = {};
 
 /***/ }),
 /* 118 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Listz = __webpack_require__(334);
+module.exports = Listz;
+
+/***/ }),
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21159,19 +21199,19 @@ module.exports = function bind(fn, thisArg) {
 
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(5);
-var settle = __webpack_require__(346);
-var buildURL = __webpack_require__(348);
-var parseHeaders = __webpack_require__(349);
-var isURLSameOrigin = __webpack_require__(350);
-var createError = __webpack_require__(120);
-var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(351);
+var settle = __webpack_require__(351);
+var buildURL = __webpack_require__(353);
+var parseHeaders = __webpack_require__(354);
+var isURLSameOrigin = __webpack_require__(355);
+var createError = __webpack_require__(121);
+var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(356);
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -21268,7 +21308,7 @@ module.exports = function xhrAdapter(config) {
     // This is only done if running in a standard browser environment.
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
-      var cookies = __webpack_require__(352);
+      var cookies = __webpack_require__(357);
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -21346,13 +21386,13 @@ module.exports = function xhrAdapter(config) {
 
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var enhanceError = __webpack_require__(347);
+var enhanceError = __webpack_require__(352);
 
 /**
  * Create an Error with the specified message, config, error code, request and response.
@@ -21371,7 +21411,7 @@ module.exports = function createError(message, config, code, request, response) 
 
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21383,7 +21423,7 @@ module.exports = function isCancel(value) {
 
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21409,7 +21449,7 @@ module.exports = Cancel;
 
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 /**
@@ -21436,10 +21476,10 @@ module.exports = apply;
 
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var apply = __webpack_require__(123);
+var apply = __webpack_require__(124);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeMax = Math.max;
@@ -21478,11 +21518,11 @@ module.exports = overRest;
 
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseSetToString = __webpack_require__(361),
-    shortOut = __webpack_require__(369);
+var baseSetToString = __webpack_require__(366),
+    shortOut = __webpack_require__(374);
 
 /**
  * Sets the `toString` method of `func` to return `string`.
@@ -21498,7 +21538,7 @@ module.exports = setToString;
 
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(16);
@@ -21515,7 +21555,7 @@ module.exports = defineProperty;
 
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {/** Detect free variable `global` from Node.js. */
@@ -21526,7 +21566,7 @@ module.exports = freeGlobal;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -21558,16 +21598,16 @@ module.exports = toSource;
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Stack = __webpack_require__(30),
-    assignMergeValue = __webpack_require__(130),
-    baseFor = __webpack_require__(131),
-    baseMergeDeep = __webpack_require__(394),
+    assignMergeValue = __webpack_require__(131),
+    baseFor = __webpack_require__(132),
+    baseMergeDeep = __webpack_require__(399),
     isObject = __webpack_require__(6),
     keysIn = __webpack_require__(24),
-    safeGet = __webpack_require__(139);
+    safeGet = __webpack_require__(140);
 
 /**
  * The base implementation of `_.merge` without support for multiple sources.
@@ -21606,7 +21646,7 @@ module.exports = baseMerge;
 
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseAssignValue = __webpack_require__(35),
@@ -21632,10 +21672,10 @@ module.exports = assignMergeValue;
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var createBaseFor = __webpack_require__(393);
+var createBaseFor = __webpack_require__(398);
 
 /**
  * The base implementation of `baseForOwn` which iterates over `object`
@@ -21654,10 +21694,10 @@ module.exports = baseFor;
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(9);
+/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(12);
 
 /** Detect free variable `exports`. */
 var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
@@ -21696,7 +21736,7 @@ module.exports = cloneBuffer;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(60)(module)))
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var cloneArrayBuffer = __webpack_require__(61);
@@ -21718,10 +21758,10 @@ module.exports = cloneTypedArray;
 
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var root = __webpack_require__(9);
+var root = __webpack_require__(12);
 
 /** Built-in value references. */
 var Uint8Array = root.Uint8Array;
@@ -21730,7 +21770,7 @@ module.exports = Uint8Array;
 
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 /**
@@ -21756,10 +21796,10 @@ module.exports = copyArray;
 
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseCreate = __webpack_require__(395),
+var baseCreate = __webpack_require__(400),
     getPrototype = __webpack_require__(62),
     isPrototype = __webpack_require__(63);
 
@@ -21780,7 +21820,7 @@ module.exports = initCloneObject;
 
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 /**
@@ -21801,7 +21841,7 @@ module.exports = overArg;
 
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isArrayLike = __webpack_require__(37),
@@ -21840,7 +21880,7 @@ module.exports = isArrayLikeObject;
 
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 /**
@@ -21863,10 +21903,10 @@ module.exports = safeGet;
 
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseTimes = __webpack_require__(400),
+var baseTimes = __webpack_require__(405),
     isArguments = __webpack_require__(36),
     isArray = __webpack_require__(7),
     isBuffer = __webpack_require__(38),
@@ -21918,7 +21958,7 @@ module.exports = arrayLikeKeys;
 
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var eq = __webpack_require__(19),
@@ -21954,12 +21994,12 @@ module.exports = isIterateeCall;
 
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseRest = __webpack_require__(29),
     eq = __webpack_require__(19),
-    isIterateeCall = __webpack_require__(141),
+    isIterateeCall = __webpack_require__(142),
     keysIn = __webpack_require__(24);
 
 /** Used for built-in method references. */
@@ -22024,7 +22064,7 @@ module.exports = defaults;
 
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var assignValue = __webpack_require__(68),
@@ -22077,11 +22117,11 @@ module.exports = baseSet;
 
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseHasIn = __webpack_require__(417),
-    hasPath = __webpack_require__(418);
+var baseHasIn = __webpack_require__(422),
+    hasPath = __webpack_require__(423);
 
 /**
  * Checks if `path` is a direct or inherited property of `object`.
@@ -22117,12 +22157,12 @@ module.exports = hasIn;
 
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var flatten = __webpack_require__(146),
-    overRest = __webpack_require__(124),
-    setToString = __webpack_require__(125);
+var flatten = __webpack_require__(147),
+    overRest = __webpack_require__(125),
+    setToString = __webpack_require__(126);
 
 /**
  * A specialized version of `baseRest` which flattens the rest array.
@@ -22139,10 +22179,10 @@ module.exports = flatRest;
 
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseFlatten = __webpack_require__(419);
+var baseFlatten = __webpack_require__(424);
 
 /**
  * Flattens `array` a single level deep.
@@ -22167,7 +22207,7 @@ module.exports = flatten;
 
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22176,18 +22216,18 @@ module.exports = flatten;
 module.exports = restEndpoint
 
 const defaultsDeep = __webpack_require__(55)
-const intersection = __webpack_require__(424)
-const mapKeys = __webpack_require__(150)
-const omit = __webpack_require__(453)
-const urlTemplate = __webpack_require__(473)
-const getUserAgent = __webpack_require__(474)
+const intersection = __webpack_require__(429)
+const mapKeys = __webpack_require__(151)
+const omit = __webpack_require__(458)
+const urlTemplate = __webpack_require__(478)
+const getUserAgent = __webpack_require__(479)
 
-const addQueryParameters = __webpack_require__(475)
+const addQueryParameters = __webpack_require__(480)
 const deprecate = __webpack_require__(15)
-const extractUrlVariableNames = __webpack_require__(476)
-const pkg = __webpack_require__(477)
+const extractUrlVariableNames = __webpack_require__(481)
+const pkg = __webpack_require__(482)
 
-const DEFAULTS = module.exports.DEFAULTS = __webpack_require__(478)
+const DEFAULTS = module.exports.DEFAULTS = __webpack_require__(483)
 const NON_PARAMETERS = [
   'request',
   'baseUrl'
@@ -22253,10 +22293,10 @@ function restEndpoint (options) {
 
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseIndexOf = __webpack_require__(428);
+var baseIndexOf = __webpack_require__(433);
 
 /**
  * A specialized version of `_.includes` for arrays without support for
@@ -22276,7 +22316,7 @@ module.exports = arrayIncludes;
 
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 /**
@@ -22304,12 +22344,12 @@ module.exports = arrayIncludesWith;
 
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseAssignValue = __webpack_require__(35),
-    baseForOwn = __webpack_require__(433),
-    baseIteratee = __webpack_require__(436);
+    baseForOwn = __webpack_require__(438),
+    baseIteratee = __webpack_require__(441);
 
 /**
  * The opposite of `_.mapValues`; this method creates an object with the
@@ -22346,10 +22386,10 @@ module.exports = mapKeys;
 
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseIsEqualDeep = __webpack_require__(439),
+var baseIsEqualDeep = __webpack_require__(444),
     isObjectLike = __webpack_require__(13);
 
 /**
@@ -22380,11 +22420,11 @@ module.exports = baseIsEqual;
 
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var SetCache = __webpack_require__(73),
-    arraySome = __webpack_require__(440),
+    arraySome = __webpack_require__(445),
     cacheHas = __webpack_require__(74);
 
 /** Used to compose bitmasks for value comparisons. */
@@ -22469,10 +22509,10 @@ module.exports = equalArrays;
 
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetAllKeys = __webpack_require__(154),
+var baseGetAllKeys = __webpack_require__(155),
     getSymbols = __webpack_require__(76),
     keys = __webpack_require__(25);
 
@@ -22491,7 +22531,7 @@ module.exports = getAllKeys;
 
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var arrayPush = __webpack_require__(72),
@@ -22517,7 +22557,7 @@ module.exports = baseGetAllKeys;
 
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 /**
@@ -22546,11 +22586,11 @@ module.exports = stubArray;
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(16),
-    root = __webpack_require__(9);
+    root = __webpack_require__(12);
 
 /* Built-in method references that are verified to be native. */
 var Set = getNative(root, 'Set');
@@ -22559,7 +22599,7 @@ module.exports = Set;
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(6);
@@ -22580,7 +22620,7 @@ module.exports = isStrictComparable;
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 /**
@@ -22606,29 +22646,29 @@ module.exports = matchesStrictComparable;
 
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Stack = __webpack_require__(30),
-    arrayEach = __webpack_require__(454),
+    arrayEach = __webpack_require__(459),
     assignValue = __webpack_require__(68),
-    baseAssign = __webpack_require__(455),
-    baseAssignIn = __webpack_require__(456),
-    cloneBuffer = __webpack_require__(132),
-    copyArray = __webpack_require__(135),
-    copySymbols = __webpack_require__(457),
-    copySymbolsIn = __webpack_require__(458),
-    getAllKeys = __webpack_require__(153),
-    getAllKeysIn = __webpack_require__(161),
+    baseAssign = __webpack_require__(460),
+    baseAssignIn = __webpack_require__(461),
+    cloneBuffer = __webpack_require__(133),
+    copyArray = __webpack_require__(136),
+    copySymbols = __webpack_require__(462),
+    copySymbolsIn = __webpack_require__(463),
+    getAllKeys = __webpack_require__(154),
+    getAllKeysIn = __webpack_require__(162),
     getTag = __webpack_require__(43),
-    initCloneArray = __webpack_require__(459),
-    initCloneByTag = __webpack_require__(460),
-    initCloneObject = __webpack_require__(136),
+    initCloneArray = __webpack_require__(464),
+    initCloneByTag = __webpack_require__(465),
+    initCloneObject = __webpack_require__(137),
     isArray = __webpack_require__(7),
     isBuffer = __webpack_require__(38),
-    isMap = __webpack_require__(464),
+    isMap = __webpack_require__(469),
     isObject = __webpack_require__(6),
-    isSet = __webpack_require__(466),
+    isSet = __webpack_require__(471),
     keys = __webpack_require__(25);
 
 /** Used to compose bitmasks for cloning. */
@@ -22783,13 +22823,13 @@ module.exports = baseClone;
 
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var arrayPush = __webpack_require__(72),
     getPrototype = __webpack_require__(62),
     getSymbols = __webpack_require__(76),
-    stubArray = __webpack_require__(155);
+    stubArray = __webpack_require__(156);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeGetSymbols = Object.getOwnPropertySymbols;
@@ -22814,11 +22854,11 @@ module.exports = getSymbolsIn;
 
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetAllKeys = __webpack_require__(154),
-    getSymbolsIn = __webpack_require__(160),
+var baseGetAllKeys = __webpack_require__(155),
+    getSymbolsIn = __webpack_require__(161),
     keysIn = __webpack_require__(24);
 
 /**
@@ -22837,7 +22877,7 @@ module.exports = getAllKeysIn;
 
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22847,21 +22887,21 @@ var _vue = __webpack_require__(79);
 
 var _vue2 = _interopRequireDefault(_vue);
 
-var _bootstrapVue = __webpack_require__(165);
+var _bootstrapVue = __webpack_require__(166);
 
 var _bootstrapVue2 = _interopRequireDefault(_bootstrapVue);
 
-var _App = __webpack_require__(308);
+var _App = __webpack_require__(309);
 
 var _App2 = _interopRequireDefault(_App);
 
-__webpack_require__(335);
+__webpack_require__(340);
 
-__webpack_require__(337);
+__webpack_require__(342);
 
-__webpack_require__(338);
+__webpack_require__(343);
 
-var _store = __webpack_require__(339);
+var _store = __webpack_require__(344);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -22876,7 +22916,7 @@ new _vue2.default({
 });
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
@@ -22932,7 +22972,7 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(164);
+__webpack_require__(165);
 // On some exotic environments, it's not clear which object `setimmediate` was
 // able to install onto.  Search each possibility in the same order as the
 // `setimmediate` library.
@@ -22946,7 +22986,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -23139,13 +23179,13 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14), __webpack_require__(23)))
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives__ = __webpack_require__(301);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils__ = __webpack_require__(0);
 
 
@@ -23178,47 +23218,47 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["default"] = (VuePlugin);
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__alert__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__badge__ = __webpack_require__(182);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__breadcrumb__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__button__ = __webpack_require__(186);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__button_group__ = __webpack_require__(187);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__button_toolbar__ = __webpack_require__(189);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__input_group__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__card__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__carousel__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__layout__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__alert__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__badge__ = __webpack_require__(183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__breadcrumb__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__button__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__button_group__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__button_toolbar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__input_group__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__card__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__carousel__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__layout__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__collapse__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__dropdown__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__embed__ = __webpack_require__(222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__form__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__form_group__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__form_checkbox__ = __webpack_require__(228);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__form_radio__ = __webpack_require__(230);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__form_input__ = __webpack_require__(232);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__form_textarea__ = __webpack_require__(239);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__form_file__ = __webpack_require__(241);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__form_select__ = __webpack_require__(247);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__image__ = __webpack_require__(249);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__jumbotron__ = __webpack_require__(251);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__link__ = __webpack_require__(253);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__list_group__ = __webpack_require__(254);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__media__ = __webpack_require__(257);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__modal__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__embed__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__form__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__form_group__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__form_checkbox__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__form_radio__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__form_input__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__form_textarea__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__form_file__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__form_select__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__image__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__jumbotron__ = __webpack_require__(252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__link__ = __webpack_require__(254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__list_group__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__media__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__modal__ = __webpack_require__(260);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__nav__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__navbar__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pagination__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pagination_nav__ = __webpack_require__(278);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__popover__ = __webpack_require__(280);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__progress__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__table__ = __webpack_require__(288);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__tabs__ = __webpack_require__(295);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__tooltip__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__navbar__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pagination__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pagination_nav__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__popover__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__progress__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__table__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__tabs__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__tooltip__ = __webpack_require__(299);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Alert", function() { return __WEBPACK_IMPORTED_MODULE_0__alert__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Badge", function() { return __WEBPACK_IMPORTED_MODULE_1__badge__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Breadcrumb", function() { return __WEBPACK_IMPORTED_MODULE_2__breadcrumb__["a"]; });
@@ -23295,11 +23335,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__alert__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__alert__ = __webpack_require__(169);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -23321,7 +23361,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23442,7 +23482,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 });
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23462,7 +23502,7 @@ function addEventListenerOnce(el, evtName, callback) {
 }
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23503,7 +23543,7 @@ function copyProps(props) {
 }
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23526,7 +23566,7 @@ function copyProps(props) {
 });
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23585,7 +23625,7 @@ function looseEqual(a, b) {
 /* harmony default export */ __webpack_exports__["a"] = (looseEqual);
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23595,7 +23635,7 @@ var __assign=function(){return(__assign=Object.assign||function(e){for(var a,s=1
 
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23613,7 +23653,7 @@ function memoize(fn) {
 }
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23688,7 +23728,7 @@ function observeDOM(el, callback, opts) {
 }
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23718,7 +23758,7 @@ function pluckProps(keysToPluck, objToPluck) {
 }
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23735,7 +23775,7 @@ function prefixPropName(prefix, value) {
 }
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23809,7 +23849,7 @@ function vueUse(VuePlugin) {
 }
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23847,7 +23887,7 @@ function stableSort(array, compareFn) {
 }
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23867,7 +23907,7 @@ function suffixPropName(suffix, str) {
 }
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23884,11 +23924,11 @@ function unPrefixPropName(prefix, value) {
 }
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__badge__ = __webpack_require__(183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__badge__ = __webpack_require__(184);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -23910,7 +23950,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23966,11 +24006,11 @@ var props = Object(__WEBPACK_IMPORTED_MODULE_1__utils_object__["a" /* assign */]
 });
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__breadcrumb__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__breadcrumb__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__breadcrumb_item__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__breadcrumb_link__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(0);
@@ -23998,7 +24038,7 @@ Object(__WEBPACK_IMPORTED_MODULE_3__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24056,7 +24096,7 @@ var props = {
 });
 
 /***/ }),
-/* 186 */
+/* 187 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24087,11 +24127,11 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 187 */
+/* 188 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__button_group__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__button_group__ = __webpack_require__(189);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -24114,7 +24154,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 188 */
+/* 189 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24167,11 +24207,11 @@ var props = {
 });
 
 /***/ }),
-/* 189 */
+/* 190 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__button_toolbar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__button_toolbar__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -24194,7 +24234,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 190 */
+/* 191 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24321,13 +24361,13 @@ var ITEM_SELECTOR = ['.btn:not(.disabled):not([disabled]):not(.dropdown-item)', 
 });
 
 /***/ }),
-/* 191 */
+/* 192 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__input_group__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__input_group__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__input_group_addon__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__input_group_button__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__input_group_button__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(0);
 
 
@@ -24354,7 +24394,7 @@ Object(__WEBPACK_IMPORTED_MODULE_3__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 192 */
+/* 193 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24429,7 +24469,7 @@ var props = {
 });
 
 /***/ }),
-/* 193 */
+/* 194 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24466,16 +24506,16 @@ var props = {
 });
 
 /***/ }),
-/* 194 */
+/* 195 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__card__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__card__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__card_header__ = __webpack_require__(87);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__card_body__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__card_footer__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__card_img__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_group__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_group__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__utils__ = __webpack_require__(0);
 
 
@@ -24507,7 +24547,7 @@ Object(__WEBPACK_IMPORTED_MODULE_6__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 195 */
+/* 196 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24589,7 +24629,7 @@ var props = Object(__WEBPACK_IMPORTED_MODULE_1__utils_object__["a" /* assign */]
 });
 
 /***/ }),
-/* 196 */
+/* 197 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24615,7 +24655,7 @@ var props = Object(__WEBPACK_IMPORTED_MODULE_1__utils_object__["a" /* assign */]
 });
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25022,7 +25062,7 @@ var AttachmentMap = {
 });
 
 /***/ }),
-/* 198 */
+/* 199 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25045,7 +25085,7 @@ var AttachmentMap = {
 });
 
 /***/ }),
-/* 199 */
+/* 200 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25064,7 +25104,7 @@ var AttachmentMap = {
 });
 
 /***/ }),
-/* 200 */
+/* 201 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25149,7 +25189,7 @@ function isObject(obj) {
 });
 
 /***/ }),
-/* 201 */
+/* 202 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25272,7 +25312,7 @@ function isObject(obj) {
 });
 
 /***/ }),
-/* 202 */
+/* 203 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25294,7 +25334,7 @@ function isObject(obj) {
 });
 
 /***/ }),
-/* 203 */
+/* 204 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25338,7 +25378,7 @@ function isObject(obj) {
 });
 
 /***/ }),
-/* 204 */
+/* 205 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25380,11 +25420,11 @@ function isObject(obj) {
 });
 
 /***/ }),
-/* 205 */
+/* 206 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_range__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_range__ = __webpack_require__(207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_dom__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_link_link__ = __webpack_require__(8);
@@ -25802,7 +25842,7 @@ var props = {
 });
 
 /***/ }),
-/* 206 */
+/* 207 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25815,7 +25855,7 @@ var props = {
 });
 
 /***/ }),
-/* 207 */
+/* 208 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26146,7 +26186,7 @@ var OBSERVER_CONFIG = {
 });
 
 /***/ }),
-/* 208 */
+/* 209 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26190,12 +26230,12 @@ var props = {
 });
 
 /***/ }),
-/* 209 */
+/* 210 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__carousel__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__carousel_slide__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__carousel__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__carousel_slide__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils__ = __webpack_require__(0);
 
 
@@ -26219,7 +26259,7 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26670,7 +26710,7 @@ var TransitionEndEvents = {
 });
 
 /***/ }),
-/* 211 */
+/* 212 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26787,13 +26827,13 @@ var TransitionEndEvents = {
 });
 
 /***/ }),
-/* 212 */
+/* 213 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__container__ = __webpack_require__(90);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__row__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__col__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__row__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__col__ = __webpack_require__(215);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__form_row__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(0);
 
@@ -26822,7 +26862,7 @@ Object(__WEBPACK_IMPORTED_MODULE_4__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 213 */
+/* 214 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26888,7 +26928,7 @@ var props = {
 });
 
 /***/ }),
-/* 214 */
+/* 215 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27037,7 +27077,7 @@ var props = Object(__WEBPACK_IMPORTED_MODULE_1__utils_object__["a" /* assign */]
 });
 
 /***/ }),
-/* 215 */
+/* 216 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27235,7 +27275,7 @@ var EVENT_TOGGLE = 'bv::toggle::collapse';
 });
 
 /***/ }),
-/* 216 */
+/* 217 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27307,7 +27347,7 @@ var EVENT_STATE = 'bv::collapse::state';
 });
 
 /***/ }),
-/* 217 */
+/* 218 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27431,7 +27471,7 @@ var EVENT_STATE = 'bv::collapse::state';
 });
 
 /***/ }),
-/* 218 */
+/* 219 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27460,7 +27500,7 @@ var props = Object(__WEBPACK_IMPORTED_MODULE_1__link_link__["c" /* propsFactory 
 });
 
 /***/ }),
-/* 219 */
+/* 220 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27498,7 +27538,7 @@ var props = {
 });
 
 /***/ }),
-/* 220 */
+/* 221 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27533,7 +27573,7 @@ var props = {
 });
 
 /***/ }),
-/* 221 */
+/* 222 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27563,11 +27603,11 @@ var props = {
 });
 
 /***/ }),
-/* 222 */
+/* 223 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__embed__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__embed__ = __webpack_require__(224);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -27589,7 +27629,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 223 */
+/* 224 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27636,12 +27676,12 @@ var props = {
 });
 
 /***/ }),
-/* 224 */
+/* 225 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__form_row__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__form_row__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__form_text__ = __webpack_require__(95);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__form_invalid_feedback__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__form_valid_feedback__ = __webpack_require__(97);
@@ -27675,7 +27715,7 @@ Object(__WEBPACK_IMPORTED_MODULE_5__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 225 */
+/* 226 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27685,11 +27725,11 @@ Object(__WEBPACK_IMPORTED_MODULE_5__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__layout_form_row__["a" /* default */]);
 
 /***/ }),
-/* 226 */
+/* 227 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_group__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_group__ = __webpack_require__(228);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -27712,7 +27752,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 227 */
+/* 228 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28018,12 +28058,12 @@ var SELECTOR = 'input:not(:disabled),textarea:not(:disabled),select:not(:disable
 });
 
 /***/ }),
-/* 228 */
+/* 229 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_checkbox__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__form_checkbox_group__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__form_checkbox_group__ = __webpack_require__(230);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils__ = __webpack_require__(0);
 
 
@@ -28051,7 +28091,7 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 229 */
+/* 230 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28163,12 +28203,12 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 });
 
 /***/ }),
-/* 230 */
+/* 231 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_radio__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__form_radio_group__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__form_radio_group__ = __webpack_require__(232);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils__ = __webpack_require__(0);
 
 
@@ -28194,7 +28234,7 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 231 */
+/* 232 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28305,11 +28345,11 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 });
 
 /***/ }),
-/* 232 */
+/* 233 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_input__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_input__ = __webpack_require__(234);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -28332,17 +28372,17 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 233 */
+/* 234 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_input_vue__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_input_vue__ = __webpack_require__(235);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__form_input_vue__["default"]);
 
 /***/ }),
-/* 234 */
+/* 235 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28350,9 +28390,9 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_vue_loader_lib_selector_type_script_index_0_form_input_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_vue_loader_lib_selector_type_script_index_0_form_input_vue__);
 /* unused harmony namespace reexport */
 function injectStyle (ssrContext) {
-  __webpack_require__(235)
+  __webpack_require__(236)
 }
-var normalizeComponent = __webpack_require__(12)
+var normalizeComponent = __webpack_require__(11)
 /* script */
 
 
@@ -28379,23 +28419,23 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 235 */
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(236);
+var content = __webpack_require__(237);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("5e481549", content, true, {});
+var update = __webpack_require__(10)("5e481549", content, true, {});
 
 /***/ }),
-/* 236 */
+/* 237 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(9)(false);
 // imports
 
 
@@ -28406,7 +28446,7 @@ exports.push([module.i, "input.form-control[type=color],input.form-control[type=
 
 
 /***/ }),
-/* 237 */
+/* 238 */
 /***/ (function(module, exports) {
 
 /**
@@ -28439,7 +28479,7 @@ module.exports = function listToStyles (parentId, list) {
 
 
 /***/ }),
-/* 238 */
+/* 239 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28590,11 +28630,11 @@ var TYPES = ['text', 'password', 'email', 'number', 'url', 'tel', 'search', 'ran
 });
 
 /***/ }),
-/* 239 */
+/* 240 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_textarea__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_textarea__ = __webpack_require__(241);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -28617,7 +28657,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 240 */
+/* 241 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28763,11 +28803,11 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 });
 
 /***/ }),
-/* 241 */
+/* 242 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_file__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_file__ = __webpack_require__(243);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -28790,17 +28830,17 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 242 */
+/* 243 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_file_vue__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_file_vue__ = __webpack_require__(244);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__form_file_vue__["default"]);
 
 /***/ }),
-/* 243 */
+/* 244 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28808,9 +28848,9 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_vue_loader_lib_selector_type_script_index_0_form_file_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_vue_loader_lib_selector_type_script_index_0_form_file_vue__);
 /* unused harmony namespace reexport */
 function injectStyle (ssrContext) {
-  __webpack_require__(244)
+  __webpack_require__(245)
 }
-var normalizeComponent = __webpack_require__(12)
+var normalizeComponent = __webpack_require__(11)
 /* script */
 
 
@@ -28837,23 +28877,23 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 244 */
+/* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(245);
+var content = __webpack_require__(246);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("24e021a7", content, true, {});
+var update = __webpack_require__(10)("24e021a7", content, true, {});
 
 /***/ }),
-/* 245 */
+/* 246 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(9)(false);
 // imports
 
 
@@ -28864,7 +28904,7 @@ exports.push([module.i, ".b-form-file.custom-file .custom-file-input.focus~.cust
 
 
 /***/ }),
-/* 246 */
+/* 247 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29146,11 +29186,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 247 */
+/* 248 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_select__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__form_select__ = __webpack_require__(249);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -29173,7 +29213,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 248 */
+/* 249 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29267,12 +29307,12 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 });
 
 /***/ }),
-/* 249 */
+/* 250 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__img__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__img_lazy__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__img_lazy__ = __webpack_require__(251);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils__ = __webpack_require__(0);
 
 
@@ -29296,7 +29336,7 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 250 */
+/* 251 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29489,11 +29529,11 @@ var THROTTLE = 100;
 });
 
 /***/ }),
-/* 251 */
+/* 252 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__jumbotron__ = __webpack_require__(252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__jumbotron__ = __webpack_require__(253);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -29515,7 +29555,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 252 */
+/* 253 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29622,7 +29662,7 @@ var props = {
 });
 
 /***/ }),
-/* 253 */
+/* 254 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29648,12 +29688,12 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 254 */
+/* 255 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__list_group__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__list_group_item__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__list_group__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__list_group_item__ = __webpack_require__(257);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils__ = __webpack_require__(0);
 
 
@@ -29677,7 +29717,7 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 255 */
+/* 256 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29714,7 +29754,7 @@ var props = {
 });
 
 /***/ }),
-/* 256 */
+/* 257 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29778,11 +29818,11 @@ var props = Object(__WEBPACK_IMPORTED_MODULE_1__utils_object__["a" /* assign */]
 });
 
 /***/ }),
-/* 257 */
+/* 258 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__media__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__media__ = __webpack_require__(259);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__media_aside__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__media_body__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(0);
@@ -29810,7 +29850,7 @@ Object(__WEBPACK_IMPORTED_MODULE_3__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 258 */
+/* 259 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29870,11 +29910,11 @@ var props = {
 });
 
 /***/ }),
-/* 259 */
+/* 260 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modal__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modal__ = __webpack_require__(261);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_modal__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils__ = __webpack_require__(0);
 
@@ -29899,17 +29939,17 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 260 */
+/* 261 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modal_vue__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modal_vue__ = __webpack_require__(262);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__modal_vue__["default"]);
 
 /***/ }),
-/* 261 */
+/* 262 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29917,9 +29957,9 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_vue_loader_lib_selector_type_script_index_0_modal_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_vue_loader_lib_selector_type_script_index_0_modal_vue__);
 /* unused harmony namespace reexport */
 function injectStyle (ssrContext) {
-  __webpack_require__(262)
+  __webpack_require__(263)
 }
-var normalizeComponent = __webpack_require__(12)
+var normalizeComponent = __webpack_require__(11)
 /* script */
 
 
@@ -29946,23 +29986,23 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 262 */
+/* 263 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(263);
+var content = __webpack_require__(264);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("2b2b8254", content, true, {});
+var update = __webpack_require__(10)("2b2b8254", content, true, {});
 
 /***/ }),
-/* 263 */
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(9)(false);
 // imports
 
 
@@ -29973,7 +30013,7 @@ exports.push([module.i, ".modal-dialog-centered{display:flex;align-items:center;
 
 
 /***/ }),
-/* 264 */
+/* 265 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30706,7 +30746,7 @@ var Selector = {
 });
 
 /***/ }),
-/* 265 */
+/* 266 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30736,7 +30776,7 @@ var listenTypes = { click: true };
 });
 
 /***/ }),
-/* 266 */
+/* 267 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30801,7 +30841,7 @@ var props = {
 });
 
 /***/ }),
-/* 267 */
+/* 268 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30828,7 +30868,7 @@ var props = Object(__WEBPACK_IMPORTED_MODULE_1__link_link__["c" /* propsFactory 
 });
 
 /***/ }),
-/* 268 */
+/* 269 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30856,7 +30896,7 @@ var props = {
 });
 
 /***/ }),
-/* 269 */
+/* 270 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30883,7 +30923,7 @@ var props = {
 });
 
 /***/ }),
-/* 270 */
+/* 271 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30954,14 +30994,14 @@ var props = {
 });
 
 /***/ }),
-/* 271 */
+/* 272 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navbar__ = __webpack_require__(272);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__navbar_nav__ = __webpack_require__(273);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__navbar_brand__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navbar_toggle__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navbar__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__navbar_nav__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__navbar_brand__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navbar_toggle__ = __webpack_require__(276);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__nav__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__collapse__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dropdown__ = __webpack_require__(52);
@@ -30999,7 +31039,7 @@ Object(__WEBPACK_IMPORTED_MODULE_7__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 272 */
+/* 273 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31058,7 +31098,7 @@ var props = {
 });
 
 /***/ }),
-/* 273 */
+/* 274 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31100,7 +31140,7 @@ var props = {
 });
 
 /***/ }),
-/* 274 */
+/* 275 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31142,7 +31182,7 @@ var props = Object(__WEBPACK_IMPORTED_MODULE_2__utils_object__["a" /* assign */]
 });
 
 /***/ }),
-/* 275 */
+/* 276 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31196,11 +31236,11 @@ var props = Object(__WEBPACK_IMPORTED_MODULE_2__utils_object__["a" /* assign */]
 });
 
 /***/ }),
-/* 276 */
+/* 277 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pagination__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pagination__ = __webpack_require__(278);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -31222,7 +31262,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 277 */
+/* 278 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31288,11 +31328,11 @@ var props = {
 });
 
 /***/ }),
-/* 278 */
+/* 279 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pagination_nav__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pagination_nav__ = __webpack_require__(280);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -31314,7 +31354,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 279 */
+/* 280 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31408,11 +31448,11 @@ routerProps);
 });
 
 /***/ }),
-/* 280 */
+/* 281 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__popover__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__popover__ = __webpack_require__(282);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -31434,7 +31474,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 281 */
+/* 282 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31488,11 +31528,11 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 });
 
 /***/ }),
-/* 282 */
+/* 283 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__progress__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__progress__ = __webpack_require__(284);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__progress_bar__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils__ = __webpack_require__(0);
 
@@ -31517,17 +31557,17 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 283 */
+/* 284 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__progress_vue__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__progress_vue__ = __webpack_require__(285);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__progress_vue__["default"]);
 
 /***/ }),
-/* 284 */
+/* 285 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31535,9 +31575,9 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_vue_loader_lib_selector_type_script_index_0_progress_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_vue_loader_lib_selector_type_script_index_0_progress_vue__);
 /* unused harmony namespace reexport */
 function injectStyle (ssrContext) {
-  __webpack_require__(285)
+  __webpack_require__(286)
 }
-var normalizeComponent = __webpack_require__(12)
+var normalizeComponent = __webpack_require__(11)
 /* script */
 
 
@@ -31564,23 +31604,23 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 285 */
+/* 286 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(286);
+var content = __webpack_require__(287);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("6a5d06ac", content, true, {});
+var update = __webpack_require__(10)("6a5d06ac", content, true, {});
 
 /***/ }),
-/* 286 */
+/* 287 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(9)(false);
 // imports
 
 
@@ -31591,7 +31631,7 @@ exports.push([module.i, ".progress-bar{transition:width .6s ease}", ""]);
 
 
 /***/ }),
-/* 287 */
+/* 288 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31669,11 +31709,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 288 */
+/* 289 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__table__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__table__ = __webpack_require__(290);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -31695,17 +31735,17 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 289 */
+/* 290 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__table_vue__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__table_vue__ = __webpack_require__(291);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0__table_vue__["default"]);
 
 /***/ }),
-/* 290 */
+/* 291 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31713,9 +31753,9 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_vue_loader_lib_selector_type_script_index_0_table_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_vue_loader_lib_selector_type_script_index_0_table_vue__);
 /* unused harmony namespace reexport */
 function injectStyle (ssrContext) {
-  __webpack_require__(291)
+  __webpack_require__(292)
 }
-var normalizeComponent = __webpack_require__(12)
+var normalizeComponent = __webpack_require__(11)
 /* script */
 
 
@@ -31742,23 +31782,23 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 291 */
+/* 292 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(292);
+var content = __webpack_require__(293);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("515d90f7", content, true, {});
+var update = __webpack_require__(10)("515d90f7", content, true, {});
 
 /***/ }),
-/* 292 */
+/* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(9)(false);
 // imports
 
 
@@ -31769,7 +31809,7 @@ exports.push([module.i, "table.b-table.b-table-fixed{table-layout:fixed}table.b-
 
 
 /***/ }),
-/* 293 */
+/* 294 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31778,7 +31818,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_object__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_array__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mixins__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash_startcase__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash_startcase__ = __webpack_require__(295);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash_startcase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_lodash_startcase__);
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
@@ -32638,7 +32678,7 @@ function processField(key, value) {
 });
 
 /***/ }),
-/* 294 */
+/* 295 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {/**
@@ -33225,12 +33265,12 @@ module.exports = startCase;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ }),
-/* 295 */
+/* 296 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tabs__ = __webpack_require__(296);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__tab__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tabs__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__tab__ = __webpack_require__(298);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils__ = __webpack_require__(0);
 
 
@@ -33254,7 +33294,7 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 296 */
+/* 297 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33618,7 +33658,7 @@ var bTabButtonHelper = {
 });
 
 /***/ }),
-/* 297 */
+/* 298 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33741,11 +33781,11 @@ var bTabButtonHelper = {
 });
 
 /***/ }),
-/* 298 */
+/* 299 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tooltip__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tooltip__ = __webpack_require__(300);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -33767,7 +33807,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 299 */
+/* 300 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33817,16 +33857,16 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 });
 
 /***/ }),
-/* 300 */
+/* 301 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__toggle__ = __webpack_require__(92);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scrollspy__ = __webpack_require__(301);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tooltip__ = __webpack_require__(304);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__popover__ = __webpack_require__(306);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scrollspy__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tooltip__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__popover__ = __webpack_require__(307);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Toggle", function() { return __WEBPACK_IMPORTED_MODULE_0__toggle__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Modal", function() { return __WEBPACK_IMPORTED_MODULE_1__modal__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Scrollspy", function() { return __WEBPACK_IMPORTED_MODULE_2__scrollspy__["a"]; });
@@ -33841,11 +33881,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 301 */
+/* 302 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__scrollspy__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__scrollspy__ = __webpack_require__(303);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -33867,11 +33907,11 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 302 */
+/* 303 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__scrollspy_class__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__scrollspy_class__ = __webpack_require__(304);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_object__ = __webpack_require__(1);
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
@@ -33980,7 +34020,7 @@ function removeBVSS(el) {
 });
 
 /***/ }),
-/* 303 */
+/* 304 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34467,11 +34507,11 @@ var ScrollSpy = function () {
 /* harmony default export */ __webpack_exports__["a"] = (ScrollSpy);
 
 /***/ }),
-/* 304 */
+/* 305 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tooltip__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tooltip__ = __webpack_require__(306);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -34493,7 +34533,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 305 */
+/* 306 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34668,11 +34708,11 @@ function removeBVTT(el) {
 });
 
 /***/ }),
-/* 306 */
+/* 307 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__popover__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__popover__ = __webpack_require__(308);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 
 
@@ -34694,7 +34734,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__utils__["n" /* vueUse */])(VuePlugin);
 /* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
-/* 307 */
+/* 308 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34869,7 +34909,7 @@ function removeBVPO(el) {
 });
 
 /***/ }),
-/* 308 */
+/* 309 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34877,11 +34917,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_30343b96_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_610ef29d_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(339);
 function injectStyle (ssrContext) {
-  __webpack_require__(309)
+  __webpack_require__(310)
 }
-var normalizeComponent = __webpack_require__(12)
+var normalizeComponent = __webpack_require__(11)
 /* script */
 
 
@@ -34897,7 +34937,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_30343b96_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_610ef29d_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -34908,54 +34948,54 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 309 */
+/* 310 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(310);
+var content = __webpack_require__(311);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("31eecdca", content, true, {});
-
-/***/ }),
-/* 310 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var escape = __webpack_require__(112);
-exports = module.exports = __webpack_require__(10)(false);
-// imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=K2D);", ""]);
-exports.push([module.i, "@import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);", ""]);
-
-// module
-exports.push([module.i, ":root{--listz-background-color-aside:#004a7f;--listz-background-color-center:#fff;--listz-background-color-form:#004a7f;--listz-foreground-color-form:#c33149;--listz-background-color-form-from:#004a7f;--listz-background-color-form-to:#0f619b;--listz-gradient-color-from:#da3e58;--listz-gradient-color-to:#f1677e;--listz-brush-width:100px;--listz-scroll-overflow:40px;--listz-center-padding:20px;--listz-border-radius:10px;--listz-item-padding:10px;--listz-item-tag-hover:#da3e58;--listz-title-hover:#da3e58;--listz-activity-color:hsla(0,0%,100%,.8)}.listz-gradient{background-color:var(--listz-gradient-color-from);background-image:linear-gradient(to bottom right,var(--listz-gradient-color-from),var(--listz-gradient-color-to));transition:background-color background-image .2s}.listz-gradient:hover{background-image:linear-gradient(to bottom right,var(--listz-gradient-color-to),var(--listz-gradient-color-from));background-color:var(--listz-gradient-color-to)}.listz-normal-gradient{background-color:var(--listz-background-color-form);background-image:linear-gradient(to bottom right,var(--listz-background-color-form-from),var(--listz-background-color-form-to))}body,html{height:100%;background-color:gray}.listz-center{background-color:var(--listz-background-color-center);z-index:5;padding:0}.listz-aside{background-color:var(--listz-background-color-aside);background-image:url(" + escape(__webpack_require__(311)) + ");background-repeat:no-repeat;background-size:cover;background-position:50%;z-index:1}.listz-brush,.listz-brush-left{position:absolute;height:100%;width:var(--listz-brush-width);background-image:url(" + escape(__webpack_require__(312)) + ");background-color:transparent;background-size:contain;background-repeat:repeat-y;z-index:2}.listz-brush{left:0}.listz-brush-left{right:0;background-image:url(" + escape(__webpack_require__(313)) + ")}", ""]);
-
-// exports
-
+var update = __webpack_require__(10)("925851c4", content, true, {});
 
 /***/ }),
 /* 311 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "bg.png?eb54fc2cf48bd0a24dca9008a70acb07";
+var escape = __webpack_require__(112);
+exports = module.exports = __webpack_require__(9)(false);
+// imports
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=K2D);", ""]);
+exports.push([module.i, "@import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);", ""]);
+
+// module
+exports.push([module.i, ":root{--listz-background-color-aside:#004a7f;--listz-background-color-center:#fff;--listz-background-color-form:#004a7f;--listz-foreground-color-form:#c33149;--listz-background-color-form-from:#004a7f;--listz-background-color-form-to:#0f619b;--listz-gradient-color-from:#da3e58;--listz-gradient-color-to:#f1677e;--listz-brush-width:100px;--listz-scroll-overflow:40px;--listz-center-padding:20px;--listz-border-radius:10px;--listz-item-padding:10px;--listz-item-tag-hover:#da3e58;--listz-title-hover:#da3e58;--listz-white-color:hsla(0,0%,100%,.8);--listz-top-margin:calc(3em - 25px)}.listz-gradient{background-color:var(--listz-gradient-color-from);background-image:linear-gradient(to bottom right,var(--listz-gradient-color-from),var(--listz-gradient-color-to));transition:background-color background-image .2s}.listz-gradient:hover{background-image:linear-gradient(to bottom right,var(--listz-gradient-color-to),var(--listz-gradient-color-from));background-color:var(--listz-gradient-color-to)}.listz-normal-gradient{background-color:var(--listz-background-color-form);background-image:linear-gradient(to bottom right,var(--listz-background-color-form-from),var(--listz-background-color-form-to))}body,html{height:100%;background-color:gray}.listz-center{background-color:var(--listz-background-color-center);z-index:5;padding:0}.listz-aside{background-color:var(--listz-background-color-aside);background-image:url(" + escape(__webpack_require__(312)) + ");background-repeat:no-repeat;background-size:cover;background-position:50%;z-index:1}.listz-brush,.listz-brush-left{position:absolute;height:100%;width:var(--listz-brush-width);background-image:url(" + escape(__webpack_require__(313)) + ");background-color:transparent;background-size:contain;background-repeat:repeat-y;z-index:2}.listz-brush{left:0}.listz-brush-left{right:0;background-image:url(" + escape(__webpack_require__(314)) + ")}@media screen and (max-width:1200px){.listz-scroll-outer-container{display:none}}.listz-scroll-outer-container{position:absolute;box-sizing:border-box;left:var(--listz-top-margin);top:var(--listz-top-margin);bottom:0;right:var(--listz-brush-width);overflow:hidden}.listz-scroll-inner-container{height:100%;width:calc(100% + var(--listz-scroll-overflow));overflow-y:scroll}.listz-scroll-inner-container h2{font-size:1.2em;padding:10px;color:var(--listz-white-color);display:flex;flex-direction:column}", ""]);
+
+// exports
+
 
 /***/ }),
 /* 312 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "brushed.png?01b14ff69552538b770e7eb299ee6ba7";
+module.exports = __webpack_require__.p + "bg.png?eb54fc2cf48bd0a24dca9008a70acb07";
 
 /***/ }),
 /* 313 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "brushed-left.png?52fbc04e2cae7064f4f192e85276af73";
+module.exports = __webpack_require__.p + "brushed.png?01b14ff69552538b770e7eb299ee6ba7";
 
 /***/ }),
 /* 314 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "brushed-left.png?52fbc04e2cae7064f4f192e85276af73";
+
+/***/ }),
+/* 315 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34963,11 +35003,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ListComponent_vue__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ListComponent_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ListComponent_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ListComponent_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ListComponent_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7069e59a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ListComponent_vue__ = __webpack_require__(319);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7069e59a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ListComponent_vue__ = __webpack_require__(320);
 function injectStyle (ssrContext) {
-  __webpack_require__(315)
+  __webpack_require__(316)
 }
-var normalizeComponent = __webpack_require__(12)
+var normalizeComponent = __webpack_require__(11)
 /* script */
 
 
@@ -34994,47 +35034,47 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 315 */
+/* 316 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(316);
+var content = __webpack_require__(317);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("642eadce", content, true, {});
-
-/***/ }),
-/* 316 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var escape = __webpack_require__(112);
-exports = module.exports = __webpack_require__(10)(false);
-// imports
-
-
-// module
-exports.push([module.i, "#listz-list{position:relative;overflow:hidden;padding:0;margin:0;margin-bottom:25px}.fade-bottom{z-index:2;position:absolute;left:0;bottom:0;width:100%;height:100px;background-image:url(" + escape(__webpack_require__(317)) + ");background-size:contain;background-repeat:repeat-x}#listz-list-container{position:absolute;z-index:1;width:calc(100% + var(--listz-scroll-overflow));height:100%;overflow-x:hidden;overflow-y:scroll}.listz-item-add-container{display:flex;align-items:center;width:calc(100% - var(--listz-scroll-overflow) - var(--listz-center-padding) - 5px);margin-left:var(--listz-center-padding);padding-bottom:5px}.listz-item-add-button{margin-right:5px;padding:5px;width:50px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:var(--listz-border-radius);text-align:center;font-weight:bolder;text-decoration:none;color:#fff;font-size:1.5em;padding-top:0;cursor:pointer;transition:transform .2s}.listz-item-add-button:hover{color:#fff;text-decoration:none;transform:scale(1.05)}.listz-item-add-container h4{padding:5px;margin:0}.listz-item-add-container h4 a{text-decoration:none;color:#000;font-size:1em;line-height:1em}.listz-item-add-container h4 a:hover{color:var(--listz-title-hover)}.listz-item{width:calc(100% - var(--listz-scroll-overflow) - var(--listz-center-padding) - 5px);max-height:100px;margin-left:var(--listz-center-padding);margin-top:25px;margin-bottom:50px;cursor:pointer;transition:border-radius 1s,box-shadow 1s,max-height 1s;border-radius:0;overflow:hidden}.listz-item:hover{box-shadow:0 0 20px rgba(0,0,0,.3);transition:max-height 1s;max-height:500px;border-radius:var(--listz-border-radius)}.listz-item:last-of-type{margin-bottom:200px}.listz-item>*{float:left}.listz-item>img{width:100px;height:100px}.listz-item .listz-item-overview{width:calc(100% - 100px - 2 * var(--listz-item-padding));margin:var(--listz-item-padding)}.listz-item .listz-item-overview>*{width:100%;height:50%}.listz-item .listz-item-overview>h4{line-height:50px}.listz-item .listz-item-overview>h4>a{text-decoration:none;color:#000}.listz-item .listz-item-overview>h4>a:hover{color:var(--listz-title-hover)}.listz-item-tags{display:flex;flex-direction:row;flex-wrap:wrap}.listz-item-tag{background-color:hsla(0,0%,50%,.5);margin-right:10px;margin-bottom:10px;padding:5px;font-size:.7em}.listz-item-tag:hover{color:#fff;background-color:var(--listz-item-tag-hover)}.listz-item-detail-divider{width:100%;height:25px;background-image:url(" + escape(__webpack_require__(318)) + ");background-repeat:repeat-x;background-size:contain}.listz-item-detail{width:100%;background-color:#eaeaea;padding:25px}", ""]);
-
-// exports
-
+var update = __webpack_require__(10)("642eadce", content, true, {});
 
 /***/ }),
 /* 317 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "fade.png?ebbbd04984fe015e1169850e8ce789c1";
+var escape = __webpack_require__(112);
+exports = module.exports = __webpack_require__(9)(false);
+// imports
+
+
+// module
+exports.push([module.i, "#listz-list{position:relative;overflow:hidden;padding:0;margin:0;margin-bottom:25px}.fade-bottom{z-index:2;position:absolute;left:0;bottom:0;width:100%;height:100px;background-image:url(" + escape(__webpack_require__(318)) + ");background-size:contain;background-repeat:repeat-x}#listz-list-container{position:absolute;z-index:1;width:calc(100% + var(--listz-scroll-overflow));height:100%;overflow-x:hidden;overflow-y:scroll}.listz-item-add-container{display:flex;align-items:center;width:calc(100% - var(--listz-scroll-overflow) - var(--listz-center-padding) - 5px);margin-left:var(--listz-center-padding);padding-bottom:5px}.listz-item-add-button{margin-right:5px;padding:5px;width:50px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:var(--listz-border-radius);text-align:center;font-weight:bolder;text-decoration:none;color:#fff;font-size:1.5em;padding-top:0;cursor:pointer;transition:transform .2s}.listz-item-add-button:hover{color:#fff;text-decoration:none;transform:scale(1.05)}.listz-item-add-container h4{padding:5px;margin:0}.listz-item-add-container h4 a{text-decoration:none;color:#000;font-size:1em;line-height:1em}.listz-item-add-container h4 a:hover{color:var(--listz-title-hover)}.listz-item{width:calc(100% - var(--listz-scroll-overflow) - var(--listz-center-padding) - 5px);max-height:100px;margin-left:var(--listz-center-padding);margin-top:25px;margin-bottom:50px;cursor:pointer;transition:border-radius 1s,box-shadow 1s,max-height 1s;border-radius:0;overflow:hidden}.listz-item:hover{box-shadow:0 0 20px rgba(0,0,0,.3);transition:max-height 1s;max-height:500px;border-radius:var(--listz-border-radius)}.listz-item:last-of-type{margin-bottom:200px}.listz-item>*{float:left}.listz-item>img{width:100px;height:100px}.listz-item .listz-item-overview{width:calc(100% - 100px - 2 * var(--listz-item-padding));margin:var(--listz-item-padding)}.listz-item .listz-item-overview>*{width:100%;height:50%}.listz-item .listz-item-overview>h4{line-height:50px}.listz-item .listz-item-overview>h4>a{text-decoration:none;color:#000}.listz-item .listz-item-overview>h4>a:hover{color:var(--listz-title-hover)}.listz-item-tags{display:flex;flex-direction:row;flex-wrap:wrap}.listz-item-tag{background-color:hsla(0,0%,50%,.5);margin-right:10px;margin-bottom:10px;padding:5px;font-size:.7em}.listz-item-tag:hover{color:#fff;background-color:var(--listz-item-tag-hover)}.listz-item-detail-divider{width:100%;height:25px;background-image:url(" + escape(__webpack_require__(319)) + ");background-repeat:repeat-x;background-size:contain}.listz-item-detail{width:100%;background-color:#eaeaea;padding:25px}", ""]);
+
+// exports
+
 
 /***/ }),
 /* 318 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "fade-gray.png?16238b1186b7011597de4db23d1a50bc";
+module.exports = __webpack_require__.p + "fade.png?ebbbd04984fe015e1169850e8ce789c1";
 
 /***/ }),
 /* 319 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fade-gray.png?16238b1186b7011597de4db23d1a50bc";
+
+/***/ }),
+/* 320 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35044,7 +35084,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 320 */
+/* 321 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35052,11 +35092,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_FormComponent_vue__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_FormComponent_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_FormComponent_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_FormComponent_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_FormComponent_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_51c2b6c2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_FormComponent_vue__ = __webpack_require__(324);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_51c2b6c2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_FormComponent_vue__ = __webpack_require__(325);
 function injectStyle (ssrContext) {
-  __webpack_require__(321)
+  __webpack_require__(322)
 }
-var normalizeComponent = __webpack_require__(12)
+var normalizeComponent = __webpack_require__(11)
 /* script */
 
 
@@ -35083,23 +35123,23 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 321 */
+/* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(322);
+var content = __webpack_require__(323);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("0b70cfd4", content, true, {});
+var update = __webpack_require__(10)("0b70cfd4", content, true, {});
 
 /***/ }),
-/* 322 */
+/* 323 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(9)(false);
 // imports
 
 
@@ -35110,7 +35150,7 @@ exports.push([module.i, "#listz-form{position:relative;background-color:var(--li
 
 
 /***/ }),
-/* 323 */
+/* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {/**
@@ -35494,7 +35534,7 @@ module.exports = debounce;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
 
 /***/ }),
-/* 324 */
+/* 325 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35504,7 +35544,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 325 */
+/* 326 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35512,11 +35552,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ActivityComponent_vue__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ActivityComponent_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ActivityComponent_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ActivityComponent_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ActivityComponent_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ec9ca9da_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ActivityComponent_vue__ = __webpack_require__(328);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_03f5144a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ActivityComponent_vue__ = __webpack_require__(329);
 function injectStyle (ssrContext) {
-  __webpack_require__(326)
+  __webpack_require__(327)
 }
-var normalizeComponent = __webpack_require__(12)
+var normalizeComponent = __webpack_require__(11)
 /* script */
 
 
@@ -35532,7 +35572,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ActivityComponent_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ec9ca9da_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ActivityComponent_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_03f5144a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ActivityComponent_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -35543,50 +35583,126 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 326 */
+/* 327 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(327);
+var content = __webpack_require__(328);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("34684585", content, true, {});
+var update = __webpack_require__(10)("4fffcf60", content, true, {});
 
 /***/ }),
-/* 327 */
+/* 328 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(9)(false);
 // imports
 
 
 // module
-exports.push([module.i, "#listz-activity-outer-container{--listz-top-margin:calc(3em - 25px);position:absolute;box-sizing:border-box;left:var(--listz-top-margin);top:var(--listz-top-margin);bottom:var(--listz-top-margin);right:var(--listz-brush-width);overflow:hidden}@media screen and (max-width:1200px){#listz-activity-outer-container{display:none}}#listz-activity-inner-container{height:100%;width:calc(100% + var(--listz-scroll-overflow));overflow-y:scroll}#listz-activity-inner-container h2{font-size:1.2em;padding:10px;color:var(--listz-activity-color);display:flex;flex-direction:column}.listz-activity-item{display:inline-block;text-decoration:none;width:calc(100% - var(--listz-scroll-overflow) + 10px);margin-bottom:30px;margin-left:5px;padding:15px;background-image:linear-gradient(to bottom right,hsla(0,0%,100%,.1),hsla(0,0%,100%,.2));color:var(--listz-activity-color);border-radius:var(--listz-border-radius);overflow:hidden;word-wrap:break-word;cursor:pointer;z-index:10}.listz-activity-item:hover{transform:scale(1.01);text-decoration:none}.listz-activity-item-title{display:flex;flex-direction:row;align-items:center}.listz-activity-item-title img{width:45px;height:45px}.listz-activity-item-title a{float:left;margin-left:15px;text-decoration:none;color:var(--listz-activity-color);height:100%;font-size:17px;line-height:15px}.listz-activity-item-title a:hover{text-decoration:underline}.listz-activity-item p{margin-top:15px;margin-bottom:0;padding:0;text-decoration:none;color:var(--listz-activity-color);font-size:.8em}", ""]);
+exports.push([module.i, ".listz-activity-item{display:inline-block;text-decoration:none;width:calc(100% - var(--listz-scroll-overflow) + 10px);margin-bottom:30px;margin-left:5px;padding:15px;background-image:linear-gradient(to bottom right,hsla(0,0%,100%,.1),hsla(0,0%,100%,.2));color:var(--listz-white-color);border-radius:var(--listz-border-radius);overflow:hidden;word-wrap:break-word;cursor:pointer;z-index:10;transition:transform .2s}.listz-activity-item:hover{transform:scale(1.01);text-decoration:none}.listz-activity-item-title{display:flex;flex-direction:row;align-items:center}.listz-activity-item-title img{width:30px;height:30px}.listz-activity-item-title a{float:left;margin-left:15px;text-decoration:none;color:var(--listz-white-color);height:100%;font-size:17px;line-height:15px}.listz-activity-item-title a:hover{text-decoration:underline}.listz-activity-item p{margin-top:15px;margin-bottom:0;padding:0;text-decoration:none;color:var(--listz-white-color);font-size:.8em}", ""]);
 
 // exports
 
 
 /***/ }),
-/* 328 */
+/* 329 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"listz-activity-outer-container"}},[_c('div',{attrs:{"id":"listz-activity-inner-container"}},[_c('h2',[_vm._v("Activity")]),_vm._v(" "),_vm._l((_vm.$store.state.commits),function(commit,index){return (typeof commit.author != 'undefined' && commit.author != null)?_c('a',{key:index,staticClass:"listz-activity-item",attrs:{"href":commit.html_url}},[_c('div',{staticClass:"listz-activity-item-title"},[_c('img',{attrs:{"src":commit.author.avatar_url,"tag":"Url of authors avatar."}}),_vm._v(" "),_c('a',{attrs:{"href":commit.author.html_url}},[_vm._v(_vm._s(commit.author.login))])]),_vm._v(" "),_c('p',[_vm._v(_vm._s(commit.commit.message))])]):_vm._e()})],2)])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"listz-scroll-outer-container"},[_c('div',{staticClass:"listz-scroll-inner-container"},[(_vm.$store.state.commits.length != 0)?_c('h2',[_vm._v("Latest Activity")]):_vm._e(),_vm._v(" "),_vm._l((_vm.$store.state.commits),function(commit,index){return (typeof commit.author != 'undefined' && commit.author != null)?_c('a',{key:index,staticClass:"listz-activity-item",attrs:{"href":commit.html_url}},[_c('div',{staticClass:"listz-activity-item-title"},[_c('img',{attrs:{"src":commit.author.avatar_url,"tag":"Url of authors avatar."}}),_vm._v(" "),_c('a',{attrs:{"href":commit.author.html_url}},[_vm._v(_vm._s(commit.author.login))])]),_vm._v(" "),_c('p',[_vm._v(_vm._s(commit.commit.message))])]):_vm._e()})],2)])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 329 */
+/* 330 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ContributorsComponent_vue__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ContributorsComponent_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ContributorsComponent_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ContributorsComponent_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ContributorsComponent_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6df31920_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ContributorsComponent_vue__ = __webpack_require__(333);
+function injectStyle (ssrContext) {
+  __webpack_require__(331)
+}
+var normalizeComponent = __webpack_require__(11)
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ContributorsComponent_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6df31920_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ContributorsComponent_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+/* 331 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(332);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(10)("dafe1fbe", content, true, {});
+
+/***/ }),
+/* 332 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(9)(false);
+// imports
+
+
+// module
+exports.push([module.i, "#listz-contributors-container{left:var(--listz-brush-width);right:var(--listz-top-margin)}a.listz-contributors-contributor{display:flex;height:45px;width:80%;justify-content:flex-start;align-items:center;text-decoration:none;color:var(--listz-white-color);transition:transform .2s}a.listz-contributors-contributor:hover{transform:scale(1.01)}a.listz-contributors-contributor>*{margin-bottom:0;margin-right:1px;margin-left:5px}a.listz-contributors-contributor>img{width:45px;height:45px}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 333 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"listz-scroll-outer-container",attrs:{"id":"listz-contributors-container"}},[_c('div',{staticClass:"listz-scroll-inner-container"},[(_vm.$store.state.contributors && _vm.$store.state.contributors.length != 0)?_c('h2',[_vm._v("Top contributors")]):_vm._e(),_vm._v(" "),_vm._l((_vm.$store.state.contributors),function(contributor,index){return _c('a',{key:index,staticClass:"listz-contributors-contributor",attrs:{"href":contributor.html_url}},[_c('p',[_vm._v(_vm._s(index + 1)+":")]),_vm._v(" "),_c('img',{attrs:{"src":contributor.avatar_url,"alt":"The avatar of a contributor of this Listz."}}),_vm._v(" "),_c('p',[_vm._v(_vm._s(contributor.login))])])}),_vm._v(" "),_vm._m(0)],2)])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a',{staticClass:"listz-contributors-contributor",attrs:{"href":"https://github.com/listz/listz/blob/master/CONTRIBUTING.md"}},[_c('p',[_vm._v("And you! 🎉🎉🎉")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let ListzItem = __webpack_require__(330);
+let ListzItem = __webpack_require__(335);
 
 /**
  * Class representing a Listz object.
@@ -35702,7 +35818,7 @@ class Listz {
 module.exports = Listz;
 
 /***/ }),
-/* 330 */
+/* 335 */
 /***/ (function(module, exports) {
 
 class ListzItem {
@@ -35746,13 +35862,13 @@ class ListzItem {
 module.exports = ListzItem
 
 /***/ }),
-/* 331 */
+/* 336 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-const strictUriEncode = __webpack_require__(332);
-const decodeComponent = __webpack_require__(333);
+const strictUriEncode = __webpack_require__(337);
+const decodeComponent = __webpack_require__(338);
 
 function encoderForArrayFormat(options) {
 	switch (options.arrayFormat) {
@@ -35975,7 +36091,7 @@ exports.parseUrl = (input, options) => {
 
 
 /***/ }),
-/* 332 */
+/* 337 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35984,7 +36100,7 @@ module.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => `%${x.c
 
 
 /***/ }),
-/* 333 */
+/* 338 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36085,28 +36201,28 @@ module.exports = function (encodedURI) {
 
 
 /***/ }),
-/* 334 */
+/* 339 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container-fluid h-100",attrs:{"id":"app"}},[_c('div',{staticClass:"row h-100"},[_c('div',{staticClass:"d-none d-lg-block col-lg-2 col-xl-4 listz-aside"},[_c('activity-component'),_vm._v(" "),_c('div',{staticClass:"listz-brush-left"})],1),_vm._v(" "),_c('div',{staticClass:"listz-center col-md-12 col-lg-8 col-xl-4 d-flex flex-column"},[_c('form-component'),_vm._v(" "),_c('list-component')],1),_vm._v(" "),_vm._m(0)])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"d-none d-lg-block col-lg-2 col-xl-4 listz-aside"},[_c('div',{staticClass:"listz-brush"})])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container-fluid h-100",attrs:{"id":"app"}},[_c('div',{staticClass:"row h-100"},[_c('div',{staticClass:"d-none d-lg-block col-lg-2 col-xl-4 listz-aside"},[_c('activity-component'),_vm._v(" "),_c('div',{staticClass:"listz-brush-left"})],1),_vm._v(" "),_c('div',{staticClass:"listz-center col-md-12 col-lg-8 col-xl-4 d-flex flex-column"},[_c('form-component'),_vm._v(" "),_c('list-component')],1),_vm._v(" "),_c('div',{staticClass:"d-none d-lg-block col-lg-2 col-xl-4 listz-aside"},[_c('div',{staticClass:"listz-brush"}),_vm._v(" "),_c('contributors-component')],1)])])}
+var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 335 */
+/* 340 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 // This file can be required in Browserify and Node.js for automatic polyfill
 // To use it:  require('es6-promise/auto');
 
-module.exports = __webpack_require__(336).polyfill();
+module.exports = __webpack_require__(341).polyfill();
 
 
 /***/ }),
-/* 336 */
+/* 341 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process, global) {/*!
@@ -37296,19 +37412,19 @@ return Promise$1;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(23), __webpack_require__(14)))
 
 /***/ }),
-/* 337 */
+/* 342 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 338 */
+/* 343 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 339 */
+/* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37325,11 +37441,11 @@ var _vue = __webpack_require__(79);
 
 var _vue2 = _interopRequireDefault(_vue);
 
-var _vuex = __webpack_require__(340);
+var _vuex = __webpack_require__(345);
 
 var _vuex2 = _interopRequireDefault(_vuex);
 
-var _listz = __webpack_require__(117);
+var _listz = __webpack_require__(118);
 
 var _listz2 = _interopRequireDefault(_listz);
 
@@ -37337,7 +37453,7 @@ var _Actions = __webpack_require__(28);
 
 var _Actions2 = _interopRequireDefault(_Actions);
 
-var _axios = __webpack_require__(341);
+var _axios = __webpack_require__(346);
 
 var _axios2 = _interopRequireDefault(_axios);
 
@@ -37345,7 +37461,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var octokit = __webpack_require__(360)();
+var octokit = __webpack_require__(365)();
 
 _vue2.default.use(_vuex2.default);
 
@@ -37356,7 +37472,8 @@ var store = exports.store = new _vuex2.default.Store({
     listz: new _listz2.default(),
     query: "",
     queryString: "",
-    commits: new Array()
+    commits: new Array(),
+    contributors: new Object()
 
   },
   getters: {
@@ -37440,6 +37557,10 @@ var store = exports.store = new _vuex2.default.Store({
   }), _defineProperty(_mutations, _Actions2.default.SET_COMMITS, function (state, payload) {
 
     state.commits = payload.commits;
+  }), _defineProperty(_mutations, _Actions2.default.SET_CONTRIBUTORS, function (state, payload) {
+
+    console.log(payload.contributors);
+    state.contributors = payload.contributors;
   }), _mutations),
   actions: (_actions = {}, _defineProperty(_actions, _Actions2.default.LOAD_LISTZ, function (_ref, payload) {
     var commit = _ref.commit;
@@ -37484,22 +37605,64 @@ var store = exports.store = new _vuex2.default.Store({
     dispatch({
       type: _Actions2.default.LOAD_COMMITS
     });
+
+    dispatch({
+      type: _Actions2.default.LOAD_CONTRIBUTORS
+    });
   }), _defineProperty(_actions, _Actions2.default.LOAD_COMMITS, function (_ref5) {
-    var commit = _ref5.commit;
+    var commit = _ref5.commit,
+        dispatch = _ref5.dispatch;
 
 
-    octokit.repos.getCommits({ owner: "listz", repo: this.state.queryString }).then(function (response) {
+    octokit.repos.listCommits({ owner: "listz", repo: this.state.queryString }).then(function (response) {
 
       commit({
         type: _Actions2.default.SET_COMMITS,
         commits: response.data
       });
     });
+  }), _defineProperty(_actions, _Actions2.default.LOAD_CONTRIBUTORS, function (_ref6) {
+    var commit = _ref6.commit;
+
+
+    octokit.repos.listContributors({ owner: "listz", repo: this.state.queryString, per_page: 20 }).then(function (response) {
+      commit({
+        type: _Actions2.default.SET_CONTRIBUTORS,
+        contributors: response.data
+      });
+    });
+
+    /*let page = 1;
+    let hasNextPage = true;
+    let data;
+      do {
+      octokit.repos.listCommits({ owner: "listz", repo: this.state.queryString, page: 1 }).then(response => {
+          if (response.data.length == 0) hasNextPage = false;
+          for (let item of response.data) data.push(item);
+        
+      });
+    } while (hasNextPage)
+      console.log(data);*/
+
+    /*octokit.paginate('GET /repos/:owner/:repo/commits', { owner: 'listz', repo: this.state.queryString }).then(commits => {
+        let contributors = new Object();
+        commits.map(currentCommit => {
+        if (typeof currentCommit.author != "undefined" && currentCommit.author != null) {
+          let currentAuthor = currentCommit.author;
+          if (typeof contributors[currentAuthor.login] != "undefined" && contributors[currentAuthor.login] != null) contributors[currentAuthor]++;
+          else contributors[currentAuthor.login] = 1;
+        }
+      });
+        commit({
+        type: Actions.SET_CONTRIBUTORS,
+        contributors
+      });
+      });*/
   }), _actions)
 });
 
 /***/ }),
-/* 340 */
+/* 345 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38444,21 +38607,21 @@ var index_esm = {
 
 
 /***/ }),
-/* 341 */
+/* 346 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(342);
+module.exports = __webpack_require__(347);
 
 /***/ }),
-/* 342 */
+/* 347 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(5);
-var bind = __webpack_require__(118);
-var Axios = __webpack_require__(344);
+var bind = __webpack_require__(119);
+var Axios = __webpack_require__(349);
 var defaults = __webpack_require__(54);
 
 /**
@@ -38492,15 +38655,15 @@ axios.create = function create(instanceConfig) {
 };
 
 // Expose Cancel & CancelToken
-axios.Cancel = __webpack_require__(122);
-axios.CancelToken = __webpack_require__(358);
-axios.isCancel = __webpack_require__(121);
+axios.Cancel = __webpack_require__(123);
+axios.CancelToken = __webpack_require__(363);
+axios.isCancel = __webpack_require__(122);
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
-axios.spread = __webpack_require__(359);
+axios.spread = __webpack_require__(364);
 
 module.exports = axios;
 
@@ -38509,7 +38672,7 @@ module.exports.default = axios;
 
 
 /***/ }),
-/* 343 */
+/* 348 */
 /***/ (function(module, exports) {
 
 /*!
@@ -38536,7 +38699,7 @@ function isSlowBuffer (obj) {
 
 
 /***/ }),
-/* 344 */
+/* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38544,8 +38707,8 @@ function isSlowBuffer (obj) {
 
 var defaults = __webpack_require__(54);
 var utils = __webpack_require__(5);
-var InterceptorManager = __webpack_require__(353);
-var dispatchRequest = __webpack_require__(354);
+var InterceptorManager = __webpack_require__(358);
+var dispatchRequest = __webpack_require__(359);
 
 /**
  * Create a new instance of Axios
@@ -38622,7 +38785,7 @@ module.exports = Axios;
 
 
 /***/ }),
-/* 345 */
+/* 350 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38641,13 +38804,13 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 
 /***/ }),
-/* 346 */
+/* 351 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var createError = __webpack_require__(120);
+var createError = __webpack_require__(121);
 
 /**
  * Resolve or reject a Promise based on response status.
@@ -38674,7 +38837,7 @@ module.exports = function settle(resolve, reject, response) {
 
 
 /***/ }),
-/* 347 */
+/* 352 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38702,7 +38865,7 @@ module.exports = function enhanceError(error, config, code, request, response) {
 
 
 /***/ }),
-/* 348 */
+/* 353 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38775,7 +38938,7 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
 
 /***/ }),
-/* 349 */
+/* 354 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38835,7 +38998,7 @@ module.exports = function parseHeaders(headers) {
 
 
 /***/ }),
-/* 350 */
+/* 355 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38910,7 +39073,7 @@ module.exports = (
 
 
 /***/ }),
-/* 351 */
+/* 356 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38953,7 +39116,7 @@ module.exports = btoa;
 
 
 /***/ }),
-/* 352 */
+/* 357 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39013,7 +39176,7 @@ module.exports = (
 
 
 /***/ }),
-/* 353 */
+/* 358 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39072,18 +39235,18 @@ module.exports = InterceptorManager;
 
 
 /***/ }),
-/* 354 */
+/* 359 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(5);
-var transformData = __webpack_require__(355);
-var isCancel = __webpack_require__(121);
+var transformData = __webpack_require__(360);
+var isCancel = __webpack_require__(122);
 var defaults = __webpack_require__(54);
-var isAbsoluteURL = __webpack_require__(356);
-var combineURLs = __webpack_require__(357);
+var isAbsoluteURL = __webpack_require__(361);
+var combineURLs = __webpack_require__(362);
 
 /**
  * Throws a `Cancel` if cancellation has been requested.
@@ -39165,7 +39328,7 @@ module.exports = function dispatchRequest(config) {
 
 
 /***/ }),
-/* 355 */
+/* 360 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39192,7 +39355,7 @@ module.exports = function transformData(data, headers, fns) {
 
 
 /***/ }),
-/* 356 */
+/* 361 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39213,7 +39376,7 @@ module.exports = function isAbsoluteURL(url) {
 
 
 /***/ }),
-/* 357 */
+/* 362 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39234,13 +39397,13 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 
 
 /***/ }),
-/* 358 */
+/* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var Cancel = __webpack_require__(122);
+var Cancel = __webpack_require__(123);
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -39298,7 +39461,7 @@ module.exports = CancelToken;
 
 
 /***/ }),
-/* 359 */
+/* 364 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39332,22 +39495,22 @@ module.exports = function spread(callback) {
 
 
 /***/ }),
-/* 360 */
+/* 365 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = GitHubApi
 
 const defaultsDeep = __webpack_require__(55)
-const Hook = __webpack_require__(405)
+const Hook = __webpack_require__(410)
 
-const parseClientOptions = __webpack_require__(409)
-const request = __webpack_require__(423)
-const ENDPOINT_DEFAULTS = __webpack_require__(147).DEFAULTS
+const parseClientOptions = __webpack_require__(414)
+const request = __webpack_require__(428)
+const ENDPOINT_DEFAULTS = __webpack_require__(148).DEFAULTS
 
 const PLUGINS = [
-  __webpack_require__(485),
-  __webpack_require__(493),
-  __webpack_require__(499)
+  __webpack_require__(490),
+  __webpack_require__(498),
+  __webpack_require__(504)
 ]
 
 function GitHubApi (options) {
@@ -39369,11 +39532,11 @@ function GitHubApi (options) {
 
 
 /***/ }),
-/* 361 */
+/* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var constant = __webpack_require__(362),
-    defineProperty = __webpack_require__(126),
+var constant = __webpack_require__(367),
+    defineProperty = __webpack_require__(127),
     identity = __webpack_require__(56);
 
 /**
@@ -39397,7 +39560,7 @@ module.exports = baseSetToString;
 
 
 /***/ }),
-/* 362 */
+/* 367 */
 /***/ (function(module, exports) {
 
 /**
@@ -39429,13 +39592,13 @@ module.exports = constant;
 
 
 /***/ }),
-/* 363 */
+/* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isFunction = __webpack_require__(57),
-    isMasked = __webpack_require__(366),
+    isMasked = __webpack_require__(371),
     isObject = __webpack_require__(6),
-    toSource = __webpack_require__(128);
+    toSource = __webpack_require__(129);
 
 /**
  * Used to match `RegExp`
@@ -39482,7 +39645,7 @@ module.exports = baseIsNative;
 
 
 /***/ }),
-/* 364 */
+/* 369 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(18);
@@ -39534,7 +39697,7 @@ module.exports = getRawTag;
 
 
 /***/ }),
-/* 365 */
+/* 370 */
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -39562,10 +39725,10 @@ module.exports = objectToString;
 
 
 /***/ }),
-/* 366 */
+/* 371 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var coreJsData = __webpack_require__(367);
+var coreJsData = __webpack_require__(372);
 
 /** Used to detect methods masquerading as native. */
 var maskSrcKey = (function() {
@@ -39588,10 +39751,10 @@ module.exports = isMasked;
 
 
 /***/ }),
-/* 367 */
+/* 372 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var root = __webpack_require__(9);
+var root = __webpack_require__(12);
 
 /** Used to detect overreaching core-js shims. */
 var coreJsData = root['__core-js_shared__'];
@@ -39600,7 +39763,7 @@ module.exports = coreJsData;
 
 
 /***/ }),
-/* 368 */
+/* 373 */
 /***/ (function(module, exports) {
 
 /**
@@ -39619,7 +39782,7 @@ module.exports = getValue;
 
 
 /***/ }),
-/* 369 */
+/* 374 */
 /***/ (function(module, exports) {
 
 /** Used to detect hot functions by number of calls within a span of milliseconds. */
@@ -39662,10 +39825,10 @@ module.exports = shortOut;
 
 
 /***/ }),
-/* 370 */
+/* 375 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseMerge = __webpack_require__(129),
+var baseMerge = __webpack_require__(130),
     isObject = __webpack_require__(6);
 
 /**
@@ -39696,7 +39859,7 @@ module.exports = customDefaultsMerge;
 
 
 /***/ }),
-/* 371 */
+/* 376 */
 /***/ (function(module, exports) {
 
 /**
@@ -39715,7 +39878,7 @@ module.exports = listCacheClear;
 
 
 /***/ }),
-/* 372 */
+/* 377 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var assocIndexOf = __webpack_require__(32);
@@ -39756,7 +39919,7 @@ module.exports = listCacheDelete;
 
 
 /***/ }),
-/* 373 */
+/* 378 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var assocIndexOf = __webpack_require__(32);
@@ -39781,7 +39944,7 @@ module.exports = listCacheGet;
 
 
 /***/ }),
-/* 374 */
+/* 379 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var assocIndexOf = __webpack_require__(32);
@@ -39803,7 +39966,7 @@ module.exports = listCacheHas;
 
 
 /***/ }),
-/* 375 */
+/* 380 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var assocIndexOf = __webpack_require__(32);
@@ -39835,7 +39998,7 @@ module.exports = listCacheSet;
 
 
 /***/ }),
-/* 376 */
+/* 381 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var ListCache = __webpack_require__(31);
@@ -39856,7 +40019,7 @@ module.exports = stackClear;
 
 
 /***/ }),
-/* 377 */
+/* 382 */
 /***/ (function(module, exports) {
 
 /**
@@ -39880,7 +40043,7 @@ module.exports = stackDelete;
 
 
 /***/ }),
-/* 378 */
+/* 383 */
 /***/ (function(module, exports) {
 
 /**
@@ -39900,7 +40063,7 @@ module.exports = stackGet;
 
 
 /***/ }),
-/* 379 */
+/* 384 */
 /***/ (function(module, exports) {
 
 /**
@@ -39920,7 +40083,7 @@ module.exports = stackHas;
 
 
 /***/ }),
-/* 380 */
+/* 385 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var ListCache = __webpack_require__(31),
@@ -39960,10 +40123,10 @@ module.exports = stackSet;
 
 
 /***/ }),
-/* 381 */
+/* 386 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Hash = __webpack_require__(382),
+var Hash = __webpack_require__(387),
     ListCache = __webpack_require__(31),
     Map = __webpack_require__(58);
 
@@ -39987,14 +40150,14 @@ module.exports = mapCacheClear;
 
 
 /***/ }),
-/* 382 */
+/* 387 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var hashClear = __webpack_require__(383),
-    hashDelete = __webpack_require__(384),
-    hashGet = __webpack_require__(385),
-    hashHas = __webpack_require__(386),
-    hashSet = __webpack_require__(387);
+var hashClear = __webpack_require__(388),
+    hashDelete = __webpack_require__(389),
+    hashGet = __webpack_require__(390),
+    hashHas = __webpack_require__(391),
+    hashSet = __webpack_require__(392);
 
 /**
  * Creates a hash object.
@@ -40025,7 +40188,7 @@ module.exports = Hash;
 
 
 /***/ }),
-/* 383 */
+/* 388 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var nativeCreate = __webpack_require__(33);
@@ -40046,7 +40209,7 @@ module.exports = hashClear;
 
 
 /***/ }),
-/* 384 */
+/* 389 */
 /***/ (function(module, exports) {
 
 /**
@@ -40069,7 +40232,7 @@ module.exports = hashDelete;
 
 
 /***/ }),
-/* 385 */
+/* 390 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var nativeCreate = __webpack_require__(33);
@@ -40105,7 +40268,7 @@ module.exports = hashGet;
 
 
 /***/ }),
-/* 386 */
+/* 391 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var nativeCreate = __webpack_require__(33);
@@ -40134,7 +40297,7 @@ module.exports = hashHas;
 
 
 /***/ }),
-/* 387 */
+/* 392 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var nativeCreate = __webpack_require__(33);
@@ -40163,7 +40326,7 @@ module.exports = hashSet;
 
 
 /***/ }),
-/* 388 */
+/* 393 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getMapData = __webpack_require__(34);
@@ -40187,7 +40350,7 @@ module.exports = mapCacheDelete;
 
 
 /***/ }),
-/* 389 */
+/* 394 */
 /***/ (function(module, exports) {
 
 /**
@@ -40208,7 +40371,7 @@ module.exports = isKeyable;
 
 
 /***/ }),
-/* 390 */
+/* 395 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getMapData = __webpack_require__(34);
@@ -40230,7 +40393,7 @@ module.exports = mapCacheGet;
 
 
 /***/ }),
-/* 391 */
+/* 396 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getMapData = __webpack_require__(34);
@@ -40252,7 +40415,7 @@ module.exports = mapCacheHas;
 
 
 /***/ }),
-/* 392 */
+/* 397 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getMapData = __webpack_require__(34);
@@ -40280,7 +40443,7 @@ module.exports = mapCacheSet;
 
 
 /***/ }),
-/* 393 */
+/* 398 */
 /***/ (function(module, exports) {
 
 /**
@@ -40311,24 +40474,24 @@ module.exports = createBaseFor;
 
 
 /***/ }),
-/* 394 */
+/* 399 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var assignMergeValue = __webpack_require__(130),
-    cloneBuffer = __webpack_require__(132),
-    cloneTypedArray = __webpack_require__(133),
-    copyArray = __webpack_require__(135),
-    initCloneObject = __webpack_require__(136),
+var assignMergeValue = __webpack_require__(131),
+    cloneBuffer = __webpack_require__(133),
+    cloneTypedArray = __webpack_require__(134),
+    copyArray = __webpack_require__(136),
+    initCloneObject = __webpack_require__(137),
     isArguments = __webpack_require__(36),
     isArray = __webpack_require__(7),
-    isArrayLikeObject = __webpack_require__(138),
+    isArrayLikeObject = __webpack_require__(139),
     isBuffer = __webpack_require__(38),
     isFunction = __webpack_require__(57),
     isObject = __webpack_require__(6),
     isPlainObject = __webpack_require__(65),
     isTypedArray = __webpack_require__(66),
-    safeGet = __webpack_require__(139),
-    toPlainObject = __webpack_require__(399);
+    safeGet = __webpack_require__(140),
+    toPlainObject = __webpack_require__(404);
 
 /**
  * A specialized version of `baseMerge` for arrays and objects which performs
@@ -40411,7 +40574,7 @@ module.exports = baseMergeDeep;
 
 
 /***/ }),
-/* 395 */
+/* 400 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(6);
@@ -40447,7 +40610,7 @@ module.exports = baseCreate;
 
 
 /***/ }),
-/* 396 */
+/* 401 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(17),
@@ -40471,7 +40634,7 @@ module.exports = baseIsArguments;
 
 
 /***/ }),
-/* 397 */
+/* 402 */
 /***/ (function(module, exports) {
 
 /**
@@ -40495,7 +40658,7 @@ module.exports = stubFalse;
 
 
 /***/ }),
-/* 398 */
+/* 403 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(17),
@@ -40561,7 +40724,7 @@ module.exports = baseIsTypedArray;
 
 
 /***/ }),
-/* 399 */
+/* 404 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var copyObject = __webpack_require__(20),
@@ -40599,7 +40762,7 @@ module.exports = toPlainObject;
 
 
 /***/ }),
-/* 400 */
+/* 405 */
 /***/ (function(module, exports) {
 
 /**
@@ -40625,12 +40788,12 @@ module.exports = baseTimes;
 
 
 /***/ }),
-/* 401 */
+/* 406 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(6),
     isPrototype = __webpack_require__(63),
-    nativeKeysIn = __webpack_require__(402);
+    nativeKeysIn = __webpack_require__(407);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -40664,7 +40827,7 @@ module.exports = baseKeysIn;
 
 
 /***/ }),
-/* 402 */
+/* 407 */
 /***/ (function(module, exports) {
 
 /**
@@ -40690,11 +40853,11 @@ module.exports = nativeKeysIn;
 
 
 /***/ }),
-/* 403 */
+/* 408 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseMerge = __webpack_require__(129),
-    createAssigner = __webpack_require__(404);
+var baseMerge = __webpack_require__(130),
+    createAssigner = __webpack_require__(409);
 
 /**
  * This method is like `_.merge` except that it accepts `customizer` which
@@ -40735,11 +40898,11 @@ module.exports = mergeWith;
 
 
 /***/ }),
-/* 404 */
+/* 409 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseRest = __webpack_require__(29),
-    isIterateeCall = __webpack_require__(141);
+    isIterateeCall = __webpack_require__(142);
 
 /**
  * Creates a function like `_.assign`.
@@ -40778,14 +40941,14 @@ module.exports = createAssigner;
 
 
 /***/ }),
-/* 405 */
+/* 410 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = Hook
 
-var register = __webpack_require__(406)
-var addHook = __webpack_require__(407)
-var removeHook = __webpack_require__(408)
+var register = __webpack_require__(411)
+var addHook = __webpack_require__(412)
+var removeHook = __webpack_require__(413)
 
 function Hook () {
   var state = {
@@ -40806,7 +40969,7 @@ function Hook () {
 
 
 /***/ }),
-/* 406 */
+/* 411 */
 /***/ (function(module, exports) {
 
 module.exports = register
@@ -40841,7 +41004,7 @@ function register (state, name, options, method) {
 
 
 /***/ }),
-/* 407 */
+/* 412 */
 /***/ (function(module, exports) {
 
 module.exports = addHook
@@ -40893,7 +41056,7 @@ function addHook (state, kind, name, hook) {
 
 
 /***/ }),
-/* 408 */
+/* 413 */
 /***/ (function(module, exports) {
 
 module.exports = removeHook
@@ -40922,17 +41085,17 @@ function removeHook (state, kind, name, method) {
 
 
 /***/ }),
-/* 409 */
+/* 414 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process) {module.exports = parseOptions
 
-const defaults = __webpack_require__(142)
+const defaults = __webpack_require__(143)
 const pick = __webpack_require__(69)
 
 const deprecate = __webpack_require__(15)
-const getRequestAgent = __webpack_require__(421)
-const DEFAULTS = __webpack_require__(422)
+const getRequestAgent = __webpack_require__(426)
+const DEFAULTS = __webpack_require__(427)
 const OPTION_NAMES = [
   'timeout',
   'baseUrl',
@@ -41004,11 +41167,11 @@ function parseOptions (userOptions) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(23)))
 
 /***/ }),
-/* 410 */
+/* 415 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var basePickBy = __webpack_require__(411),
-    hasIn = __webpack_require__(144);
+var basePickBy = __webpack_require__(416),
+    hasIn = __webpack_require__(145);
 
 /**
  * The base implementation of `_.pick` without support for individual
@@ -41029,11 +41192,11 @@ module.exports = basePick;
 
 
 /***/ }),
-/* 411 */
+/* 416 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGet = __webpack_require__(41),
-    baseSet = __webpack_require__(143),
+    baseSet = __webpack_require__(144),
     castPath = __webpack_require__(21);
 
 /**
@@ -41065,10 +41228,10 @@ module.exports = basePickBy;
 
 
 /***/ }),
-/* 412 */
+/* 417 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var memoizeCapped = __webpack_require__(413);
+var memoizeCapped = __webpack_require__(418);
 
 /** Used to match property names within property paths. */
 var rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;
@@ -41098,10 +41261,10 @@ module.exports = stringToPath;
 
 
 /***/ }),
-/* 413 */
+/* 418 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var memoize = __webpack_require__(414);
+var memoize = __webpack_require__(419);
 
 /** Used as the maximum memoize cache size. */
 var MAX_MEMOIZE_SIZE = 500;
@@ -41130,7 +41293,7 @@ module.exports = memoizeCapped;
 
 
 /***/ }),
-/* 414 */
+/* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var MapCache = __webpack_require__(59);
@@ -41209,10 +41372,10 @@ module.exports = memoize;
 
 
 /***/ }),
-/* 415 */
+/* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseToString = __webpack_require__(416);
+var baseToString = __webpack_require__(421);
 
 /**
  * Converts `value` to a string. An empty string is returned for `null`
@@ -41243,7 +41406,7 @@ module.exports = toString;
 
 
 /***/ }),
-/* 416 */
+/* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(18),
@@ -41286,7 +41449,7 @@ module.exports = baseToString;
 
 
 /***/ }),
-/* 417 */
+/* 422 */
 /***/ (function(module, exports) {
 
 /**
@@ -41305,7 +41468,7 @@ module.exports = baseHasIn;
 
 
 /***/ }),
-/* 418 */
+/* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var castPath = __webpack_require__(21),
@@ -41350,11 +41513,11 @@ module.exports = hasPath;
 
 
 /***/ }),
-/* 419 */
+/* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var arrayPush = __webpack_require__(72),
-    isFlattenable = __webpack_require__(420);
+    isFlattenable = __webpack_require__(425);
 
 /**
  * The base implementation of `_.flatten` with support for restricting flattening.
@@ -41394,7 +41557,7 @@ module.exports = baseFlatten;
 
 
 /***/ }),
-/* 420 */
+/* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(18),
@@ -41420,13 +41583,13 @@ module.exports = isFlattenable;
 
 
 /***/ }),
-/* 421 */
+/* 426 */
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
-/* 422 */
+/* 427 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -41440,13 +41603,13 @@ module.exports = {
 
 
 /***/ }),
-/* 423 */
+/* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = restRequest
 
-const restEndpoint = __webpack_require__(147)
-const request = __webpack_require__(479)
+const restEndpoint = __webpack_require__(148)
+const request = __webpack_require__(484)
 
 function restRequest (endpointOptions) {
   const requestOptions = restEndpoint(endpointOptions)
@@ -41455,13 +41618,13 @@ function restRequest (endpointOptions) {
 
 
 /***/ }),
-/* 424 */
+/* 429 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var arrayMap = __webpack_require__(42),
-    baseIntersection = __webpack_require__(425),
+    baseIntersection = __webpack_require__(430),
     baseRest = __webpack_require__(29),
-    castArrayLikeObject = __webpack_require__(432);
+    castArrayLikeObject = __webpack_require__(437);
 
 /**
  * Creates an array of unique values that are included in all given arrays
@@ -41491,12 +41654,12 @@ module.exports = intersection;
 
 
 /***/ }),
-/* 425 */
+/* 430 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var SetCache = __webpack_require__(73),
-    arrayIncludes = __webpack_require__(148),
-    arrayIncludesWith = __webpack_require__(149),
+    arrayIncludes = __webpack_require__(149),
+    arrayIncludesWith = __webpack_require__(150),
     arrayMap = __webpack_require__(42),
     baseUnary = __webpack_require__(39),
     cacheHas = __webpack_require__(74);
@@ -41571,7 +41734,7 @@ module.exports = baseIntersection;
 
 
 /***/ }),
-/* 426 */
+/* 431 */
 /***/ (function(module, exports) {
 
 /** Used to stand-in for `undefined` hash values. */
@@ -41596,7 +41759,7 @@ module.exports = setCacheAdd;
 
 
 /***/ }),
-/* 427 */
+/* 432 */
 /***/ (function(module, exports) {
 
 /**
@@ -41616,12 +41779,12 @@ module.exports = setCacheHas;
 
 
 /***/ }),
-/* 428 */
+/* 433 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseFindIndex = __webpack_require__(429),
-    baseIsNaN = __webpack_require__(430),
-    strictIndexOf = __webpack_require__(431);
+var baseFindIndex = __webpack_require__(434),
+    baseIsNaN = __webpack_require__(435),
+    strictIndexOf = __webpack_require__(436);
 
 /**
  * The base implementation of `_.indexOf` without `fromIndex` bounds checks.
@@ -41642,7 +41805,7 @@ module.exports = baseIndexOf;
 
 
 /***/ }),
-/* 429 */
+/* 434 */
 /***/ (function(module, exports) {
 
 /**
@@ -41672,7 +41835,7 @@ module.exports = baseFindIndex;
 
 
 /***/ }),
-/* 430 */
+/* 435 */
 /***/ (function(module, exports) {
 
 /**
@@ -41690,7 +41853,7 @@ module.exports = baseIsNaN;
 
 
 /***/ }),
-/* 431 */
+/* 436 */
 /***/ (function(module, exports) {
 
 /**
@@ -41719,10 +41882,10 @@ module.exports = strictIndexOf;
 
 
 /***/ }),
-/* 432 */
+/* 437 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isArrayLikeObject = __webpack_require__(138);
+var isArrayLikeObject = __webpack_require__(139);
 
 /**
  * Casts `value` to an empty array if it's not an array like object.
@@ -41739,10 +41902,10 @@ module.exports = castArrayLikeObject;
 
 
 /***/ }),
-/* 433 */
+/* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseFor = __webpack_require__(131),
+var baseFor = __webpack_require__(132),
     keys = __webpack_require__(25);
 
 /**
@@ -41761,11 +41924,11 @@ module.exports = baseForOwn;
 
 
 /***/ }),
-/* 434 */
+/* 439 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isPrototype = __webpack_require__(63),
-    nativeKeys = __webpack_require__(435);
+    nativeKeys = __webpack_require__(440);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -41797,10 +41960,10 @@ module.exports = baseKeys;
 
 
 /***/ }),
-/* 435 */
+/* 440 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(137);
+var overArg = __webpack_require__(138);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeKeys = overArg(Object.keys, Object);
@@ -41809,14 +41972,14 @@ module.exports = nativeKeys;
 
 
 /***/ }),
-/* 436 */
+/* 441 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseMatches = __webpack_require__(437),
-    baseMatchesProperty = __webpack_require__(449),
+var baseMatches = __webpack_require__(442),
+    baseMatchesProperty = __webpack_require__(454),
     identity = __webpack_require__(56),
     isArray = __webpack_require__(7),
-    property = __webpack_require__(450);
+    property = __webpack_require__(455);
 
 /**
  * The base implementation of `_.iteratee`.
@@ -41846,12 +42009,12 @@ module.exports = baseIteratee;
 
 
 /***/ }),
-/* 437 */
+/* 442 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseIsMatch = __webpack_require__(438),
-    getMatchData = __webpack_require__(448),
-    matchesStrictComparable = __webpack_require__(158);
+var baseIsMatch = __webpack_require__(443),
+    getMatchData = __webpack_require__(453),
+    matchesStrictComparable = __webpack_require__(159);
 
 /**
  * The base implementation of `_.matches` which doesn't clone `source`.
@@ -41874,11 +42037,11 @@ module.exports = baseMatches;
 
 
 /***/ }),
-/* 438 */
+/* 443 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Stack = __webpack_require__(30),
-    baseIsEqual = __webpack_require__(151);
+    baseIsEqual = __webpack_require__(152);
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1,
@@ -41942,13 +42105,13 @@ module.exports = baseIsMatch;
 
 
 /***/ }),
-/* 439 */
+/* 444 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Stack = __webpack_require__(30),
-    equalArrays = __webpack_require__(152),
-    equalByTag = __webpack_require__(441),
-    equalObjects = __webpack_require__(443),
+    equalArrays = __webpack_require__(153),
+    equalByTag = __webpack_require__(446),
+    equalObjects = __webpack_require__(448),
     getTag = __webpack_require__(43),
     isArray = __webpack_require__(7),
     isBuffer = __webpack_require__(38),
@@ -42031,7 +42194,7 @@ module.exports = baseIsEqualDeep;
 
 
 /***/ }),
-/* 440 */
+/* 445 */
 /***/ (function(module, exports) {
 
 /**
@@ -42060,14 +42223,14 @@ module.exports = arraySome;
 
 
 /***/ }),
-/* 441 */
+/* 446 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(18),
-    Uint8Array = __webpack_require__(134),
+    Uint8Array = __webpack_require__(135),
     eq = __webpack_require__(19),
-    equalArrays = __webpack_require__(152),
-    mapToArray = __webpack_require__(442),
+    equalArrays = __webpack_require__(153),
+    mapToArray = __webpack_require__(447),
     setToArray = __webpack_require__(75);
 
 /** Used to compose bitmasks for value comparisons. */
@@ -42178,7 +42341,7 @@ module.exports = equalByTag;
 
 
 /***/ }),
-/* 442 */
+/* 447 */
 /***/ (function(module, exports) {
 
 /**
@@ -42202,10 +42365,10 @@ module.exports = mapToArray;
 
 
 /***/ }),
-/* 443 */
+/* 448 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getAllKeys = __webpack_require__(153);
+var getAllKeys = __webpack_require__(154);
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1;
@@ -42297,7 +42460,7 @@ module.exports = equalObjects;
 
 
 /***/ }),
-/* 444 */
+/* 449 */
 /***/ (function(module, exports) {
 
 /**
@@ -42328,11 +42491,11 @@ module.exports = arrayFilter;
 
 
 /***/ }),
-/* 445 */
+/* 450 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(16),
-    root = __webpack_require__(9);
+    root = __webpack_require__(12);
 
 /* Built-in method references that are verified to be native. */
 var DataView = getNative(root, 'DataView');
@@ -42341,11 +42504,11 @@ module.exports = DataView;
 
 
 /***/ }),
-/* 446 */
+/* 451 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(16),
-    root = __webpack_require__(9);
+    root = __webpack_require__(12);
 
 /* Built-in method references that are verified to be native. */
 var Promise = getNative(root, 'Promise');
@@ -42354,11 +42517,11 @@ module.exports = Promise;
 
 
 /***/ }),
-/* 447 */
+/* 452 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(16),
-    root = __webpack_require__(9);
+    root = __webpack_require__(12);
 
 /* Built-in method references that are verified to be native. */
 var WeakMap = getNative(root, 'WeakMap');
@@ -42367,10 +42530,10 @@ module.exports = WeakMap;
 
 
 /***/ }),
-/* 448 */
+/* 453 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isStrictComparable = __webpack_require__(157),
+var isStrictComparable = __webpack_require__(158),
     keys = __webpack_require__(25);
 
 /**
@@ -42397,15 +42560,15 @@ module.exports = getMatchData;
 
 
 /***/ }),
-/* 449 */
+/* 454 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseIsEqual = __webpack_require__(151),
+var baseIsEqual = __webpack_require__(152),
     get = __webpack_require__(77),
-    hasIn = __webpack_require__(144),
+    hasIn = __webpack_require__(145),
     isKey = __webpack_require__(70),
-    isStrictComparable = __webpack_require__(157),
-    matchesStrictComparable = __webpack_require__(158),
+    isStrictComparable = __webpack_require__(158),
+    matchesStrictComparable = __webpack_require__(159),
     toKey = __webpack_require__(22);
 
 /** Used to compose bitmasks for value comparisons. */
@@ -42436,11 +42599,11 @@ module.exports = baseMatchesProperty;
 
 
 /***/ }),
-/* 450 */
+/* 455 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseProperty = __webpack_require__(451),
-    basePropertyDeep = __webpack_require__(452),
+var baseProperty = __webpack_require__(456),
+    basePropertyDeep = __webpack_require__(457),
     isKey = __webpack_require__(70),
     toKey = __webpack_require__(22);
 
@@ -42474,7 +42637,7 @@ module.exports = property;
 
 
 /***/ }),
-/* 451 */
+/* 456 */
 /***/ (function(module, exports) {
 
 /**
@@ -42494,7 +42657,7 @@ module.exports = baseProperty;
 
 
 /***/ }),
-/* 452 */
+/* 457 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGet = __webpack_require__(41);
@@ -42516,17 +42679,17 @@ module.exports = basePropertyDeep;
 
 
 /***/ }),
-/* 453 */
+/* 458 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var arrayMap = __webpack_require__(42),
-    baseClone = __webpack_require__(159),
-    baseUnset = __webpack_require__(468),
+    baseClone = __webpack_require__(160),
+    baseUnset = __webpack_require__(473),
     castPath = __webpack_require__(21),
     copyObject = __webpack_require__(20),
-    customOmitClone = __webpack_require__(472),
-    flatRest = __webpack_require__(145),
-    getAllKeysIn = __webpack_require__(161);
+    customOmitClone = __webpack_require__(477),
+    flatRest = __webpack_require__(146),
+    getAllKeysIn = __webpack_require__(162);
 
 /** Used to compose bitmasks for cloning. */
 var CLONE_DEEP_FLAG = 1,
@@ -42579,7 +42742,7 @@ module.exports = omit;
 
 
 /***/ }),
-/* 454 */
+/* 459 */
 /***/ (function(module, exports) {
 
 /**
@@ -42607,7 +42770,7 @@ module.exports = arrayEach;
 
 
 /***/ }),
-/* 455 */
+/* 460 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var copyObject = __webpack_require__(20),
@@ -42630,7 +42793,7 @@ module.exports = baseAssign;
 
 
 /***/ }),
-/* 456 */
+/* 461 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var copyObject = __webpack_require__(20),
@@ -42653,7 +42816,7 @@ module.exports = baseAssignIn;
 
 
 /***/ }),
-/* 457 */
+/* 462 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var copyObject = __webpack_require__(20),
@@ -42675,11 +42838,11 @@ module.exports = copySymbols;
 
 
 /***/ }),
-/* 458 */
+/* 463 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var copyObject = __webpack_require__(20),
-    getSymbolsIn = __webpack_require__(160);
+    getSymbolsIn = __webpack_require__(161);
 
 /**
  * Copies own and inherited symbols of `source` to `object`.
@@ -42697,7 +42860,7 @@ module.exports = copySymbolsIn;
 
 
 /***/ }),
-/* 459 */
+/* 464 */
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -42729,14 +42892,14 @@ module.exports = initCloneArray;
 
 
 /***/ }),
-/* 460 */
+/* 465 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var cloneArrayBuffer = __webpack_require__(61),
-    cloneDataView = __webpack_require__(461),
-    cloneRegExp = __webpack_require__(462),
-    cloneSymbol = __webpack_require__(463),
-    cloneTypedArray = __webpack_require__(133);
+    cloneDataView = __webpack_require__(466),
+    cloneRegExp = __webpack_require__(467),
+    cloneSymbol = __webpack_require__(468),
+    cloneTypedArray = __webpack_require__(134);
 
 /** `Object#toString` result references. */
 var boolTag = '[object Boolean]',
@@ -42812,7 +42975,7 @@ module.exports = initCloneByTag;
 
 
 /***/ }),
-/* 461 */
+/* 466 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var cloneArrayBuffer = __webpack_require__(61);
@@ -42834,7 +42997,7 @@ module.exports = cloneDataView;
 
 
 /***/ }),
-/* 462 */
+/* 467 */
 /***/ (function(module, exports) {
 
 /** Used to match `RegExp` flags from their coerced string values. */
@@ -42857,7 +43020,7 @@ module.exports = cloneRegExp;
 
 
 /***/ }),
-/* 463 */
+/* 468 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(18);
@@ -42881,10 +43044,10 @@ module.exports = cloneSymbol;
 
 
 /***/ }),
-/* 464 */
+/* 469 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseIsMap = __webpack_require__(465),
+var baseIsMap = __webpack_require__(470),
     baseUnary = __webpack_require__(39),
     nodeUtil = __webpack_require__(67);
 
@@ -42914,7 +43077,7 @@ module.exports = isMap;
 
 
 /***/ }),
-/* 465 */
+/* 470 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getTag = __webpack_require__(43),
@@ -42938,10 +43101,10 @@ module.exports = baseIsMap;
 
 
 /***/ }),
-/* 466 */
+/* 471 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseIsSet = __webpack_require__(467),
+var baseIsSet = __webpack_require__(472),
     baseUnary = __webpack_require__(39),
     nodeUtil = __webpack_require__(67);
 
@@ -42971,7 +43134,7 @@ module.exports = isSet;
 
 
 /***/ }),
-/* 467 */
+/* 472 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getTag = __webpack_require__(43),
@@ -42995,12 +43158,12 @@ module.exports = baseIsSet;
 
 
 /***/ }),
-/* 468 */
+/* 473 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var castPath = __webpack_require__(21),
-    last = __webpack_require__(469),
-    parent = __webpack_require__(470),
+    last = __webpack_require__(474),
+    parent = __webpack_require__(475),
     toKey = __webpack_require__(22);
 
 /**
@@ -43021,7 +43184,7 @@ module.exports = baseUnset;
 
 
 /***/ }),
-/* 469 */
+/* 474 */
 /***/ (function(module, exports) {
 
 /**
@@ -43047,11 +43210,11 @@ module.exports = last;
 
 
 /***/ }),
-/* 470 */
+/* 475 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGet = __webpack_require__(41),
-    baseSlice = __webpack_require__(471);
+    baseSlice = __webpack_require__(476);
 
 /**
  * Gets the parent value at `path` of `object`.
@@ -43069,7 +43232,7 @@ module.exports = parent;
 
 
 /***/ }),
-/* 471 */
+/* 476 */
 /***/ (function(module, exports) {
 
 /**
@@ -43106,7 +43269,7 @@ module.exports = baseSlice;
 
 
 /***/ }),
-/* 472 */
+/* 477 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isPlainObject = __webpack_require__(65);
@@ -43128,7 +43291,7 @@ module.exports = customOmitClone;
 
 
 /***/ }),
-/* 473 */
+/* 478 */
 /***/ (function(module, exports, __webpack_require__) {
 
 (function (root, factory) {
@@ -43326,7 +43489,7 @@ module.exports = customOmitClone;
 
 
 /***/ }),
-/* 474 */
+/* 479 */
 /***/ (function(module, exports) {
 
 module.exports = getUserAgentBrowser
@@ -43338,7 +43501,7 @@ function getUserAgentBrowser () {
 
 
 /***/ }),
-/* 475 */
+/* 480 */
 /***/ (function(module, exports) {
 
 module.exports = addQueryParameters
@@ -43366,12 +43529,12 @@ function addQueryParameters (url, parameters) {
 
 
 /***/ }),
-/* 476 */
+/* 481 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = extractUrlVariableName
 
-const flatten = __webpack_require__(146)
+const flatten = __webpack_require__(147)
 
 const urlVariableRegex = /\{[^}]+\}/g
 function extractUrlVariableName (url) {
@@ -43390,13 +43553,13 @@ function removeNonChars (variableName) {
 
 
 /***/ }),
-/* 477 */
+/* 482 */
 /***/ (function(module, exports) {
 
-module.exports = {"_from":"@octokit/rest","_id":"@octokit/rest@15.17.0","_inBundle":false,"_integrity":"sha512-tN16FJOGBPxt9QtPfl8yVbbuik3bQ7EI66zcX2XDh05Wcs8t+7mVEE3SWtCeK/Qm0RTLCeFQgGzuvkbD2J6cEg==","_location":"/@octokit/rest","_phantomChildren":{},"_requested":{"type":"tag","registry":true,"raw":"@octokit/rest","name":"@octokit/rest","escapedName":"@octokit%2frest","scope":"@octokit","rawSpec":"","saveSpec":null,"fetchSpec":"latest"},"_requiredBy":["#USER","/"],"_resolved":"https://registry.npmjs.org/@octokit/rest/-/rest-15.17.0.tgz","_shasum":"323a3f40f8ad8f271bd1354eaa3a50e7e5f62a90","_spec":"@octokit/rest","_where":"C:\\Users\\Artus\\Documents\\projects\\listz\\listz-app","apidoc":{"template":{"withCompare":false}},"author":{"name":"Gregor Martynus","url":"https://github.com/gr2m"},"browser":{"./lib/get-request-agent.js":false,"./lib/request/get-buffer-response.js":"./lib/request/get-buffer-response-browser.js"},"bugs":{"url":"https://github.com/octokit/rest.js/issues"},"bundleDependencies":false,"bundlesize":[{"path":"./dist/octokit-rest.min.js.gz","maxSize":"33 kB"}],"contributors":[{"name":"Mike de Boer","email":"info@mikedeboer.nl"},{"name":"Fabian Jakobs","email":"fabian@c9.io"},{"name":"Joe Gallo","email":"joe@brassafrax.com"},{"name":"Gregor Martynus","url":"https://github.com/gr2m"}],"dependencies":{"before-after-hook":"^1.1.0","btoa-lite":"^1.0.0","debug":"^3.1.0","http-proxy-agent":"^2.1.0","https-proxy-agent":"^2.2.0","lodash":"^4.17.4","node-fetch":"^2.1.1","universal-user-agent":"^2.0.0","url-template":"^2.0.8"},"deprecated":false,"description":"GitHub REST API client for Node.js","devDependencies":{"@gimenete/type-writer":"^0.1.3","@gr2m/node-fetch":"^2.0.0","@octokit/fixtures-server":"^3.0.0","@octokit/routes":"14.7.0","@types/node":"^10.1.2","apidoc":"^0.17.6","bundlesize":"^0.17.0","chai":"^4.1.2","compression-webpack-plugin":"^2.0.0","coveralls":"^3.0.0","cypress":"^3.0.0","dotenv":"^6.0.0","gh-pages-with-token":"^1.0.0","glob":"^7.1.2","mkdirp":"^0.5.1","mocha":"^5.0.0","mustache":"^3.0.0","nock":"^10.0.0","npm-run-all":"^4.1.2","nyc":"^12.0.1","prettier":"^1.14.2","proxy":"^0.2.4","proxyquire":"^2.0.0","semantic-release":"^15.0.0","sinon":"^6.0.0","sinon-chai":"^3.0.0","standard":"^12.0.0","standard-markdown":"^5.0.1","string-to-arraybuffer":"^1.0.0","typescript":"^2.9.2","webpack":"^4.0.0","webpack-bundle-analyzer":"^3.0.0","webpack-cli":"^3.0.0"},"engines":{"node":">=4"},"files":["index.js","index.d.ts","index.js.flow","lib"],"homepage":"https://github.com/octokit/rest.js#readme","keywords":["octokit","github","rest","api-client"],"license":"MIT","name":"@octokit/rest","nyc":{"ignore":["examples","test"]},"publishConfig":{"access":"public","tag":"latest"},"release":{"publish":["@semantic-release/npm",{"path":"@semantic-release/github","assets":["dist/*","!dist/*.map.gz"]}]},"repository":{"type":"git","url":"git+https://github.com/octokit/rest.js.git"},"scripts":{"build":"npm-run-all build:*","build:browser":"npm-run-all build:browser:*","build:browser:development":"webpack --mode development --entry . --output-library=Octokit --output=./dist/octokit-rest.js --profile --json > dist/bundle-stats.json","build:browser:production":"webpack --mode production --entry . --plugin=compression-webpack-plugin --output-library=Octokit --output-path=./dist --output-filename=octokit-rest.min.js --devtool source-map","build:docs":"node scripts/generate-api-docs","build:flow":"node scripts/generate-flow-types","build:ts":"node scripts/generate-typescript-types","coverage":"nyc report --reporter=html && open coverage/index.html","coverage:upload":"nyc report --reporter=text-lcov | coveralls","deploy-docs":"gh-pages-with-token -d doc","generate-bundle-report":"webpack-bundle-analyzer dist/bundle-stats.json --mode=static --no-open --report dist/bundle-report.html","generate-routes":"node scripts/generate-routes","postbuild:docs":"apidoc -i doc/ -o doc/","postvalidate:ts":"tsc --noEmit --target es6 test/typescript-validate.ts","prebuild:browser":"mkdirp dist/","prebuild:docs":"mkdirp doc/","pretest":"standard && standard-markdown *.md","prevalidate:ts":"npm run -s build:ts","semantic-release":"semantic-release","start-fixtures-server":"octokit-fixtures-server","test":"nyc mocha test/mocha-node-setup.js \"test/**/*-test.js\"","test:browser":"cypress run --browser chrome","test:examples":"node test/examples.js","validate:ts":"tsc --target es6 index.d.ts"},"standard":{"globals":["describe","before","beforeEach","afterEach","after","it","expect","cy"]},"types":"index.d.ts","version":"15.17.0"}
+module.exports = {"_from":"@octokit/rest@^15.17.0","_id":"@octokit/rest@15.18.0","_inBundle":false,"_integrity":"sha512-D1dDJMbvT4dok9++vc8uwCr92ndadwfz6vHK+IklzBHKSsuLlhpv2/dzx97Y4aRlm0t74LeXKDp4j0b4M2vmQw==","_location":"/@octokit/rest","_phantomChildren":{},"_requested":{"type":"range","registry":true,"raw":"@octokit/rest@^15.17.0","name":"@octokit/rest","escapedName":"@octokit%2frest","scope":"@octokit","rawSpec":"^15.17.0","saveSpec":null,"fetchSpec":"^15.17.0"},"_requiredBy":["/"],"_resolved":"https://registry.npmjs.org/@octokit/rest/-/rest-15.18.0.tgz","_shasum":"e6de702b57dec94c71e806f1cff0ecb9725b3054","_spec":"@octokit/rest@^15.17.0","_where":"C:\\Users\\Artus\\Documents\\projects\\listz\\listz-app","apidoc":{"template":{"withCompare":false}},"author":{"name":"Gregor Martynus","url":"https://github.com/gr2m"},"browser":{"./lib/get-request-agent.js":false,"./lib/request/get-buffer-response.js":"./lib/request/get-buffer-response-browser.js"},"bugs":{"url":"https://github.com/octokit/rest.js/issues"},"bundleDependencies":false,"bundlesize":[{"path":"./dist/octokit-rest.min.js.gz","maxSize":"33 kB"}],"contributors":[{"name":"Mike de Boer","email":"info@mikedeboer.nl"},{"name":"Fabian Jakobs","email":"fabian@c9.io"},{"name":"Joe Gallo","email":"joe@brassafrax.com"},{"name":"Gregor Martynus","url":"https://github.com/gr2m"}],"dependencies":{"before-after-hook":"^1.1.0","btoa-lite":"^1.0.0","debug":"^3.1.0","http-proxy-agent":"^2.1.0","https-proxy-agent":"^2.2.0","lodash":"^4.17.4","node-fetch":"^2.1.1","universal-user-agent":"^2.0.0","url-template":"^2.0.8"},"deprecated":false,"description":"GitHub REST API client for Node.js","devDependencies":{"@gimenete/type-writer":"^0.1.3","@gr2m/node-fetch":"^2.0.0","@octokit/fixtures-server":"^3.0.0","@octokit/routes":"15.0.1","@types/node":"^10.1.2","apidoc":"^0.17.6","bundlesize":"^0.17.0","chai":"^4.1.2","compression-webpack-plugin":"^2.0.0","coveralls":"^3.0.0","cypress":"^3.0.0","dotenv":"^6.0.0","gh-pages-with-token":"^1.0.0","glob":"^7.1.2","mkdirp":"^0.5.1","mocha":"^5.0.0","mustache":"^3.0.0","nock":"^10.0.0","npm-run-all":"^4.1.2","nyc":"^12.0.1","prettier":"^1.14.2","proxy":"^0.2.4","proxyquire":"^2.0.0","semantic-release":"^15.0.0","sinon":"^6.0.0","sinon-chai":"^3.0.0","sort-keys":"^2.0.0","standard":"^12.0.0","standard-markdown":"^5.0.1","string-to-arraybuffer":"^1.0.0","typescript":"^2.9.2","webpack":"^4.0.0","webpack-bundle-analyzer":"^3.0.0","webpack-cli":"^3.0.0"},"engines":{"node":">=4"},"files":["index.js","index.d.ts","index.js.flow","lib"],"homepage":"https://github.com/octokit/rest.js#readme","keywords":["octokit","github","rest","api-client"],"license":"MIT","name":"@octokit/rest","nyc":{"ignore":["examples","test"]},"publishConfig":{"access":"public","tag":"deprecations-for-v16"},"release":{"publish":["@semantic-release/npm",{"path":"@semantic-release/github","assets":["dist/*","!dist/*.map.gz"]}]},"repository":{"type":"git","url":"git+https://github.com/octokit/rest.js.git"},"scripts":{"build":"npm-run-all build:*","build:browser":"npm-run-all build:browser:*","build:browser:development":"webpack --mode development --entry . --output-library=Octokit --output=./dist/octokit-rest.js --profile --json > dist/bundle-stats.json","build:browser:production":"webpack --mode production --entry . --plugin=compression-webpack-plugin --output-library=Octokit --output-path=./dist --output-filename=octokit-rest.min.js --devtool source-map","build:docs":"node scripts/generate-api-docs","build:flow":"node scripts/generate-flow-types","build:ts":"node scripts/generate-typescript-types","coverage":"nyc report --reporter=html && open coverage/index.html","coverage:upload":"nyc report --reporter=text-lcov | coveralls","deploy-docs":"gh-pages-with-token -d doc","generate-bundle-report":"webpack-bundle-analyzer dist/bundle-stats.json --mode=static --no-open --report dist/bundle-report.html","generate-routes":"node scripts/generate-routes","postbuild:docs":"apidoc -i doc/ -o doc/","postvalidate:ts":"tsc --noEmit --target es6 test/typescript-validate.ts","prebuild:browser":"mkdirp dist/","prebuild:docs":"mkdirp doc/","pretest":"standard && standard-markdown *.md","prevalidate:ts":"npm run -s build:ts","semantic-release":"semantic-release","start-fixtures-server":"octokit-fixtures-server","test":"nyc mocha test/mocha-node-setup.js \"test/**/*-test.js\"","test:browser":"cypress run --browser chrome","test:examples":"node test/examples.js","validate:ts":"tsc --target es6 index.d.ts"},"standard":{"globals":["describe","before","beforeEach","afterEach","after","it","expect","cy"]},"types":"index.d.ts","version":"15.18.0"}
 
 /***/ }),
-/* 478 */
+/* 483 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -43410,7 +43573,7 @@ module.exports = {
 
 
 /***/ }),
-/* 479 */
+/* 484 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43418,14 +43581,14 @@ module.exports = {
 
 module.exports = request
 
-const fetch = __webpack_require__(480).default
-const debug = __webpack_require__(481)('octokit:rest')
-const defaults = __webpack_require__(142)
+const fetch = __webpack_require__(485).default
+const debug = __webpack_require__(486)('octokit:rest')
+const defaults = __webpack_require__(143)
 const isPlainObject = __webpack_require__(65)
 const pick = __webpack_require__(69)
 
 const deprecate = __webpack_require__(15)
-const getBuffer = __webpack_require__(484)
+const getBuffer = __webpack_require__(489)
 const HttpError = __webpack_require__(78)
 
 function request (requestOptions) {
@@ -43524,24 +43687,36 @@ function request (requestOptions) {
 
 
 /***/ }),
-/* 480 */
+/* 485 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = exports = self.fetch;
+// ref: https://github.com/tc39/proposal-global
+var getGlobal = function () {
+	// the only reliable means to get the global object is
+	// `Function('return this')()`
+	// However, this causes CSP violations in Chrome apps.
+	if (typeof self !== 'undefined') { return self; }
+	if (typeof window !== 'undefined') { return window; }
+	if (typeof global !== 'undefined') { return global; }
+	throw new Error('unable to locate global object');
+}
+
+var global = getGlobal();
+
+module.exports = exports = global.fetch;
 
 // Needed for TypeScript and Webpack.
-exports.default = self.fetch.bind(self);
+exports.default = global.fetch.bind(global);
 
-exports.Headers = self.Headers;
-exports.Request = self.Request;
-exports.Response = self.Response;
-
+exports.Headers = global.Headers;
+exports.Request = global.Request;
+exports.Response = global.Response;
 
 /***/ }),
-/* 481 */
+/* 486 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43711,7 +43886,7 @@ function localstorage() {
   }
 }
 
-module.exports = __webpack_require__(482)(exports);
+module.exports = __webpack_require__(487)(exports);
 var formatters = module.exports.formatters;
 /**
  * Map %j to `JSON.stringify()`, since no Web Inspectors do that by default.
@@ -43729,7 +43904,7 @@ formatters.j = function (v) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(23)))
 
 /***/ }),
-/* 482 */
+/* 487 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43746,7 +43921,7 @@ function setup(env) {
   createDebug.disable = disable;
   createDebug.enable = enable;
   createDebug.enabled = enabled;
-  createDebug.humanize = __webpack_require__(483);
+  createDebug.humanize = __webpack_require__(488);
   Object.keys(env).forEach(function (key) {
     createDebug[key] = env[key];
   });
@@ -43985,7 +44160,7 @@ module.exports = setup;
 
 
 /***/ }),
-/* 483 */
+/* 488 */
 /***/ (function(module, exports) {
 
 /**
@@ -44153,7 +44328,7 @@ function plural(ms, msAbs, n, name) {
 
 
 /***/ }),
-/* 484 */
+/* 489 */
 /***/ (function(module, exports) {
 
 module.exports = getBufferResponse
@@ -44164,13 +44339,13 @@ function getBufferResponse (response) {
 
 
 /***/ }),
-/* 485 */
+/* 490 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = authenticationPlugin
 
-const authenticate = __webpack_require__(486)
-const beforeRequest = __webpack_require__(487)
+const authenticate = __webpack_require__(491)
+const beforeRequest = __webpack_require__(492)
 
 function authenticationPlugin (octokit) {
   const state = {
@@ -44182,7 +44357,7 @@ function authenticationPlugin (octokit) {
 
 
 /***/ }),
-/* 486 */
+/* 491 */
 /***/ (function(module, exports) {
 
 module.exports = authenticate
@@ -44223,13 +44398,13 @@ function authenticate (state, options) {
 
 
 /***/ }),
-/* 487 */
+/* 492 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = authenticationBeforeRequest
 
-const btoa = __webpack_require__(488)
-const uniq = __webpack_require__(489)
+const btoa = __webpack_require__(493)
+const uniq = __webpack_require__(494)
 
 const deprecate = __webpack_require__(15)
 
@@ -44277,7 +44452,7 @@ function authenticationBeforeRequest (state, options) {
 
 
 /***/ }),
-/* 488 */
+/* 493 */
 /***/ (function(module, exports) {
 
 module.exports = function _btoa(str) {
@@ -44286,10 +44461,10 @@ module.exports = function _btoa(str) {
 
 
 /***/ }),
-/* 489 */
+/* 494 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseUniq = __webpack_require__(490);
+var baseUniq = __webpack_require__(495);
 
 /**
  * Creates a duplicate-free version of an array, using
@@ -44317,14 +44492,14 @@ module.exports = uniq;
 
 
 /***/ }),
-/* 490 */
+/* 495 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var SetCache = __webpack_require__(73),
-    arrayIncludes = __webpack_require__(148),
-    arrayIncludesWith = __webpack_require__(149),
+    arrayIncludes = __webpack_require__(149),
+    arrayIncludesWith = __webpack_require__(150),
     cacheHas = __webpack_require__(74),
-    createSet = __webpack_require__(491),
+    createSet = __webpack_require__(496),
     setToArray = __webpack_require__(75);
 
 /** Used as the size to enable large array optimizations. */
@@ -44395,11 +44570,11 @@ module.exports = baseUniq;
 
 
 /***/ }),
-/* 491 */
+/* 496 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Set = __webpack_require__(156),
-    noop = __webpack_require__(492),
+var Set = __webpack_require__(157),
+    noop = __webpack_require__(497),
     setToArray = __webpack_require__(75);
 
 /** Used as references for various `Number` constants. */
@@ -44420,7 +44595,7 @@ module.exports = createSet;
 
 
 /***/ }),
-/* 492 */
+/* 497 */
 /***/ (function(module, exports) {
 
 /**
@@ -44443,7 +44618,7 @@ module.exports = noop;
 
 
 /***/ }),
-/* 493 */
+/* 498 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44454,9 +44629,9 @@ module.exports = apiPlugin
 const get = __webpack_require__(77)
 const pick = __webpack_require__(69)
 
-const method = __webpack_require__(494)
+const method = __webpack_require__(499)
 
-const ENDPOINT_DEFAULTS = __webpack_require__(498)
+const ENDPOINT_DEFAULTS = __webpack_require__(503)
 
 function apiPlugin (octokit) {
   Object.keys(ENDPOINT_DEFAULTS).forEach(namespaceName => {
@@ -44483,17 +44658,17 @@ function apiPlugin (octokit) {
 
 
 /***/ }),
-/* 494 */
+/* 499 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = apiMethod
 
-const clone = __webpack_require__(495)
+const clone = __webpack_require__(500)
 const defaultsDeep = __webpack_require__(55)
-const mapKeys = __webpack_require__(150)
+const mapKeys = __webpack_require__(151)
 
 const deprecate = __webpack_require__(15)
-const validate = __webpack_require__(496)
+const validate = __webpack_require__(501)
 
 function apiMethod (octokit, endpointDefaults, endpointParams, options, callback) {
   // Do not alter passed options (#786)
@@ -44524,10 +44699,10 @@ function apiMethod (octokit, endpointDefaults, endpointParams, options, callback
 
 
 /***/ }),
-/* 495 */
+/* 500 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseClone = __webpack_require__(159);
+var baseClone = __webpack_require__(160);
 
 /** Used to compose bitmasks for cloning. */
 var CLONE_SYMBOLS_FLAG = 4;
@@ -44566,7 +44741,7 @@ module.exports = clone;
 
 
 /***/ }),
-/* 496 */
+/* 501 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44574,7 +44749,7 @@ module.exports = clone;
 
 module.exports = validate
 
-const set = __webpack_require__(497)
+const set = __webpack_require__(502)
 const get = __webpack_require__(77)
 const HttpError = __webpack_require__(78)
 const deprecate = __webpack_require__(15)
@@ -44690,10 +44865,10 @@ function validate (endpointParams, options) {
 
 
 /***/ }),
-/* 497 */
+/* 502 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseSet = __webpack_require__(143);
+var baseSet = __webpack_require__(144);
 
 /**
  * Sets the value at `path` of `object`. If a portion of `path` doesn't exist,
@@ -44731,31 +44906,31 @@ module.exports = set;
 
 
 /***/ }),
-/* 498 */
+/* 503 */
 /***/ (function(module, exports) {
 
-module.exports = {"activity":{"checkNotificationThreadSubscription":{"method":"GET","params":{"id":{"alias":"thread_id","deprecated":true},"thread_id":{"required":true,"type":"integer"}},"url":"/notifications/threads/:thread_id/subscription"},"checkStarringRepo":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/user/starred/:owner/:repo"},"deleteNotificationThreadSubscription":{"method":"DELETE","params":{"id":{"alias":"thread_id","deprecated":true},"thread_id":{"required":true,"type":"integer"}},"url":"/notifications/threads/:thread_id/subscription"},"getEvents":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/events"},"getEventsForOrg":{"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/events"},"getEventsForRepo":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/events"},"getEventsForRepoIssues":{"alias":"issues.getEventsForRepo","deprecated":"`activity.getEventsForRepoIssues()` is deprecated, use `issues.getEventsForRepo`","params":{}},"getEventsForRepoNetwork":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/networks/:owner/:repo/events"},"getEventsForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/events"},"getEventsForUserOrg":{"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/events/orgs/:org"},"getEventsForUserPublic":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/events/public"},"getEventsReceived":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/received_events"},"getEventsReceivedPublic":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/received_events/public"},"getFeeds":{"method":"GET","params":{},"url":"/feeds"},"getNotificationThread":{"method":"GET","params":{"id":{"alias":"thread_id","deprecated":true},"thread_id":{"required":true,"type":"integer"}},"url":"/notifications/threads/:thread_id"},"getNotifications":{"method":"GET","params":{"all":{"type":"boolean"},"before":{"type":"string"},"page":{"type":"integer"},"participating":{"type":"boolean"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/notifications"},"getNotificationsForUser":{"method":"GET","params":{"all":{"type":"boolean"},"before":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"participating":{"type":"boolean"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"since":{"type":"string"}},"url":"/repos/:owner/:repo/notifications"},"getRepoSubscription":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/subscription"},"getStargazersForRepo":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/stargazers"},"getStarredRepos":{"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/user/starred"},"getStarredReposForUser":{"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"sort":{"enum":["created","updated"],"type":"string"},"username":{"required":true,"type":"string"}},"url":"/users/:username/starred"},"getWatchedRepos":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/subscriptions"},"getWatchedReposForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/subscriptions"},"getWatchersForRepo":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/subscribers"},"markNotificationThreadAsRead":{"method":"PATCH","params":{"id":{"alias":"thread_id","deprecated":true},"thread_id":{"required":true,"type":"integer"}},"url":"/notifications/threads/:thread_id"},"markNotificationsAsRead":{"method":"PUT","params":{"last_read_at":{"type":"string"}},"url":"/notifications"},"markNotificationsAsReadForRepo":{"method":"PUT","params":{"last_read_at":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/notifications"},"setNotificationThreadSubscription":{"method":"PUT","params":{"id":{"alias":"thread_id","deprecated":true},"ignored":{"type":"boolean"},"thread_id":{"required":true,"type":"integer"}},"url":"/notifications/threads/:thread_id/subscription"},"setRepoSubscription":{"method":"PUT","params":{"ignored":{"type":"boolean"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"subscribed":{"type":"boolean"}},"url":"/repos/:owner/:repo/subscription"},"starRepo":{"method":"PUT","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/user/starred/:owner/:repo"},"unstarRepo":{"method":"DELETE","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/user/starred/:owner/:repo"},"unwatchRepo":{"method":"DELETE","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/subscription"}},"apps":{"addRepoToInstallation":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"PUT","params":{"installation_id":{"required":true,"type":"integer"},"repository_id":{"required":true,"type":"integer"}},"url":"/user/installations/:installation_id/repositories/:repository_id"},"checkMarketplaceListingAccount":{"method":"GET","params":{"account_id":{"required":true,"type":"integer"},"id":{"alias":"account_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/marketplace_listing/accounts/:account_id"},"checkMarketplaceListingStubbedAccount":{"method":"GET","params":{"account_id":{"required":true,"type":"integer"},"id":{"alias":"account_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/marketplace_listing/stubbed/accounts/:account_id"},"createFromManifest":{"headers":{"accept":"application/vnd.github.fury-preview+json,application/vnd.github.machine-man-preview+json"},"method":"POST","params":{"code":{"required":true,"type":"string"}},"url":"/app-manifests/:code/conversions"},"createInstallationToken":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"POST","params":{"installation_id":{"required":true,"type":"integer"}},"url":"/app/installations/:installation_id/access_tokens"},"findOrgInstallation":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"org":{"required":true,"type":"string"}},"url":"/orgs/:org/installation"},"findRepoInstallation":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/installation"},"findUserInstallation":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"username":{"required":true,"type":"string"}},"url":"/users/:username/installation"},"get":{"method":"GET","params":{},"url":"/app"},"getForSlug":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"app_slug":{"required":true,"type":"string"}},"url":"/apps/:app_slug"},"getInstallation":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"installation_id":{"required":true,"type":"integer"}},"url":"/app/installations/:installation_id"},"getInstallationRepositories":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/installation/repositories"},"getInstallations":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/app/installations"},"getMarketplaceListingPlanAccounts":{"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"id":{"alias":"plan_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"plan_id":{"required":true,"type":"integer"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/marketplace_listing/plans/:plan_id/accounts"},"getMarketplaceListingPlans":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/marketplace_listing/plans"},"getMarketplaceListingStubbedPlanAccounts":{"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"id":{"alias":"plan_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"plan_id":{"required":true,"type":"integer"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/marketplace_listing/stubbed/plans/:plan_id/accounts"},"getMarketplaceListingStubbedPlans":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/marketplace_listing/stubbed/plans"},"removeRepoFromInstallation":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"DELETE","params":{"installation_id":{"required":true,"type":"integer"},"repository_id":{"required":true,"type":"integer"}},"url":"/user/installations/:installation_id/repositories/:repository_id"}},"authorization":{"check":{"method":"GET","params":{"access_token":{"required":true,"type":"string"},"client_id":{"required":true,"type":"string"}},"url":"/applications/:client_id/tokens/:access_token"},"create":{"method":"POST","params":{"client_id":{"type":"string"},"client_secret":{"type":"string"},"fingerprint":{"type":"string"},"note":{"required":true,"type":"string"},"note_url":{"type":"string"},"scopes":{"type":"string[]"}},"url":"/authorizations"},"delete":{"method":"DELETE","params":{"authorization_id":{"required":true,"type":"integer"},"id":{"alias":"authorization_id","deprecated":true}},"url":"/authorizations/:authorization_id"},"deleteGrant":{"method":"DELETE","params":{"grant_id":{"required":true,"type":"integer"},"id":{"alias":"grant_id","deprecated":true}},"url":"/applications/grants/:grant_id"},"get":{"method":"GET","params":{"authorization_id":{"required":true,"type":"integer"},"id":{"alias":"authorization_id","deprecated":true}},"url":"/authorizations/:authorization_id"},"getAll":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/authorizations"},"getGrant":{"method":"GET","params":{"grant_id":{"required":true,"type":"integer"},"id":{"alias":"grant_id","deprecated":true}},"url":"/applications/grants/:grant_id"},"getGrants":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/applications/grants"},"getOrCreateAuthorizationForApp":{"method":"PUT","params":{"client_id":{"required":true,"type":"string"},"client_secret":{"required":true,"type":"string"},"fingerprint":{"type":"string"},"note":{"type":"string"},"note_url":{"type":"string"},"scopes":{"type":"string[]"}},"url":"/authorizations/clients/:client_id"},"getOrCreateAuthorizationForAppAndFingerprint":{"method":"PUT","params":{"client_id":{"required":true,"type":"string"},"client_secret":{"required":true,"type":"string"},"fingerprint":{"required":true,"type":"string"},"note":{"type":"string"},"note_url":{"type":"string"},"scopes":{"type":"string[]"}},"url":"/authorizations/clients/:client_id/:fingerprint"},"reset":{"method":"POST","params":{"access_token":{"required":true,"type":"string"},"client_id":{"required":true,"type":"string"}},"url":"/applications/:client_id/tokens/:access_token"},"revoke":{"method":"DELETE","params":{"access_token":{"required":true,"type":"string"},"client_id":{"required":true,"type":"string"}},"url":"/applications/:client_id/tokens/:access_token"},"revokeGrant":{"method":"DELETE","params":{"access_token":{"required":true,"type":"string"},"client_id":{"required":true,"type":"string"}},"url":"/applications/:client_id/grants/:access_token"},"update":{"method":"PATCH","params":{"add_scopes":{"type":"string[]"},"authorization_id":{"required":true,"type":"integer"},"fingerprint":{"type":"string"},"id":{"alias":"authorization_id","deprecated":true},"note":{"type":"string"},"note_url":{"type":"string"},"remove_scopes":{"type":"string[]"},"scopes":{"type":"string[]"}},"url":"/authorizations/:authorization_id"}},"checks":{"create":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"POST","params":{"actions":{"type":"object[]"},"actions[].description":{"required":true,"type":"string"},"actions[].identifier":{"required":true,"type":"string"},"actions[].label":{"required":true,"type":"string"},"completed_at":{"type":"string"},"conclusion":{"enum":["success","failure","neutral","cancelled","timed_out","action_required"],"type":"string"},"details_url":{"type":"string"},"external_id":{"type":"string"},"head_sha":{"required":true,"type":"string"},"name":{"required":true,"type":"string"},"output":{"type":"object"},"output.annotations":{"type":"object[]"},"output.annotations[].annotation_level":{"enum":["notice","warning","failure"],"required":true,"type":"string"},"output.annotations[].end_column":{"type":"integer"},"output.annotations[].end_line":{"required":true,"type":"integer"},"output.annotations[].filename":{"alias":"output.annotations[].path","deprecated":true},"output.annotations[].message":{"required":true,"type":"string"},"output.annotations[].path":{"required":true,"type":"string"},"output.annotations[].raw_details":{"type":"string"},"output.annotations[].start_column":{"type":"integer"},"output.annotations[].start_line":{"required":true,"type":"integer"},"output.annotations[].title":{"type":"string"},"output.annotations[].warning_level":{"alias":"output.annotations[].annotation_level","deprecated":true},"output.images":{"type":"object[]"},"output.images[].alt":{"required":true,"type":"string"},"output.images[].caption":{"type":"string"},"output.images[].image_url":{"required":true,"type":"string"},"output.summary":{"required":true,"type":"string"},"output.text":{"type":"string"},"output.title":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"started_at":{"type":"string"},"status":{"enum":["queued","in_progress","completed"],"type":"string"}},"url":"/repos/:owner/:repo/check-runs"},"createSuite":{"headers":{"accept":"application/vnd.github.antiope-preview+json"},"method":"POST","params":{"head_sha":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-suites"},"get":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"check_run_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-runs/:check_run_id"},"getSuite":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"check_suite_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-suites/:check_suite_id"},"listAnnotations":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"check_run_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-runs/:check_run_id/annotations"},"listForRef":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"check_name":{"type":"string"},"filter":{"enum":["latest","all"],"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"status":{"enum":["queued","in_progress","completed"],"type":"string"}},"url":"/repos/:owner/:repo/commits/:ref/check-runs"},"listForSuite":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"check_name":{"type":"string"},"check_suite_id":{"required":true,"type":"integer"},"filter":{"enum":["latest","all"],"type":"string"},"id":{"alias":"check_suite_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"status":{"enum":["queued","in_progress","completed"],"type":"string"}},"url":"/repos/:owner/:repo/check-suites/:check_suite_id/check-runs"},"listSuitesForRef":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"app_id":{"type":"integer"},"check_name":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:ref/check-suites"},"requestSuites":{"deprecated":"use `rerequestSuite` instead","headers":{"accept":"application/vnd.github.antiope-preview+json"},"method":"POST","params":{"head_sha":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-suite-requests"},"rerequestSuite":{"headers":{"accept":"application/vnd.github.antiope-preview+json"},"method":"POST","params":{"check_suite_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-suites/:check_suite_id/rerequest"},"setSuitesPreferences":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"PATCH","params":{"auto_trigger_checks":{"type":"object[]"},"auto_trigger_checks[].app_id":{"required":true,"type":"integer"},"auto_trigger_checks[].setting":{"required":true,"type":"boolean"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-suites/preferences"},"update":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"PATCH","params":{"actions":{"type":"object[]"},"actions[].description":{"required":true,"type":"string"},"actions[].identifier":{"required":true,"type":"string"},"actions[].label":{"required":true,"type":"string"},"check_run_id":{"required":true,"type":"integer"},"completed_at":{"type":"string"},"conclusion":{"enum":["success","failure","neutral","cancelled","timed_out","action_required"],"type":"string"},"details_url":{"type":"string"},"external_id":{"type":"string"},"name":{"type":"string"},"output":{"type":"object"},"output.annotations":{"type":"object[]"},"output.annotations[].annotation_level":{"enum":["notice","warning","failure"],"required":true,"type":"string"},"output.annotations[].end_column":{"type":"integer"},"output.annotations[].end_line":{"required":true,"type":"integer"},"output.annotations[].filename":{"alias":"output.annotations[].path","deprecated":true},"output.annotations[].message":{"required":true,"type":"string"},"output.annotations[].path":{"required":true,"type":"string"},"output.annotations[].raw_details":{"type":"string"},"output.annotations[].start_column":{"type":"integer"},"output.annotations[].start_line":{"required":true,"type":"integer"},"output.annotations[].title":{"type":"string"},"output.annotations[].warning_level":{"alias":"output.annotations[].annotation_level","deprecated":true},"output.images":{"type":"object[]"},"output.images[].alt":{"required":true,"type":"string"},"output.images[].caption":{"type":"string"},"output.images[].image_url":{"required":true,"type":"string"},"output.summary":{"required":true,"type":"string"},"output.text":{"type":"string"},"output.title":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"started_at":{"type":"string"},"status":{"enum":["queued","in_progress","completed"],"type":"string"}},"url":"/repos/:owner/:repo/check-runs/:check_run_id"}},"emojis":{"get":{"method":"GET","params":{},"url":"/emojis"}},"enterprise":{"createOrg":{"method":"POST","params":{"admin":{"required":true,"type":"string"},"login":{"required":true,"type":"string"},"profile_name":{"type":"string"}},"url":"/admin/organizations"},"createPreReceiveEnvironment":{"method":"POST","params":{"image_url":{"required":true,"type":"string"},"name":{"required":true,"type":"string"}},"url":"/admin/pre-receive-environments"},"createPreReceiveHook":{"method":"POST","params":{"allow_downstream_configuration":{"type":"boolean"},"enforcement":{"type":"string"},"environment":{"required":true,"type":"object"},"name":{"required":true,"type":"string"},"script":{"required":true,"type":"string"},"script_repository":{"required":true,"type":"object"}},"url":"/admin/pre-receive-hooks"},"deletePreReceiveEnvironment":{"method":"DELETE","params":{"id":{"required":true,"type":"string"}},"url":"/admin/pre-receive-environments/:id"},"deletePreReceiveHook":{"method":"DELETE","params":{"id":{"required":true,"type":"string"}},"url":"/admin/pre_receive_hooks/:id"},"editPreReceiveEnvironment":{"method":"PATCH","params":{"id":{"required":true,"type":"string"},"image_url":{"required":true,"type":"string"},"name":{"required":true,"type":"string"}},"url":"/admin/pre-receive-environments/:id"},"editPreReceiveHook":{"method":"PATCH","params":{"hook":{"mapTo":"data","required":true,"type":"object"},"id":{"required":true,"type":"string"}},"url":"/admin/pre_receive_hooks/:id"},"getLicense":{"method":"GET","params":{},"url":"/enterprise/settings/license"},"getPreReceiveEnvironment":{"method":"GET","params":{"id":{"required":true,"type":"string"}},"url":"/admin/pre-receive-environments/:id"},"getPreReceiveEnvironmentDownloadStatus":{"method":"GET","params":{"id":{"required":true,"type":"string"}},"url":"/admin/pre-receive-environments/:id/downloads/latest"},"getPreReceiveEnvironments":{"method":"GET","params":{},"url":"/admin/pre-receive-environments"},"getPreReceiveHook":{"method":"GET","params":{"id":{"required":true,"type":"string"}},"url":"/admin/pre-receive-hooks/:id"},"getPreReceiveHooks":{"method":"GET","params":{},"url":"/admin/pre-receive-hooks"},"queueIndexingJob":{"method":"POST","params":{"target":{"required":true,"type":"string"}},"url":"/staff/indexing_jobs"},"stats":{"method":"GET","params":{"type":{"enum":["issues","hooks","milestones","orgs","comments","pages","users","gists","pulls","repos","all"],"required":true,"type":"string"}},"url":"/enterprise/stats/:type"},"syncLdapForTeam":{"method":"POST","params":{"team_id":{"required":true,"type":"integer"}},"url":"/admin/ldap/teams/:team_id/sync"},"syncLdapForUser":{"method":"POST","params":{"username":{"required":true,"type":"string"}},"url":"/admin/ldap/users/:username/sync"},"triggerPreReceiveEnvironmentDownload":{"method":"POST","params":{"id":{"required":true,"type":"string"}},"url":"/admin/pre-receive-environments/:id/downloads"},"updateLdapForTeam":{"method":"PATCH","params":{"ldap_dn":{"required":true,"type":"string"},"team_id":{"required":true,"type":"integer"}},"url":"/admin/ldap/teams/:team_id/mapping"},"updateLdapForUser":{"method":"PATCH","params":{"ldap_dn":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/admin/ldap/users/:username/mapping"}},"gists":{"checkStar":{"method":"GET","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id/star"},"create":{"method":"POST","params":{"description":{"type":"string"},"files":{"required":true,"type":"object"},"files.content":{"type":"string"},"public":{"type":"boolean"}},"url":"/gists"},"createComment":{"method":"POST","params":{"body":{"required":true,"type":"string"},"gist_id":{"required":true,"type":"string"}},"url":"/gists/:gist_id/comments"},"delete":{"method":"DELETE","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id"},"deleteComment":{"method":"DELETE","params":{"comment_id":{"required":true,"type":"integer"},"gist_id":{"required":true,"type":"string"},"id":{"alias":"comment_id","deprecated":true}},"url":"/gists/:gist_id/comments/:comment_id"},"edit":{"method":"PATCH","params":{"description":{"type":"string"},"files":{"type":"object"},"files.content":{"type":"string"},"files.filename":{"type":"string"},"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id"},"editComment":{"method":"PATCH","params":{"body":{"required":true,"type":"string"},"comment_id":{"required":true,"type":"integer"},"gist_id":{"required":true,"type":"string"},"id":{"alias":"comment_id","deprecated":true}},"url":"/gists/:gist_id/comments/:comment_id"},"fork":{"method":"POST","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id/forks"},"get":{"method":"GET","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id"},"getAll":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/gists"},"getComment":{"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"gist_id":{"required":true,"type":"string"},"id":{"alias":"comment_id","deprecated":true}},"url":"/gists/:gist_id/comments/:comment_id"},"getComments":{"method":"GET","params":{"gist_id":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/gists/:gist_id/comments"},"getCommits":{"method":"GET","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/gists/:gist_id/commits"},"getForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"},"username":{"required":true,"type":"string"}},"url":"/users/:username/gists"},"getForks":{"method":"GET","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/gists/:gist_id/forks"},"getPublic":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/gists/public"},"getRevision":{"method":"GET","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true},"sha":{"required":true,"type":"string"}},"url":"/gists/:gist_id/:sha"},"getStarred":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/gists/starred"},"star":{"method":"PUT","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id/star"},"unstar":{"method":"DELETE","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id/star"}},"gitdata":{"createBlob":{"method":"POST","params":{"content":{"required":true,"type":"string"},"encoding":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/blobs"},"createCommit":{"method":"POST","params":{"author":{"type":"object"},"committer":{"type":"object"},"message":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"parents":{"required":true,"type":"string[]"},"repo":{"required":true,"type":"string"},"tree":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/commits"},"createReference":{"method":"POST","params":{"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/refs"},"createTag":{"method":"POST","params":{"message":{"required":true,"type":"string"},"object":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"tag":{"required":true,"type":"string"},"tagger":{"type":"object"},"tagger.date":{"type":"string"},"tagger.email":{"type":"string"},"tagger.name":{"type":"string"},"type":{"enum":["commit","tree","blob"],"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/tags"},"createTree":{"method":"POST","params":{"base_tree":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"tree":{"required":true,"type":"object[]"},"tree[].content":{"type":"string"},"tree[].mode":{"enum":["100644","100755","040000","160000","120000"],"type":"string"},"tree[].path":{"type":"string"},"tree[].sha":{"type":"string"},"tree[].type":{"enum":["blob","tree","commit"],"type":"string"}},"url":"/repos/:owner/:repo/git/trees"},"deleteReference":{"method":"DELETE","params":{"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/refs/:ref"},"getBlob":{"method":"GET","params":{"file_sha":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"alias":"file_sha","deprecated":true}},"url":"/repos/:owner/:repo/git/blobs/:file_sha"},"getCommit":{"method":"GET","params":{"commit_sha":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"alias":"commit_sha","deprecated":true}},"url":"/repos/:owner/:repo/git/commits/:commit_sha"},"getCommitSignatureVerification":{"alias":"gitdata.getCommit","deprecated":"`gitdata.getCommitSignatureVerification()` is deprecated, use `gitdata.getCommit()`","params":{}},"getReference":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/refs/:ref"},"getReferences":{"method":"GET","params":{"namespace":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/refs/:namespace"},"getTag":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"alias":"tag_sha","deprecated":true},"tag_sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/tags/:tag_sha"},"getTagSignatureVerification":{"alias":"gitdata.getTag","deprecated":"`gitdata.getTagSignatureVerification()` is deprecated, use `gitdata.getTag()`","params":{}},"getTags":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/refs/tags"},"getTree":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"recursive":{"enum":[1],"type":"integer"},"repo":{"required":true,"type":"string"},"sha":{"alias":"tree_sha","deprecated":true},"tree_sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/trees/:tree_sha"},"updateReference":{"method":"PATCH","params":{"force":{"type":"boolean"},"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/refs/:ref"}},"integrations":{"addRepoToInstallation":{"alias":"apps.addRepoToInstallation","deprecated":"`integrations.addRepoToInstallation()` is deprecated, use `apps.addRepoToInstallation()`","params":{}},"createInstallationToken":{"alias":"apps.createInstallationToken","deprecated":"`integrations.createInstallationToken()` is deprecated, use `apps.createInstallationToken()`","params":{}},"getInstallationRepositories":{"alias":"apps.getInstallationRepositories","deprecated":"`integrations.getInstallationRepositories()` is deprecated, use `apps.getInstallationRepositories()`","params":{}},"getInstallations":{"alias":"apps.getInstallations","deprecated":"`integrations.getInstallations()` is deprecated, use `apps.getInstallations()`","params":{}},"removeRepoFromInstallation":{"alias":"apps.removeRepoFromInstallation","deprecated":"`integrations.removeRepoFromInstallation()` is deprecated, use `apps.removeRepoFromInstallation()`","params":{}}},"issues":{"addAssigneesToIssue":{"method":"POST","params":{"assignees":{"type":"string[]"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/assignees"},"addLabels":{"method":"POST","params":{"labels":{"mapTo":"data","required":true,"type":"string[]"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/labels"},"checkAssignee":{"method":"GET","params":{"assignee":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/assignees/:assignee"},"create":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"assignee":{"type":"string"},"assignees":{"type":"string[]"},"body":{"type":"string"},"labels":{"type":"string[]"},"milestone":{"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"title":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues"},"createComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"body":{"required":true,"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/comments"},"createLabel":{"method":"POST","params":{"color":{"required":true,"type":"string"},"description":{"type":"string"},"name":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/labels"},"createMilestone":{"method":"POST","params":{"description":{"type":"string"},"due_on":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"state":{"enum":["open","closed"],"type":"string"},"title":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/milestones"},"deleteComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"DELETE","params":{"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/comments/:comment_id"},"deleteLabel":{"method":"DELETE","params":{"name":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/labels/:name"},"deleteMilestone":{"method":"DELETE","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/milestones/:number"},"edit":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"PATCH","params":{"assignee":{"type":"string"},"assignees":{"type":"string[]"},"body":{"type":"string"},"labels":{"type":"string[]"},"milestone":{"allowNull":true,"type":"integer"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"state":{"enum":["open","closed"],"type":"string"},"title":{"type":"string"}},"url":"/repos/:owner/:repo/issues/:number"},"editComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"PATCH","params":{"body":{"required":true,"type":"string"},"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/comments/:comment_id"},"get":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number"},"getAll":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"filter":{"enum":["assigned","created","mentioned","subscribed","all"],"type":"string"},"labels":{"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"},"sort":{"enum":["created","updated","comments"],"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/issues"},"getAssignees":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/assignees"},"getComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/comments/:comment_id"},"getComments":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"since":{"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/comments"},"getCommentsForRepo":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"since":{"type":"string"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/repos/:owner/:repo/issues/comments"},"getEvent":{"method":"GET","params":{"event_id":{"required":true,"type":"integer"},"id":{"alias":"event_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/events/:event_id"},"getEvents":{"method":"GET","params":{"issue_number":{"alias":"number","deprecated":true},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/events"},"getEventsForRepo":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/events"},"getEventsTimeline":{"headers":{"accept":"application/vnd.github.mockingbird-preview+json"},"method":"GET","params":{"issue_number":{"alias":"number","deprecated":true},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/timeline"},"getForOrg":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"filter":{"enum":["assigned","created","mentioned","subscribed","all"],"type":"string"},"labels":{"type":"string"},"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"},"sort":{"enum":["created","updated","comments"],"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/orgs/:org/issues"},"getForRepo":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"assignee":{"type":"string"},"creator":{"type":"string"},"direction":{"enum":["asc","desc"],"type":"string"},"labels":{"type":"string"},"mentioned":{"type":"string"},"milestone":{"type":"string","validation":"^([0-9]+|none|\\*)$"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"since":{"type":"string"},"sort":{"enum":["created","updated","comments"],"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/repos/:owner/:repo/issues"},"getForUser":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"filter":{"enum":["assigned","created","mentioned","subscribed","all"],"type":"string"},"labels":{"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"},"sort":{"enum":["created","updated","comments"],"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/user/issues"},"getIssueLabels":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/labels"},"getLabel":{"method":"GET","params":{"name":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/labels/:name"},"getLabels":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/labels"},"getMilestone":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/milestones/:number"},"getMilestoneLabels":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/milestones/:number/labels"},"getMilestones":{"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"sort":{"enum":["due_on","completeness"],"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/repos/:owner/:repo/milestones"},"lock":{"method":"PUT","params":{"lock_reason":{"enum":["off-topic","too heated","resolved","spam"],"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/lock"},"removeAllLabels":{"method":"DELETE","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/labels"},"removeAssigneesFromIssue":{"method":"DELETE","params":{"assignees":{"type":"string[]"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/assignees"},"removeLabel":{"method":"DELETE","params":{"name":{"required":true,"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/labels/:name"},"replaceAllLabels":{"method":"PUT","params":{"labels":{"mapTo":"data","required":true,"type":"string[]"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/labels"},"unlock":{"method":"DELETE","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/lock"},"updateLabel":{"method":"PATCH","params":{"color":{"type":"string"},"current_name":{"required":true,"type":"string"},"description":{"type":"string"},"name":{"type":"string"},"oldname":{"alias":"current_name","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/labels/:current_name"},"updateMilestone":{"method":"PATCH","params":{"description":{"type":"string"},"due_on":{"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"state":{"enum":["open","closed"],"type":"string"},"title":{"type":"string"}},"url":"/repos/:owner/:repo/milestones/:number"}},"meta":{"get":{"method":"GET","params":{},"url":"/meta"}},"migrations":{"cancelImport":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"DELETE","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/import"},"deleteArchiveForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"DELETE","params":{"migration_id":{"required":true,"type":"integer"}},"url":"/user/migrations/:migration_id/archive"},"deleteMigrationArchive":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"DELETE","params":{"id":{"alias":"migration_id","deprecated":true},"migration_id":{"required":true,"type":"integer"},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/migrations/:migration_id/archive"},"getArchiveForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"GET","params":{"migration_id":{"required":true,"type":"integer"}},"url":"/user/migrations/:migration_id/archive"},"getImportCommitAuthors":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"since":{"type":"string"}},"url":"/repos/:owner/:repo/import/authors"},"getImportProgress":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/import"},"getLargeImportFiles":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"GET","params":{"name":{"alias":"repo","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/import/large_files"},"getMigrationArchiveLink":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"GET","params":{"id":{"alias":"migration_id","deprecated":true},"migration_id":{"required":true,"type":"integer"},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/migrations/:migration_id/archive"},"getMigrationStatus":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"GET","params":{"id":{"alias":"migration_id","deprecated":true},"migration_id":{"required":true,"type":"integer"},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/migrations/:migration_id"},"getMigrations":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/migrations"},"getStatusForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"GET","params":{"migration_id":{"required":true,"type":"integer"}},"url":"/user/migrations/:migration_id"},"listForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/migrations"},"mapImportCommitAuthor":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"PATCH","params":{"author_id":{"required":true,"type":"integer"},"email":{"type":"string"},"name":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/import/authors/:author_id"},"setImportLfsPreference":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"PATCH","params":{"name":{"alias":"repo","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"use_lfs":{"enum":["opt_in","opt_out"],"required":true,"type":"string"}},"url":"/repos/:owner/:repo/import/lfs"},"startForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"POST","params":{"exclude_attachments":{"type":"boolean"},"lock_repositories":{"type":"boolean"},"repositories":{"required":true,"type":"string[]"}},"url":"/user/migrations"},"startImport":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"PUT","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"tfvc_project":{"type":"string"},"vcs":{"enum":["subversion","git","mercurial","tfvc"],"type":"string"},"vcs_password":{"type":"string"},"vcs_url":{"required":true,"type":"string"},"vcs_username":{"type":"string"}},"url":"/repos/:owner/:repo/import"},"startMigration":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"POST","params":{"exclude_attachments":{"type":"boolean"},"lock_repositories":{"type":"boolean"},"org":{"required":true,"type":"string"},"repositories":{"required":true,"type":"string[]"}},"url":"/orgs/:org/migrations"},"unlockRepoForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"DELETE","params":{"migration_id":{"required":true,"type":"integer"},"repo_name":{"required":true,"type":"string"}},"url":"/user/migrations/:migration_id/repos/:repo_name/lock"},"unlockRepoLockedForMigration":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"DELETE","params":{"id":{"alias":"migration_id","deprecated":true},"migration_id":{"required":true,"type":"integer"},"org":{"required":true,"type":"string"},"repo_name":{"required":true,"type":"string"}},"url":"/orgs/:org/migrations/:migration_id/repos/:repo_name/lock"},"updateImport":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"PATCH","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"vcs_password":{"type":"string"},"vcs_username":{"type":"string"}},"url":"/repos/:owner/:repo/import"}},"misc":{"getCodeOfConduct":{"headers":{"accept":"application/vnd.github.scarlet-witch-preview+json"},"method":"GET","params":{"key":{"required":true,"type":"string"}},"url":"/codes_of_conduct/:key"},"getCodesOfConduct":{"headers":{"accept":"application/vnd.github.scarlet-witch-preview+json"},"method":"GET","params":{},"url":"/codes_of_conduct"},"getEmojis":{"alias":"emojis.get","deprecated":"`misc.getEmojis()` is deprecated, use `emojis.get()`","params":{}},"getGitignoreTemplate":{"method":"GET","params":{"name":{"required":true,"type":"string"}},"url":"/gitignore/templates/:name"},"getGitignoreTemplates":{"method":"GET","params":{},"url":"/gitignore/templates"},"getLicense":{"method":"GET","params":{"license":{"required":true,"type":"string"}},"url":"/licenses/:license"},"getLicenses":{"method":"GET","params":{},"url":"/licenses"},"getMeta":{"alias":"meta.get","deprecated":"`misc.getMeta()` is deprecated, use `meta.get()`","params":{}},"getRateLimit":{"method":"GET","params":{},"url":"/rate_limit"},"getRepoCodeOfConduct":{"headers":{"accept":"application/vnd.github.scarlet-witch-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/community/code_of_conduct"},"getRepoLicense":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/license"},"renderMarkdown":{"method":"POST","params":{"context":{"type":"string"},"mode":{"enum":["markdown","gfm"],"type":"string"},"text":{"required":true,"type":"string"}},"url":"/markdown"},"renderMarkdownRaw":{"headers":{"content-type":"text/plain; charset=utf-8"},"method":"POST","params":{"data":{"mapTo":"data","required":true,"type":"string"}},"url":"/markdown/raw"}},"orgs":{"addOrgMembership":{"method":"PUT","params":{"org":{"required":true,"type":"string"},"role":{"enum":["admin","member"],"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/memberships/:username"},"addTeamMembership":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"PUT","params":{"id":{"alias":"team_id","deprecated":true},"role":{"enum":["member","maintainer"],"type":"string"},"team_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/teams/:team_id/memberships/:username"},"addTeamRepo":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"PUT","params":{"id":{"alias":"team_id","deprecated":true},"org":{"alias":"owner","deprecated":true},"owner":{"required":true,"type":"string"},"permission":{"enum":["pull","push","admin"],"type":"string"},"repo":{"required":true,"type":"string"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/repos/:owner/:repo"},"blockUser":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"PUT","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/blocks/:username"},"checkBlockedUser":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"GET","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/blocks/:username"},"checkMembership":{"method":"GET","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/members/:username"},"checkPublicMembership":{"method":"GET","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/public_members/:username"},"checkTeamRepo":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/repos/:owner/:repo"},"concealMembership":{"method":"DELETE","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/public_members/:username"},"convertMemberToOutsideCollaborator":{"method":"PUT","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/outside_collaborators/:username"},"createHook":{"method":"POST","params":{"active":{"type":"boolean"},"config":{"required":true,"type":"object"},"config.content_type":{"type":"string"},"config.insecure_ssl":{"type":"string"},"config.secret":{"type":"string"},"config.url":{"required":true,"type":"string"},"events":{"type":"string[]"},"name":{"required":true,"type":"string"},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/hooks"},"createInvitation":{"headers":{"accept":"application/vnd.github.dazzler-preview+json"},"method":"POST","params":{"email":{"type":"string"},"invitee_id":{"type":"integer"},"org":{"required":true,"type":"string"},"role":{"enum":["admin","direct_member","billing_manager"],"type":"string"},"team_ids":{"type":"integer[]"}},"url":"/orgs/:org/invitations"},"createTeam":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"POST","params":{"description":{"type":"string"},"maintainers":{"type":"string[]"},"name":{"required":true,"type":"string"},"org":{"required":true,"type":"string"},"parent_team_id":{"type":"integer"},"permission":{"enum":["pull","push","admin"],"type":"string"},"privacy":{"enum":["secret","closed"],"type":"string"},"repo_names":{"type":"string[]"}},"url":"/orgs/:org/teams"},"deleteHook":{"method":"DELETE","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/hooks/:hook_id"},"deleteTeam":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"DELETE","params":{"id":{"alias":"team_id","deprecated":true},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id"},"deleteTeamRepo":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"DELETE","params":{"id":{"alias":"team_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/repos/:owner/:repo"},"editHook":{"method":"PATCH","params":{"active":{"type":"boolean"},"config":{"type":"object"},"config.content_type":{"type":"string"},"config.insecure_ssl":{"type":"string"},"config.secret":{"type":"string"},"config.url":{"required":true,"type":"string"},"events":{"type":"string[]"},"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/hooks/:hook_id"},"editTeam":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"PATCH","params":{"description":{"type":"string"},"id":{"alias":"team_id","deprecated":true},"name":{"required":true,"type":"string"},"parent_team_id":{"type":"integer"},"permission":{"enum":["pull","push","admin"],"type":"string"},"privacy":{"type":"string"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id"},"get":{"method":"GET","params":{"org":{"required":true,"type":"string"}},"url":"/orgs/:org"},"getAll":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/organizations"},"getBlockedUsers":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"GET","params":{"org":{"required":true,"type":"string"}},"url":"/orgs/:org/blocks"},"getChildTeams":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/teams"},"getForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/orgs"},"getHook":{"method":"GET","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/hooks/:hook_id"},"getHooks":{"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/hooks"},"getInvitationTeams":{"method":"GET","params":{"invitation_id":{"required":true,"type":"integer"},"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/invitations/:invitation_id/teams"},"getMembers":{"method":"GET","params":{"filter":{"enum":["2fa_disabled","all"],"type":"string"},"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"role":{"enum":["all","admin","member"],"type":"string"}},"url":"/orgs/:org/members"},"getOrgMembership":{"method":"GET","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/memberships/:username"},"getOutsideCollaborators":{"method":"GET","params":{"filter":{"enum":["2fa_disabled","all"],"type":"string"},"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/outside_collaborators"},"getPendingOrgInvites":{"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/invitations"},"getPendingTeamInvites":{"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/invitations"},"getPublicMembers":{"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/public_members"},"getTeam":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id"},"getTeamMembers":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"role":{"enum":["member","maintainer","all"],"type":"string"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/members"},"getTeamMembership":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"team_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/teams/:team_id/memberships/:username"},"getTeamRepos":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/repos"},"getTeams":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/teams"},"pingHook":{"method":"POST","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/hooks/:hook_id/pings"},"publicizeMembership":{"method":"PUT","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/public_members/:username"},"removeMember":{"method":"DELETE","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/members/:username"},"removeOrgMembership":{"method":"DELETE","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/memberships/:username"},"removeOutsideCollaborator":{"method":"DELETE","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/outside_collaborators/:username"},"removeTeamMembership":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"DELETE","params":{"id":{"alias":"team_id","deprecated":true},"team_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/teams/:team_id/memberships/:username"},"unblockUser":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"DELETE","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/blocks/:username"},"update":{"method":"PATCH","params":{"billing_email":{"type":"string"},"company":{"type":"string"},"default_repository_permission":{"enum":["read","write","admin","none"],"type":"string"},"description":{"type":"string"},"email":{"type":"string"},"has_organization_projects":{"type":"boolean"},"has_repository_projects":{"type":"boolean"},"location":{"type":"string"},"members_can_create_repositories":{"type":"boolean"},"name":{"type":"string"},"org":{"required":true,"type":"string"}},"url":"/orgs/:org"}},"projects":{"addCollaborator":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"PUT","params":{"id":{"alias":"project_id","deprecated":true},"permission":{"enum":["read","write","admin"],"type":"string"},"project_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/projects/:project_id/collaborators/:username"},"createOrgProject":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"POST","params":{"body":{"type":"string"},"name":{"required":true,"type":"string"},"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/projects"},"createProjectCard":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"POST","params":{"column_id":{"required":true,"type":"integer"},"content_id":{"type":"integer"},"content_type":{"type":"string"},"note":{"type":"string"}},"url":"/projects/columns/:column_id/cards"},"createProjectColumn":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"POST","params":{"id":{"alias":"project_id","deprecated":true},"name":{"required":true,"type":"string"},"project_id":{"required":true,"type":"integer"}},"url":"/projects/:project_id/columns"},"createRepoProject":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"POST","params":{"body":{"type":"string"},"name":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/projects"},"deleteProject":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"DELETE","params":{"id":{"alias":"project_id","deprecated":true},"project_id":{"required":true,"type":"integer"}},"url":"/projects/:project_id"},"deleteProjectCard":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"DELETE","params":{"card_id":{"required":true,"type":"integer"},"id":{"alias":"card_id","deprecated":true}},"url":"/projects/columns/cards/:card_id"},"deleteProjectColumn":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"DELETE","params":{"column_id":{"required":true,"type":"integer"},"id":{"alias":"column_id","deprecated":true}},"url":"/projects/columns/:column_id"},"getCollaborators":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"affiliation":{"enum":["outside","direct","all"],"type":"string"},"id":{"alias":"project_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"project_id":{"required":true,"type":"integer"}},"url":"/projects/:project_id/collaborators"},"getOrgProjects":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/orgs/:org/projects"},"getProject":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"id":{"alias":"project_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"project_id":{"required":true,"type":"integer"}},"url":"/projects/:project_id"},"getProjectCard":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"card_id":{"required":true,"type":"integer"},"id":{"alias":"card_id","deprecated":true}},"url":"/projects/columns/cards/:card_id"},"getProjectCards":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"archived_state":{"enum":["all","archived","not_archived"],"type":"string"},"column_id":{"required":true,"type":"integer"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/projects/columns/:column_id/cards"},"getProjectColumn":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"column_id":{"required":true,"type":"integer"},"id":{"alias":"column_id","deprecated":true}},"url":"/projects/columns/:column_id"},"getProjectColumns":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"id":{"alias":"project_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"project_id":{"required":true,"type":"integer"}},"url":"/projects/:project_id/columns"},"getRepoProjects":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/repos/:owner/:repo/projects"},"getUserPermissionLevel":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"id":{"alias":"project_id","deprecated":true},"project_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/projects/:project_id/collaborators/:username/permission"},"moveProjectCard":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"POST","params":{"card_id":{"required":true,"type":"integer"},"column_id":{"type":"integer"},"id":{"alias":"card_id","deprecated":true},"position":{"required":true,"type":"string","validation":"^(top|bottom|after:\\d+)$"}},"url":"/projects/columns/cards/:card_id/moves"},"moveProjectColumn":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"POST","params":{"column_id":{"required":true,"type":"integer"},"id":{"alias":"column_id","deprecated":true},"position":{"required":true,"type":"string","validation":"^(first|last|after:\\d+)$"}},"url":"/projects/columns/:column_id/moves"},"removeCollaborator":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"DELETE","params":{"id":{"alias":"project_id","deprecated":true},"project_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/projects/:project_id/collaborators/:username"},"updateProject":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"PATCH","params":{"body":{"type":"string"},"id":{"alias":"project_id","deprecated":true},"name":{"type":"string"},"organization_permission":{"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"project_id":{"required":true,"type":"integer"},"public":{"type":"boolean"},"state":{"enum":["open","closed"],"type":"string"}},"url":"/projects/:project_id"},"updateProjectCard":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"PATCH","params":{"archived":{"type":"boolean"},"card_id":{"required":true,"type":"integer"},"id":{"alias":"card_id","deprecated":true},"note":{"type":"string"}},"url":"/projects/columns/cards/:card_id"},"updateProjectColumn":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"PATCH","params":{"column_id":{"required":true,"type":"integer"},"id":{"alias":"column_id","deprecated":true},"name":{"required":true,"type":"string"}},"url":"/projects/columns/:column_id"}},"pullRequests":{"checkMerged":{"headers":{"accept":"application/vnd.github.polaris-preview"},"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/merge"},"create":{"method":"POST","params":{"base":{"required":true,"type":"string"},"body":{"type":"string"},"head":{"required":true,"type":"string"},"maintainer_can_modify":{"type":"boolean"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"title":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls"},"createComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"body":{"required":true,"type":"string"},"commit_id":{"required":true,"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"path":{"required":true,"type":"string"},"position":{"required":true,"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/comments"},"createCommentReply":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"body":{"required":true,"type":"string"},"in_reply_to":{"required":true,"type":"integer"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/comments"},"createFromIssue":{"method":"POST","params":{"base":{"required":true,"type":"string"},"head":{"required":true,"type":"string"},"issue":{"required":true,"type":"integer"},"maintainer_can_modify":{"type":"boolean"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls"},"createReview":{"method":"POST","params":{"body":{"type":"string"},"comments":{"type":"object[]"},"comments[].body":{"required":true,"type":"string"},"comments[].path":{"required":true,"type":"string"},"comments[].position":{"required":true,"type":"integer"},"commit_id":{"type":"string"},"event":{"enum":["APPROVE","REQUEST_CHANGES","COMMENT"],"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/reviews"},"createReviewRequest":{"method":"POST","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"reviewers":{"type":"string[]"},"team_reviewers":{"type":"string[]"}},"url":"/repos/:owner/:repo/pulls/:number/requested_reviewers"},"deleteComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"DELETE","params":{"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/comments/:comment_id"},"deletePendingReview":{"method":"DELETE","params":{"id":{"alias":"review_id","deprecated":true},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"review_id":{"required":true,"type":"integer"}},"url":"/repos/:owner/:repo/pulls/:number/reviews/:review_id"},"deleteReviewRequest":{"method":"DELETE","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"reviewers":{"type":"string[]"},"team_reviewers":{"type":"string[]"}},"url":"/repos/:owner/:repo/pulls/:number/requested_reviewers"},"dismissReview":{"method":"PUT","params":{"id":{"alias":"review_id","deprecated":true},"message":{"required":true,"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"review_id":{"required":true,"type":"integer"}},"url":"/repos/:owner/:repo/pulls/:number/reviews/:review_id/dismissals"},"editComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"PATCH","params":{"body":{"required":true,"type":"string"},"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/comments/:comment_id"},"get":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number"},"getAll":{"method":"GET","params":{"base":{"type":"string"},"direction":{"enum":["asc","desc"],"type":"string"},"head":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"sort":{"enum":["created","updated","popularity","long-running"],"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/repos/:owner/:repo/pulls"},"getComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/comments/:comment_id"},"getComments":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"since":{"type":"string"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/comments"},"getCommentsForRepo":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"since":{"type":"string"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/repos/:owner/:repo/pulls/comments"},"getCommits":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/commits"},"getFiles":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/files"},"getReview":{"method":"GET","params":{"id":{"alias":"review_id","deprecated":true},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"review_id":{"required":true,"type":"integer"}},"url":"/repos/:owner/:repo/pulls/:number/reviews/:review_id"},"getReviewComments":{"method":"GET","params":{"id":{"alias":"review_id","deprecated":true},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"review_id":{"required":true,"type":"integer"}},"url":"/repos/:owner/:repo/pulls/:number/reviews/:review_id/comments"},"getReviewRequests":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/requested_reviewers"},"getReviews":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/reviews"},"merge":{"headers":{"accept":"application/vnd.github.polaris-preview"},"method":"PUT","params":{"commit_message":{"type":"string"},"commit_title":{"type":"string"},"merge_method":{"enum":["merge","squash","rebase"],"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/merge"},"submitReview":{"method":"POST","params":{"body":{"type":"string"},"event":{"enum":["APPROVE","REQUEST_CHANGES","COMMENT"],"required":true,"type":"string"},"id":{"alias":"review_id","deprecated":true},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"review_id":{"required":true,"type":"integer"}},"url":"/repos/:owner/:repo/pulls/:number/reviews/:review_id/events"},"update":{"method":"PATCH","params":{"base":{"type":"string"},"body":{"type":"string"},"maintainer_can_modify":{"type":"boolean"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"state":{"enum":["open","closed"],"type":"string"},"title":{"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number"}},"reactions":{"createForCommitComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"comment_id":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"required":true,"type":"string"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/comments/:comment_id/reactions"},"createForIssue":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"required":true,"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/reactions"},"createForIssueComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"comment_id":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"required":true,"type":"string"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/comments/:comment_id/reactions"},"createForPullRequestReviewComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"comment_id":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"required":true,"type":"string"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/comments/:comment_id/reactions"},"createForTeamDiscussion":{"headers":{"accept":"application/vnd.github.echo-preview+json,application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"required":true,"type":"string"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/reactions"},"createForTeamDiscussionComment":{"headers":{"accept":"application/vnd.github.echo-preview+json,application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"comment_number":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"required":true,"type":"string"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments/:comment_number/reactions"},"delete":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"DELETE","params":{"id":{"alias":"reaction_id","deprecated":true},"reaction_id":{"required":true,"type":"integer"}},"url":"/reactions/:reaction_id"},"getForCommitComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"type":"string"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/comments/:comment_id/reactions"},"getForIssue":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/reactions"},"getForIssueComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"type":"string"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/comments/:comment_id/reactions"},"getForPullRequestReviewComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"type":"string"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/comments/:comment_id/reactions"},"getForTeamDiscussion":{"headers":{"accept":"application/vnd.github.echo-preview+json,application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"type":"string"},"discussion_number":{"required":true,"type":"integer"},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/reactions"},"getForTeamDiscussionComment":{"headers":{"accept":"application/vnd.github.echo-preview+json,application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"comment_number":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"type":"string"},"discussion_number":{"required":true,"type":"integer"},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments/:comment_number/reactions"}},"repos":{"addCollaborator":{"method":"PUT","params":{"owner":{"required":true,"type":"string"},"permission":{"enum":["pull","push","admin"],"type":"string"},"repo":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/collaborators/:username"},"addDeployKey":{"method":"POST","params":{"key":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"read_only":{"type":"boolean"},"repo":{"required":true,"type":"string"},"title":{"type":"string"}},"url":"/repos/:owner/:repo/keys"},"addProtectedBranchAdminEnforcement":{"method":"POST","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/enforce_admins"},"addProtectedBranchRequiredSignatures":{"headers":{"accept":"application/vnd.github.zzzax-preview+json"},"method":"POST","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_signatures"},"addProtectedBranchRequiredStatusChecksContexts":{"method":"POST","params":{"branch":{"required":true,"type":"string"},"contexts":{"mapTo":"data","required":true,"type":"string[]"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks/contexts"},"addProtectedBranchTeamRestrictions":{"method":"POST","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"teams":{"mapTo":"data","required":true,"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/teams"},"addProtectedBranchUserRestrictions":{"method":"POST","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"users":{"mapTo":"data","required":true,"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/users"},"checkCollaborator":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/collaborators/:username"},"compareCommits":{"method":"GET","params":{"base":{"required":true,"type":"string"},"head":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/compare/:base...:head"},"create":{"method":"POST","params":{"allow_merge_commit":{"type":"boolean"},"allow_rebase_merge":{"type":"boolean"},"allow_squash_merge":{"type":"boolean"},"auto_init":{"type":"boolean"},"description":{"type":"string"},"gitignore_template":{"type":"string"},"has_issues":{"type":"boolean"},"has_projects":{"type":"boolean"},"has_wiki":{"type":"boolean"},"homepage":{"type":"string"},"license_template":{"type":"string"},"name":{"required":true,"type":"string"},"private":{"type":"boolean"},"team_id":{"type":"integer"}},"url":"/user/repos"},"createCommitComment":{"method":"POST","params":{"body":{"required":true,"type":"string"},"line":{"type":"integer"},"owner":{"required":true,"type":"string"},"path":{"type":"string"},"position":{"type":"integer"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:sha/comments"},"createDeployment":{"headers":{"accept":"application/vnd.github.ant-man-preview+json"},"method":"POST","params":{"auto_merge":{"type":"boolean"},"description":{"type":"string"},"environment":{"type":"string"},"owner":{"required":true,"type":"string"},"payload":{"type":"string"},"production_environment":{"type":"boolean"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"required_contexts":{"type":"string[]"},"task":{"type":"string"},"transient_environment":{"type":"boolean"}},"url":"/repos/:owner/:repo/deployments"},"createDeploymentStatus":{"headers":{"accept":"application/vnd.github.ant-man-preview+json"},"method":"POST","params":{"auto_inactive":{"type":"boolean"},"deployment_id":{"required":true,"type":"integer"},"description":{"type":"string"},"environment":{"enum":["production","staging","qa"],"type":"string"},"environment_url":{"type":"string"},"id":{"alias":"deployment_id","deprecated":true},"log_url":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"state":{"enum":["error","failure","inactive","in_progress","queued","pending","success"],"required":true,"type":"string"},"target_url":{"type":"string"}},"url":"/repos/:owner/:repo/deployments/:deployment_id/statuses"},"createFile":{"method":"PUT","params":{"author":{"type":"object"},"author.email":{"required":true,"type":"string"},"author.name":{"required":true,"type":"string"},"branch":{"type":"string"},"committer":{"type":"object"},"committer.email":{"required":true,"type":"string"},"committer.name":{"required":true,"type":"string"},"content":{"required":true,"type":"string"},"message":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"path":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/contents/:path"},"createForOrg":{"method":"POST","params":{"allow_merge_commit":{"type":"boolean"},"allow_rebase_merge":{"type":"boolean"},"allow_squash_merge":{"type":"boolean"},"auto_init":{"type":"boolean"},"description":{"type":"string"},"gitignore_template":{"type":"string"},"has_issues":{"type":"boolean"},"has_projects":{"type":"boolean"},"has_wiki":{"type":"boolean"},"homepage":{"type":"string"},"license_template":{"type":"string"},"name":{"required":true,"type":"string"},"org":{"required":true,"type":"string"},"private":{"type":"boolean"},"team_id":{"type":"integer"}},"url":"/orgs/:org/repos"},"createHook":{"method":"POST","params":{"active":{"type":"boolean"},"config":{"required":true,"type":"object"},"config.content_type":{"type":"string"},"config.insecure_ssl":{"type":"string"},"config.secret":{"type":"string"},"config.url":{"required":true,"type":"string"},"events":{"type":"string[]"},"name":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks"},"createRelease":{"method":"POST","params":{"body":{"type":"string"},"draft":{"type":"boolean"},"name":{"type":"string"},"owner":{"required":true,"type":"string"},"prerelease":{"type":"boolean"},"repo":{"required":true,"type":"string"},"tag_name":{"required":true,"type":"string"},"target_commitish":{"type":"string"}},"url":"/repos/:owner/:repo/releases"},"createStatus":{"method":"POST","params":{"context":{"type":"string"},"description":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"},"state":{"enum":["error","failure","pending","success"],"required":true,"type":"string"},"target_url":{"type":"string"}},"url":"/repos/:owner/:repo/statuses/:sha"},"delete":{"method":"DELETE","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo"},"deleteAsset":{"method":"DELETE","params":{"asset_id":{"required":true,"type":"integer"},"id":{"alias":"asset_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/assets/:asset_id"},"deleteCommitComment":{"method":"DELETE","params":{"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/comments/:comment_id"},"deleteDeployKey":{"method":"DELETE","params":{"id":{"alias":"key_id","deprecated":true},"key_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/keys/:key_id"},"deleteDownload":{"method":"DELETE","params":{"download_id":{"required":true,"type":"integer"},"id":{"alias":"download_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/downloads/:download_id"},"deleteFile":{"method":"DELETE","params":{"author":{"type":"object"},"branch":{"type":"string"},"committer":{"type":"object"},"message":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"path":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/contents/:path"},"deleteHook":{"method":"DELETE","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks/:hook_id"},"deleteInvite":{"method":"DELETE","params":{"invitation_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/invitations/:invitation_id"},"deleteRelease":{"method":"DELETE","params":{"id":{"alias":"release_id","deprecated":true},"owner":{"required":true,"type":"string"},"release_id":{"required":true,"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/:release_id"},"edit":{"method":"PATCH","params":{"allow_merge_commit":{"type":"boolean"},"allow_rebase_merge":{"type":"boolean"},"allow_squash_merge":{"type":"boolean"},"archived":{"type":"boolean"},"default_branch":{"type":"string"},"description":{"type":"string"},"has_issues":{"type":"boolean"},"has_projects":{"type":"boolean"},"has_wiki":{"type":"boolean"},"homepage":{"type":"string"},"name":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"private":{"type":"boolean"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo"},"editAsset":{"method":"PATCH","params":{"asset_id":{"required":true,"type":"integer"},"id":{"alias":"asset_id","deprecated":true},"label":{"type":"string"},"name":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/assets/:asset_id"},"editHook":{"method":"PATCH","params":{"active":{"type":"boolean"},"add_events":{"type":"string[]"},"config":{"type":"object"},"config.content_type":{"type":"string"},"config.insecure_ssl":{"type":"string"},"config.secret":{"type":"string"},"config.url":{"required":true,"type":"string"},"events":{"type":"string[]"},"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"owner":{"required":true,"type":"string"},"remove_events":{"type":"string[]"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks/:hook_id"},"editRelease":{"method":"PATCH","params":{"body":{"type":"string"},"draft":{"type":"boolean"},"id":{"alias":"release_id","deprecated":true},"name":{"type":"string"},"owner":{"required":true,"type":"string"},"prerelease":{"type":"boolean"},"release_id":{"required":true,"type":"integer"},"repo":{"required":true,"type":"string"},"tag_name":{"type":"string"},"target_commitish":{"type":"string"}},"url":"/repos/:owner/:repo/releases/:release_id"},"fork":{"method":"POST","params":{"organization":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/forks"},"get":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo"},"getAll":{"method":"GET","params":{"affiliation":{"enum":["owner","collaborator","organization_member"],"type":"string"},"direction":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"sort":{"enum":["created","updated","pushed","full_name"],"type":"string"},"type":{"enum":["all","owner","public","private","member"],"type":"string"},"visibility":{"enum":["all","public","private"],"type":"string"}},"url":"/user/repos"},"getAllCommitComments":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/comments"},"getArchiveLink":{"method":"GET","params":{"archive_format":{"enum":["tarball","zipball"],"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/:archive_format/:ref"},"getAsset":{"method":"GET","params":{"asset_id":{"required":true,"type":"integer"},"id":{"alias":"asset_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/assets/:asset_id"},"getAssets":{"method":"GET","params":{"id":{"alias":"release_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"release_id":{"required":true,"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/:release_id/assets"},"getBranch":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch"},"getBranchProtection":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection"},"getBranches":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"protected":{"type":"boolean"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches"},"getById":{"method":"GET","params":{"id":{"required":true,"type":"string"}},"url":"/repositories/:id"},"getClones":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"per":{"enum":["day","week"],"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/traffic/clones"},"getCollaborators":{"method":"GET","params":{"affiliation":{"enum":["outside","direct","all"],"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/collaborators"},"getCombinedStatusForRef":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:ref/status"},"getCommit":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:sha"},"getCommitComment":{"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/comments/:comment_id"},"getCommitComments":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:ref/comments"},"getCommits":{"method":"GET","params":{"author":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"path":{"type":"string"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"sha":{"type":"string"},"since":{"type":"string"},"until":{"type":"string"}},"url":"/repos/:owner/:repo/commits"},"getCommunityProfileMetrics":{"headers":{"accept":"application/vnd.github.black-panther-preview+json"},"method":"GET","params":{"name":{"alias":"repo","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/community/profile"},"getContent":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"path":{"required":true,"type":"string"},"ref":{"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/contents/:path"},"getContributors":{"method":"GET","params":{"anon":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/contributors"},"getDeployKey":{"method":"GET","params":{"id":{"alias":"key_id","deprecated":true},"key_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/keys/:key_id"},"getDeployKeys":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/keys"},"getDeployment":{"method":"GET","params":{"deployment_id":{"required":true,"type":"integer"},"id":{"alias":"deployment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/deployments/:deployment_id"},"getDeploymentStatus":{"method":"GET","params":{"deployment_id":{"required":true,"type":"integer"},"id":{"alias":"deployment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"status_id":{"required":true,"type":"integer"}},"url":"/repos/:owner/:repo/deployments/:deployment_id/statuses/:status_id"},"getDeploymentStatuses":{"headers":{"accept":"application/vnd.github.ant-man-preview+json"},"method":"GET","params":{"deployment_id":{"required":true,"type":"integer"},"id":{"alias":"deployment_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/deployments/:deployment_id/statuses"},"getDeployments":{"headers":{"accept":"application/vnd.github.ant-man-preview+json"},"method":"GET","params":{"environment":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"ref":{"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"type":"string"},"task":{"type":"string"}},"url":"/repos/:owner/:repo/deployments"},"getDownload":{"method":"GET","params":{"download_id":{"required":true,"type":"integer"},"id":{"alias":"download_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/downloads/:download_id"},"getDownloads":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/downloads"},"getForOrg":{"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"type":{"enum":["all","public","private","forks","sources","member"],"type":"string"}},"url":"/orgs/:org/repos"},"getForUser":{"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"sort":{"enum":["created","updated","pushed","full_name"],"type":"string"},"type":{"enum":["all","owner","member"],"type":"string"},"username":{"required":true,"type":"string"}},"url":"/users/:username/repos"},"getForks":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"sort":{"enum":["newest","oldest","stargazers"],"type":"string"}},"url":"/repos/:owner/:repo/forks"},"getHook":{"method":"GET","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks/:hook_id"},"getHooks":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks"},"getInvites":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/invitations"},"getLanguages":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/languages"},"getLatestPagesBuild":{"headers":{"accept":"application/vnd.github.mister-fantastic-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pages/builds/latest"},"getLatestRelease":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/latest"},"getPages":{"headers":{"accept":"application/vnd.github.mister-fantastic-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pages"},"getPagesBuild":{"headers":{"accept":"application/vnd.github.mister-fantastic-preview+json"},"method":"GET","params":{"build_id":{"required":true,"type":"integer"},"id":{"alias":"build_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pages/builds/:build_id"},"getPagesBuilds":{"headers":{"accept":"application/vnd.github.mister-fantastic-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pages/builds"},"getPaths":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/traffic/popular/paths"},"getProtectedBranchAdminEnforcement":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/enforce_admins"},"getProtectedBranchPullRequestReviewEnforcement":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_pull_request_reviews"},"getProtectedBranchRequiredSignatures":{"headers":{"accept":"application/vnd.github.zzzax-preview+json"},"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_signatures"},"getProtectedBranchRequiredStatusChecks":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks"},"getProtectedBranchRequiredStatusChecksContexts":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks/contexts"},"getProtectedBranchRestrictions":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions"},"getProtectedBranchTeamRestrictions":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/teams"},"getProtectedBranchUserRestrictions":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/users"},"getPublic":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/repositories"},"getReadme":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"ref":{"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/readme"},"getReferrers":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/traffic/popular/referrers"},"getRelease":{"method":"GET","params":{"id":{"alias":"release_id","deprecated":true},"owner":{"required":true,"type":"string"},"release_id":{"required":true,"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/:release_id"},"getReleaseByTag":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"tag":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/tags/:tag"},"getReleases":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases"},"getShaOfCommitRef":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:ref"},"getStatsCodeFrequency":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/stats/code_frequency"},"getStatsCommitActivity":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/stats/commit_activity"},"getStatsContributors":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/stats/contributors"},"getStatsParticipation":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/stats/participation"},"getStatsPunchCard":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/stats/punch_card"},"getStatuses":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:ref/statuses"},"getTags":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/tags"},"getTeams":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/teams"},"getTopics":{"headers":{"accept":"application/vnd.github.mercy-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/topics"},"getViews":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"per":{"enum":["day","week"],"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/traffic/views"},"merge":{"method":"POST","params":{"base":{"required":true,"type":"string"},"commit_message":{"type":"string"},"head":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/merges"},"pingHook":{"method":"POST","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks/:hook_id/pings"},"removeBranchProtection":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection"},"removeCollaborator":{"method":"DELETE","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/collaborators/:username"},"removeProtectedBranchAdminEnforcement":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/enforce_admins"},"removeProtectedBranchPullRequestReviewEnforcement":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_pull_request_reviews"},"removeProtectedBranchRequiredSignatures":{"headers":{"accept":"application/vnd.github.zzzax-preview+json"},"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_signatures"},"removeProtectedBranchRequiredStatusChecks":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks"},"removeProtectedBranchRequiredStatusChecksContexts":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"contexts":{"mapTo":"data","required":true,"type":"string[]"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks/contexts"},"removeProtectedBranchRestrictions":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions"},"removeProtectedBranchTeamRestrictions":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"teams":{"mapTo":"data","required":true,"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/teams"},"removeProtectedBranchUserRestrictions":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"users":{"mapTo":"data","required":true,"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/users"},"replaceProtectedBranchRequiredStatusChecksContexts":{"method":"PUT","params":{"branch":{"required":true,"type":"string"},"contexts":{"mapTo":"data","required":true,"type":"string[]"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks/contexts"},"replaceProtectedBranchTeamRestrictions":{"method":"PUT","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"teams":{"mapTo":"data","required":true,"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/teams"},"replaceProtectedBranchUserRestrictions":{"method":"PUT","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"users":{"mapTo":"data","required":true,"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/users"},"replaceTopics":{"headers":{"accept":"application/vnd.github.mercy-preview+json"},"method":"PUT","params":{"names":{"required":true,"type":"string[]"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/topics"},"requestPageBuild":{"headers":{"accept":"application/vnd.github.mister-fantastic-preview+json"},"method":"POST","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pages/builds"},"reviewUserPermissionLevel":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/collaborators/:username/permission"},"testHook":{"method":"POST","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks/:hook_id/tests"},"transfer":{"headers":{"accept":"application/vnd.github.nightshade-preview+json"},"method":"POST","params":{"new_owner":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"team_id":{"alias":"team_ids","deprecated":true},"team_ids":{"type":"integer[]"}},"url":"/repos/:owner/:repo/transfer"},"updateBranchProtection":{"method":"PUT","params":{"branch":{"required":true,"type":"string"},"enforce_admins":{"allowNull":true,"required":true,"type":"boolean"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"required_pull_request_reviews":{"allowNull":true,"required":true,"type":"object"},"required_pull_request_reviews.dismiss_stale_reviews":{"type":"boolean"},"required_pull_request_reviews.dismissal_restrictions":{"type":"object"},"required_pull_request_reviews.dismissal_restrictions.teams":{"type":"string[]"},"required_pull_request_reviews.dismissal_restrictions.users":{"type":"string[]"},"required_pull_request_reviews.require_code_owner_reviews":{"type":"boolean"},"required_pull_request_reviews.required_approving_review_count":{"type":"integer"},"required_status_checks":{"allowNull":true,"required":true,"type":"object"},"required_status_checks.contexts":{"required":true,"type":"string[]"},"required_status_checks.strict":{"required":true,"type":"boolean"},"restrictions":{"allowNull":true,"required":true,"type":"object"},"restrictions.teams":{"type":"string[]"},"restrictions.users":{"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection"},"updateCommitComment":{"method":"PATCH","params":{"body":{"required":true,"type":"string"},"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/comments/:comment_id"},"updateFile":{"method":"PUT","params":{"author":{"type":"object"},"author.email":{"required":true,"type":"string"},"author.name":{"required":true,"type":"string"},"branch":{"type":"string"},"committer":{"type":"object"},"committer.email":{"required":true,"type":"string"},"committer.name":{"required":true,"type":"string"},"content":{"required":true,"type":"string"},"message":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"path":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/contents/:path"},"updateInformationAboutPagesSite":{"headers":{"accept":"application/vnd.github.mister-fantastic-preview+json"},"method":"PUT","params":{"cname":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"source":{"enum":["\"gh-pages\"","\"master\"","\"master /docs\""],"type":"string"}},"url":"/repos/:owner/:repo/pages"},"updateInvite":{"method":"PATCH","params":{"invitation_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"permissions":{"enum":["read","write","admin"],"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/invitations/:invitation_id"},"updateProtectedBranchPullRequestReviewEnforcement":{"method":"PATCH","params":{"branch":{"required":true,"type":"string"},"dismiss_stale_reviews":{"type":"boolean"},"dismissal_restrictions":{"type":"object"},"dismissal_restrictions.teams":{"type":"string[]"},"dismissal_restrictions.users":{"type":"string[]"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"require_code_owner_reviews":{"type":"boolean"},"required_approving_review_count":{"type":"integer"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_pull_request_reviews"},"updateProtectedBranchRequiredStatusChecks":{"method":"PATCH","params":{"branch":{"required":true,"type":"string"},"contexts":{"type":"string[]"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"strict":{"type":"boolean"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks"},"uploadAsset":{"method":"POST","params":{"contentLength":{"alias":"headers.content-length","deprecated":true},"contentType":{"alias":"headers.content-type","deprecated":true},"file":{"mapTo":"data","required":true,"type":"string | object"},"headers.content-length":{"required":true,"type":"integer"},"headers.content-type":{"required":true,"type":"string"},"label":{"type":"string"},"name":{"required":true,"type":"string"},"url":{"required":true,"type":"string"}},"url":":url"}},"search":{"code":{"method":"GET","params":{"order":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"q":{"required":true,"type":"string"},"sort":{"enum":["indexed"],"type":"string"}},"url":"/search/code"},"commits":{"headers":{"accept":"application/vnd.github.cloak-preview+json"},"method":"GET","params":{"order":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"q":{"required":true,"type":"string"},"sort":{"enum":["author-date","committer-date"],"type":"string"}},"url":"/search/commits"},"issues":{"method":"GET","params":{"order":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"q":{"required":true,"type":"string"},"sort":{"enum":["comments","created","updated"],"type":"string"}},"url":"/search/issues"},"labels":{"headers":{"accept":"application/vnd.github.symmetra-preview+json"},"method":"GET","params":{"order":{"enum":["asc","desc"],"type":"string"},"q":{"required":true,"type":"string"},"repository_id":{"required":true,"type":"integer"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/search/labels"},"repos":{"headers":{"accept":"application/vnd.github.mercy-preview+json"},"method":"GET","params":{"order":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"q":{"required":true,"type":"string"},"sort":{"enum":["stars","forks","updated"],"type":"string"}},"url":"/search/repositories"},"topics":{"headers":{"accept":"application/vnd.github.mercy-preview+json"},"method":"GET","params":{"q":{"required":true,"type":"string"}},"url":"/search/topics"},"users":{"method":"GET","params":{"order":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"q":{"required":true,"type":"string"},"sort":{"enum":["followers","repositories","joined"],"type":"string"}},"url":"/search/users"}},"teams":{"addMember":{"method":"PUT","params":{"team_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/teams/:team_id/members/:username"},"addOrUpdateProject":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"PUT","params":{"permission":{"enum":["read","write","admin"],"type":"string"},"project_id":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/projects/:project_id"},"createDiscussion":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"POST","params":{"body":{"required":true,"type":"string"},"private":{"type":"boolean"},"team_id":{"required":true,"type":"integer"},"title":{"required":true,"type":"string"}},"url":"/teams/:team_id/discussions"},"createDiscussionComment":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"POST","params":{"body":{"required":true,"type":"string"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments"},"deleteDiscussion":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"DELETE","params":{"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number"},"deleteDiscussionComment":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"DELETE","params":{"comment_number":{"required":true,"type":"integer"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments/:comment_number"},"getDiscussion":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"GET","params":{"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number"},"getDiscussionComment":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"GET","params":{"comment_number":{"required":true,"type":"integer"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments/:comment_number"},"getMember":{"method":"GET","params":{"team_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/teams/:team_id/members/:username"},"listDiscussionComments":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"discussion_number":{"required":true,"type":"integer"},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments"},"listDiscussions":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions"},"listProjects":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/projects"},"removeMember":{"method":"DELETE","params":{"team_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/teams/:team_id/members/:username"},"removeProject":{"method":"DELETE","params":{"project_id":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/projects/:project_id"},"reviewProject":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"project_id":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/projects/:project_id"},"updateDiscussion":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"PATCH","params":{"body":{"type":"string"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"},"title":{"type":"string"}},"url":"/teams/:team_id/discussions/:discussion_number"},"updateDiscussionComment":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"PATCH","params":{"body":{"required":true,"type":"string"},"comment_number":{"required":true,"type":"integer"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments/:comment_number"}},"users":{"acceptRepoInvite":{"method":"PATCH","params":{"invitation_id":{"required":true,"type":"integer"}},"url":"/user/repository_invitations/:invitation_id"},"addEmails":{"method":"POST","params":{"emails":{"required":true,"type":"string[]"}},"url":"/user/emails"},"addRepoToInstallation":{"alias":"apps.addRepoToInstallation","deprecated":"`integrations.addRepoToInstallation()` is deprecated, use `apps.addRepoToInstallation()`","params":{}},"blockUser":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"PUT","params":{"username":{"required":true,"type":"string"}},"url":"/user/blocks/:username"},"checkBlockedUser":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"GET","params":{"username":{"required":true,"type":"string"}},"url":"/user/blocks/:username"},"checkFollowing":{"method":"GET","params":{"username":{"required":true,"type":"string"}},"url":"/user/following/:username"},"checkIfOneFollowersOther":{"method":"GET","params":{"target_user":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/users/:username/following/:target_user"},"createGpgKey":{"method":"POST","params":{"armored_public_key":{"type":"string"}},"url":"/user/gpg_keys"},"createKey":{"method":"POST","params":{"key":{"type":"string"},"title":{"type":"string"}},"url":"/user/keys"},"declineRepoInvite":{"method":"DELETE","params":{"invitation_id":{"required":true,"type":"integer"}},"url":"/user/repository_invitations/:invitation_id"},"deleteEmails":{"method":"DELETE","params":{"emails":{"required":true,"type":"string[]"}},"url":"/user/emails"},"deleteGpgKey":{"method":"DELETE","params":{"gpg_key_id":{"required":true,"type":"integer"},"id":{"alias":"gpg_key_id","deprecated":true}},"url":"/user/gpg_keys/:gpg_key_id"},"deleteKey":{"method":"DELETE","params":{"id":{"alias":"key_id","deprecated":true},"key_id":{"required":true,"type":"integer"}},"url":"/user/keys/:key_id"},"demote":{"method":"DELETE","params":{"username":{"required":true,"type":"string"}},"url":"/users/:username/site_admin"},"editOrgMembership":{"method":"PATCH","params":{"org":{"required":true,"type":"string"},"state":{"enum":["active"],"required":true,"type":"string"}},"url":"/user/memberships/orgs/:org"},"followUser":{"method":"PUT","params":{"username":{"required":true,"type":"string"}},"url":"/user/following/:username"},"get":{"method":"GET","params":{},"url":"/user"},"getAll":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/users"},"getBlockedUsers":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"GET","params":{},"url":"/user/blocks"},"getById":{"method":"GET","params":{"id":{"required":true,"type":"string"}},"url":"/user/:id"},"getContextForUser":{"headers":{"accept":"application/vnd.github.hagar-preview+json"},"method":"GET","params":{"subject_id":{"type":"string"},"subject_type":{"enum":["organization","repository","issue","pull_request"],"type":"string"},"username":{"required":true,"type":"string"}},"url":"/users/:username/hovercard"},"getEmails":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/emails"},"getFollowers":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/followers"},"getFollowersForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/followers"},"getFollowing":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/following"},"getFollowingForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/following"},"getForUser":{"method":"GET","params":{"username":{"required":true,"type":"string"}},"url":"/users/:username"},"getGpgKey":{"method":"GET","params":{"gpg_key_id":{"required":true,"type":"integer"},"id":{"alias":"gpg_key_id","deprecated":true}},"url":"/user/gpg_keys/:gpg_key_id"},"getGpgKeys":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/gpg_keys"},"getGpgKeysForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/gpg_keys"},"getInstallationRepos":{"method":"GET","params":{"installation_id":{"required":true,"type":"integer"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/installations/:installation_id/repositories"},"getInstallations":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/installations"},"getKey":{"method":"GET","params":{"id":{"alias":"key_id","deprecated":true},"key_id":{"required":true,"type":"integer"}},"url":"/user/keys/:key_id"},"getKeys":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/keys"},"getKeysForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/keys"},"getMarketplacePurchases":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/marketplace_purchases"},"getMarketplaceStubbedPurchases":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/marketplace_purchases/stubbed"},"getOrgMembership":{"method":"GET","params":{"org":{"required":true,"type":"string"}},"url":"/user/memberships/orgs/:org"},"getOrgMemberships":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"state":{"enum":["active","pending"],"type":"string"}},"url":"/user/memberships/orgs"},"getOrgs":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/orgs"},"getPublicEmails":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/public_emails"},"getRepoInvites":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/repository_invitations"},"getTeams":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/teams"},"promote":{"method":"PUT","params":{"username":{"required":true,"type":"string"}},"url":"/users/:username/site_admin"},"removeRepoFromInstallation":{"alias":"apps.removeRepoFromInstallation","deprecated":"`integrations.removeRepoFromInstallation()` is deprecated, use `apps.removeRepoFromInstallation()`","params":{}},"suspend":{"method":"PUT","params":{"username":{"required":true,"type":"string"}},"url":"/users/:username/suspended"},"togglePrimaryEmailVisibility":{"method":"PATCH","params":{"email":{"required":true,"type":"string"},"visibility":{"required":true,"type":"string"}},"url":"/user/email/visibility"},"unblockUser":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"DELETE","params":{"username":{"required":true,"type":"string"}},"url":"/user/blocks/:username"},"unfollowUser":{"method":"DELETE","params":{"username":{"required":true,"type":"string"}},"url":"/user/following/:username"},"unsuspend":{"method":"DELETE","params":{"username":{"required":true,"type":"string"}},"url":"/users/:username/suspended"},"update":{"method":"PATCH","params":{"bio":{"type":"string"},"blog":{"type":"string"},"company":{"type":"string"},"email":{"type":"string"},"hireable":{"type":"boolean"},"location":{"type":"string"},"name":{"type":"string"}},"url":"/user"}}}
+module.exports = {"activity":{"checkNotificationThreadSubscription":{"alias":"activity.getThreadSubscription","deprecated":"`activity.checkNotificationThreadSubscription()` is deprecated, use `activity.getThreadSubscription()`"},"checkStarringRepo":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/user/starred/:owner/:repo"},"deleteNotificationThreadSubscription":{"alias":"activity.deleteThreadSubscription","deprecated":"`activity.deleteNotificationThreadSubscription()` is deprecated, use `activity.deleteThreadSubscription()`"},"deleteRepoSubscription":{"method":"DELETE","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/subscription"},"deleteThreadSubscription":{"method":"DELETE","params":{"id":{"alias":"thread_id","deprecated":true},"thread_id":{"required":true,"type":"integer"}},"url":"/notifications/threads/:thread_id/subscription"},"getEvents":{"alias":"activity.listPublicEvents","deprecated":"`activity.getEvents()` is deprecated, use `activity.listPublicEvents()`"},"getEventsForOrg":{"alias":"activity.listPublicEventsForOrg","deprecated":"`activity.getEventsForOrg()` is deprecated, use `activity.listPublicEventsForOrg()`"},"getEventsForRepo":{"alias":"activity.listRepoEvents","deprecated":"`activity.getEventsForRepo()` is deprecated, use `activity.listRepoEvents()`"},"getEventsForRepoIssues":{"alias":"issues.listEventsForRepo","deprecated":"`activity.getEventsForRepoIssues()` is deprecated, use `issues.listEventsForRepo`","params":{}},"getEventsForRepoNetwork":{"alias":"activity.listPublicEventsForRepoNetwork","deprecated":"`activity.getEventsForRepoNetwork()` is deprecated, use `activity.listPublicEventsForRepoNetwork()`"},"getEventsForUser":{"alias":"activity.listEventsForUser","deprecated":"`activity.getEventsForUser()` is deprecated, use `activity.listEventsForUser()`"},"getEventsForUserOrg":{"alias":"activity.listEventsForOrg","deprecated":"`activity.getEventsForUserOrg()` is deprecated, use `activity.listEventsForOrg()`"},"getEventsForUserPublic":{"alias":"activity.listPublicEventsForUser","deprecated":"`activity.getEventsForUserPublic()` is deprecated, use `activity.listPublicEventsForUser()`"},"getEventsReceived":{"alias":"activity.listReceivedEventsForUser","deprecated":"`activity.getEventsReceived()` is deprecated, use `activity.listReceivedEventsForUser()`"},"getEventsReceivedPublic":{"alias":"activity.listReceivedPublicEventsForUser","deprecated":"`activity.getEventsReceivedPublic()` is deprecated, use `activity.listReceivedPublicEventsForUser()`"},"getFeeds":{"alias":"activity.listFeeds","deprecated":"`activity.getFeeds()` is deprecated, use `activity.listFeeds()`"},"getNotificationThread":{"alias":"activity.getThread","deprecated":"`activity.getNotificationThread()` is deprecated, use `activity.getThread()`"},"getNotifications":{"alias":"activity.listNotifications","deprecated":"`activity.getNotifications()` is deprecated, use `activity.listNotifications()`"},"getNotificationsForUser":{"alias":"activity.listNotificationsForRepo","deprecated":"`activity.getNotificationsForUser()` is deprecated, use `activity.listNotificationsForRepo()`"},"getRepoSubscription":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/subscription"},"getStargazersForRepo":{"alias":"activity.listStargazersForRepo","deprecated":"`activity.getStargazersForRepo()` is deprecated, use `activity.listStargazersForRepo()`"},"getStarredRepos":{"alias":"activity.listReposStarredByAuthenticatedUser","deprecated":"`activity.getStarredRepos()` is deprecated, use `activity.listReposStarredByAuthenticatedUser()`"},"getStarredReposForUser":{"alias":"activity.listReposStarredByUser","deprecated":"`activity.getStarredReposForUser()` is deprecated, use `activity.listReposStarredByUser()`"},"getThread":{"method":"GET","params":{"id":{"alias":"thread_id","deprecated":true},"thread_id":{"required":true,"type":"integer"}},"url":"/notifications/threads/:thread_id"},"getThreadSubscription":{"method":"GET","params":{"id":{"alias":"thread_id","deprecated":true},"thread_id":{"required":true,"type":"integer"}},"url":"/notifications/threads/:thread_id/subscription"},"getWatchedRepos":{"alias":"activity.listWatchedReposForAuthenticatedUser","deprecated":"`activity.getWatchedRepos()` is deprecated, use `activity.listWatchedReposForAuthenticatedUser()`"},"getWatchedReposForUser":{"alias":"activity.listReposWatchedByUser","deprecated":"`activity.getWatchedReposForUser()` is deprecated, use `activity.listReposWatchedByUser()`"},"getWatchersForRepo":{"alias":"activity.listWatchersForRepo","deprecated":"`activity.getWatchersForRepo()` is deprecated, use `activity.listWatchersForRepo()`"},"listEventsForOrg":{"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/events/orgs/:org"},"listEventsForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/events"},"listFeeds":{"method":"GET","params":{},"url":"/feeds"},"listNotifications":{"method":"GET","params":{"all":{"type":"boolean"},"before":{"type":"string"},"page":{"type":"integer"},"participating":{"type":"boolean"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/notifications"},"listNotificationsForRepo":{"method":"GET","params":{"all":{"type":"boolean"},"before":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"participating":{"type":"boolean"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"since":{"type":"string"}},"url":"/repos/:owner/:repo/notifications"},"listPublicEvents":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/events"},"listPublicEventsForOrg":{"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/events"},"listPublicEventsForRepoNetwork":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/networks/:owner/:repo/events"},"listPublicEventsForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/events/public"},"listReceivedEventsForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/received_events"},"listReceivedPublicEventsForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/received_events/public"},"listRepoEvents":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/events"},"listReposStarredByAuthenticatedUser":{"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/user/starred"},"listReposStarredByUser":{"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"sort":{"enum":["created","updated"],"type":"string"},"username":{"required":true,"type":"string"}},"url":"/users/:username/starred"},"listReposWatchedByUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/subscriptions"},"listStargazersForRepo":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/stargazers"},"listWatchedReposForAuthenticatedUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/subscriptions"},"listWatchersForRepo":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/subscribers"},"markAsRead":{"method":"PUT","params":{"last_read_at":{"type":"string"}},"url":"/notifications"},"markNotificationThreadAsRead":{"alias":"activity.markThreadAsRead","deprecated":"`activity.markNotificationThreadAsRead()` is deprecated, use `activity.markThreadAsRead()`"},"markNotificationsAsRead":{"alias":"activity.markAsRead","deprecated":"`activity.markNotificationsAsRead()` is deprecated, use `activity.markAsRead()`"},"markNotificationsAsReadForRepo":{"method":"PUT","params":{"last_read_at":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/notifications"},"markThreadAsRead":{"method":"PATCH","params":{"id":{"alias":"thread_id","deprecated":true},"thread_id":{"required":true,"type":"integer"}},"url":"/notifications/threads/:thread_id"},"setNotificationThreadSubscription":{"alias":"activity.setThreadSubscription","deprecated":"`activity.setNotificationThreadSubscription()` is deprecated, use `activity.setThreadSubscription()`"},"setRepoSubscription":{"method":"PUT","params":{"ignored":{"type":"boolean"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"subscribed":{"type":"boolean"}},"url":"/repos/:owner/:repo/subscription"},"setThreadSubscription":{"method":"PUT","params":{"id":{"alias":"thread_id","deprecated":true},"ignored":{"type":"boolean"},"thread_id":{"required":true,"type":"integer"}},"url":"/notifications/threads/:thread_id/subscription"},"starRepo":{"method":"PUT","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/user/starred/:owner/:repo"},"unstarRepo":{"method":"DELETE","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/user/starred/:owner/:repo"},"unwatchRepo":{"alias":"activity.deleteRepoSubscription","deprecated":"`activity.unwatchRepo()` is deprecated, use `activity.deleteRepoSubscription()`"}},"apps":{"addRepoToInstallation":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"PUT","params":{"installation_id":{"required":true,"type":"integer"},"repository_id":{"required":true,"type":"integer"}},"url":"/user/installations/:installation_id/repositories/:repository_id"},"checkAccountIsAssociatedWithAny":{"method":"GET","params":{"account_id":{"required":true,"type":"integer"},"id":{"alias":"account_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/marketplace_listing/accounts/:account_id"},"checkAccountIsAssociatedWithAnyStubbed":{"method":"GET","params":{"account_id":{"required":true,"type":"integer"},"id":{"alias":"account_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/marketplace_listing/stubbed/accounts/:account_id"},"checkMarketplaceListingAccount":{"alias":"apps.checkAccountIsAssociatedWithAny","deprecated":"`apps.checkMarketplaceListingAccount()` is deprecated, use `apps.checkAccountIsAssociatedWithAny()`"},"checkMarketplaceListingStubbedAccount":{"alias":"apps.checkAccountIsAssociatedWithAnyStubbed","deprecated":"`apps.checkMarketplaceListingStubbedAccount()` is deprecated, use `apps.checkAccountIsAssociatedWithAnyStubbed()`"},"createFromManifest":{"headers":{"accept":"application/vnd.github.fury-preview+json,application/vnd.github.machine-man-preview+json"},"method":"POST","params":{"code":{"required":true,"type":"string"}},"url":"/app-manifests/:code/conversions"},"createInstallationToken":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"POST","params":{"installation_id":{"required":true,"type":"integer"}},"url":"/app/installations/:installation_id/access_tokens"},"findOrgInstallation":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"org":{"required":true,"type":"string"}},"url":"/orgs/:org/installation"},"findRepoInstallation":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/installation"},"findUserInstallation":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"username":{"required":true,"type":"string"}},"url":"/users/:username/installation"},"get":{"alias":"apps.getAuthenticated","deprecated":"`apps.get()` is deprecated, use `apps.getAuthenticated()`"},"getAuthenticated":{"method":"GET","params":{},"url":"/app"},"getBySlug":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"app_slug":{"required":true,"type":"string"}},"url":"/apps/:app_slug"},"getForSlug":{"alias":"apps.getBySlug","deprecated":"`apps.getForSlug()` is deprecated, use `apps.getBySlug()`"},"getInstallation":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"installation_id":{"required":true,"type":"integer"}},"url":"/app/installations/:installation_id"},"getInstallationRepositories":{"alias":"apps.listRepos","deprecated":"`apps.getInstallationRepositories()` is deprecated, use `apps.listRepos()`"},"getInstallations":{"alias":"apps.listInstallations","deprecated":"`apps.getInstallations()` is deprecated, use `apps.listInstallations()`"},"getMarketplaceListingPlanAccounts":{"alias":"apps.listAccountsUserOrOrgOnPlan","deprecated":"`apps.getMarketplaceListingPlanAccounts()` is deprecated, use `apps.listAccountsUserOrOrgOnPlan()`"},"getMarketplaceListingPlans":{"alias":"apps.listPlans","deprecated":"`apps.getMarketplaceListingPlans()` is deprecated, use `apps.listPlans()`"},"getMarketplaceListingStubbedPlanAccounts":{"alias":"apps.listAccountsUserOrOrgOnPlanStubbed","deprecated":"`apps.getMarketplaceListingStubbedPlanAccounts()` is deprecated, use `apps.listAccountsUserOrOrgOnPlanStubbed()`"},"getMarketplaceListingStubbedPlans":{"alias":"apps.listPlansStubbed","deprecated":"`apps.getMarketplaceListingStubbedPlans()` is deprecated, use `apps.listPlansStubbed()`"},"listAccountsUserOrOrgOnPlan":{"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"id":{"alias":"plan_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"plan_id":{"required":true,"type":"integer"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/marketplace_listing/plans/:plan_id/accounts"},"listAccountsUserOrOrgOnPlanStubbed":{"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"id":{"alias":"plan_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"plan_id":{"required":true,"type":"integer"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/marketplace_listing/stubbed/plans/:plan_id/accounts"},"listInstallationReposForAuthenticatedUser":{"method":"GET","params":{"installation_id":{"required":true,"type":"integer"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/installations/:installation_id/repositories"},"listInstallations":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/app/installations"},"listInstallationsForAuthenticatedUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/installations"},"listMarketplacePurchasesForAuthenticatedUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/marketplace_purchases"},"listMarketplacePurchasesForAuthenticatedUserStubbed":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/marketplace_purchases/stubbed"},"listPlans":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/marketplace_listing/plans"},"listPlansStubbed":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/marketplace_listing/stubbed/plans"},"listRepos":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/installation/repositories"},"removeRepoFromInstallation":{"headers":{"accept":"application/vnd.github.machine-man-preview+json"},"method":"DELETE","params":{"installation_id":{"required":true,"type":"integer"},"repository_id":{"required":true,"type":"integer"}},"url":"/user/installations/:installation_id/repositories/:repository_id"}},"authorization":{"check":{"alias":"authorization.checkAuthorization","deprecated":"`authorization.check()` is deprecated, use `authorization.checkAuthorization()`"},"checkAuthorization":{"method":"GET","params":{"access_token":{"required":true,"type":"string"},"client_id":{"required":true,"type":"string"}},"url":"/applications/:client_id/tokens/:access_token"},"create":{"alias":"authorization.createAuthorization","deprecated":"`authorization.create()` is deprecated, use `authorization.createAuthorization()`"},"createAuthorization":{"method":"POST","params":{"client_id":{"type":"string"},"client_secret":{"type":"string"},"fingerprint":{"type":"string"},"note":{"required":true,"type":"string"},"note_url":{"type":"string"},"scopes":{"type":"string[]"}},"url":"/authorizations"},"delete":{"alias":"authorization.deleteAuthorization","deprecated":"`authorization.delete()` is deprecated, use `authorization.deleteAuthorization()`"},"deleteAuthorization":{"method":"DELETE","params":{"authorization_id":{"required":true,"type":"integer"},"id":{"alias":"authorization_id","deprecated":true}},"url":"/authorizations/:authorization_id"},"deleteGrant":{"method":"DELETE","params":{"grant_id":{"required":true,"type":"integer"},"id":{"alias":"grant_id","deprecated":true}},"url":"/applications/grants/:grant_id"},"get":{"alias":"authorization.getAuthorization","deprecated":"`authorization.get()` is deprecated, use `authorization.getAuthorization()`"},"getAll":{"alias":"authorization.listAuthorizations","deprecated":"`authorization.getAll()` is deprecated, use `authorization.listAuthorizations()`"},"getAuthorization":{"method":"GET","params":{"authorization_id":{"required":true,"type":"integer"},"id":{"alias":"authorization_id","deprecated":true}},"url":"/authorizations/:authorization_id"},"getGrant":{"method":"GET","params":{"grant_id":{"required":true,"type":"integer"},"id":{"alias":"grant_id","deprecated":true}},"url":"/applications/grants/:grant_id"},"getGrants":{"alias":"authorization.listGrants","deprecated":"`authorization.getGrants()` is deprecated, use `authorization.listGrants()`"},"getOrCreateAuthorizationForApp":{"method":"PUT","params":{"client_id":{"required":true,"type":"string"},"client_secret":{"required":true,"type":"string"},"fingerprint":{"type":"string"},"note":{"type":"string"},"note_url":{"type":"string"},"scopes":{"type":"string[]"}},"url":"/authorizations/clients/:client_id"},"getOrCreateAuthorizationForAppAndFingerprint":{"alias":"authorization.getOrCreateAuthorizationForAppFingerprint","deprecated":"`authorization.getOrCreateAuthorizationForAppAndFingerprint()` is deprecated, use `authorization.getOrCreateAuthorizationForAppFingerprint()`"},"getOrCreateAuthorizationForAppFingerprint":{"method":"PUT","params":{"client_id":{"required":true,"type":"string"},"client_secret":{"required":true,"type":"string"},"fingerprint":{"required":true,"type":"string"},"note":{"type":"string"},"note_url":{"type":"string"},"scopes":{"type":"string[]"}},"url":"/authorizations/clients/:client_id/:fingerprint"},"listAuthorizations":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/authorizations"},"listGrants":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/applications/grants"},"reset":{"alias":"authorization.resetAuthorization","deprecated":"`authorization.reset()` is deprecated, use `authorization.resetAuthorization()`"},"resetAuthorization":{"method":"POST","params":{"access_token":{"required":true,"type":"string"},"client_id":{"required":true,"type":"string"}},"url":"/applications/:client_id/tokens/:access_token"},"revoke":{"alias":"authorization.revokeAuthorizationForApplication","deprecated":"`authorization.revoke()` is deprecated, use `authorization.revokeAuthorizationForApplication()`"},"revokeAuthorizationForApplication":{"method":"DELETE","params":{"access_token":{"required":true,"type":"string"},"client_id":{"required":true,"type":"string"}},"url":"/applications/:client_id/tokens/:access_token"},"revokeGrant":{"alias":"authorization.revokeGrantForApplication","deprecated":"`authorization.revokeGrant()` is deprecated, use `authorization.revokeGrantForApplication()`"},"revokeGrantForApplication":{"method":"DELETE","params":{"access_token":{"required":true,"type":"string"},"client_id":{"required":true,"type":"string"}},"url":"/applications/:client_id/grants/:access_token"},"update":{"alias":"authorization.updateAuthorization","deprecated":"`authorization.update()` is deprecated, use `authorization.updateAuthorization()`"},"updateAuthorization":{"method":"PATCH","params":{"add_scopes":{"type":"string[]"},"authorization_id":{"required":true,"type":"integer"},"fingerprint":{"type":"string"},"id":{"alias":"authorization_id","deprecated":true},"note":{"type":"string"},"note_url":{"type":"string"},"remove_scopes":{"type":"string[]"},"scopes":{"type":"string[]"}},"url":"/authorizations/:authorization_id"}},"checks":{"create":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"POST","params":{"actions":{"type":"object[]"},"actions[].description":{"required":true,"type":"string"},"actions[].identifier":{"required":true,"type":"string"},"actions[].label":{"required":true,"type":"string"},"completed_at":{"type":"string"},"conclusion":{"enum":["success","failure","neutral","cancelled","timed_out","action_required"],"type":"string"},"details_url":{"type":"string"},"external_id":{"type":"string"},"head_sha":{"required":true,"type":"string"},"name":{"required":true,"type":"string"},"output":{"type":"object"},"output.annotations":{"type":"object[]"},"output.annotations[].annotation_level":{"enum":["notice","warning","failure"],"required":true,"type":"string"},"output.annotations[].end_column":{"type":"integer"},"output.annotations[].end_line":{"required":true,"type":"integer"},"output.annotations[].filename":{"alias":"output.annotations[].path","deprecated":true},"output.annotations[].message":{"required":true,"type":"string"},"output.annotations[].path":{"required":true,"type":"string"},"output.annotations[].raw_details":{"type":"string"},"output.annotations[].start_column":{"type":"integer"},"output.annotations[].start_line":{"required":true,"type":"integer"},"output.annotations[].title":{"type":"string"},"output.annotations[].warning_level":{"alias":"output.annotations[].annotation_level","deprecated":true},"output.images":{"type":"object[]"},"output.images[].alt":{"required":true,"type":"string"},"output.images[].caption":{"type":"string"},"output.images[].image_url":{"required":true,"type":"string"},"output.summary":{"required":true,"type":"string"},"output.text":{"type":"string"},"output.title":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"started_at":{"type":"string"},"status":{"enum":["queued","in_progress","completed"],"type":"string"}},"url":"/repos/:owner/:repo/check-runs"},"createSuite":{"headers":{"accept":"application/vnd.github.antiope-preview+json"},"method":"POST","params":{"head_sha":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-suites"},"get":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"check_run_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-runs/:check_run_id"},"getSuite":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"check_suite_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-suites/:check_suite_id"},"listAnnotations":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"check_run_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-runs/:check_run_id/annotations"},"listForRef":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"check_name":{"type":"string"},"filter":{"enum":["latest","all"],"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"status":{"enum":["queued","in_progress","completed"],"type":"string"}},"url":"/repos/:owner/:repo/commits/:ref/check-runs"},"listForSuite":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"check_name":{"type":"string"},"check_suite_id":{"required":true,"type":"integer"},"filter":{"enum":["latest","all"],"type":"string"},"id":{"alias":"check_suite_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"status":{"enum":["queued","in_progress","completed"],"type":"string"}},"url":"/repos/:owner/:repo/check-suites/:check_suite_id/check-runs"},"listSuitesForRef":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"GET","params":{"app_id":{"type":"integer"},"check_name":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:ref/check-suites"},"requestSuites":{"deprecated":"use `rerequestSuite` instead","headers":{"accept":"application/vnd.github.antiope-preview+json"},"method":"POST","params":{"head_sha":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-suite-requests"},"rerequestSuite":{"headers":{"accept":"application/vnd.github.antiope-preview+json"},"method":"POST","params":{"check_suite_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-suites/:check_suite_id/rerequest"},"setSuitesPreferences":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"PATCH","params":{"auto_trigger_checks":{"type":"object[]"},"auto_trigger_checks[].app_id":{"required":true,"type":"integer"},"auto_trigger_checks[].setting":{"required":true,"type":"boolean"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/check-suites/preferences"},"update":{"headers":{"accept":"application/vnd.github.antiope-preview+json,application/vnd.github.machine-man-preview+json"},"method":"PATCH","params":{"actions":{"type":"object[]"},"actions[].description":{"required":true,"type":"string"},"actions[].identifier":{"required":true,"type":"string"},"actions[].label":{"required":true,"type":"string"},"check_run_id":{"required":true,"type":"integer"},"completed_at":{"type":"string"},"conclusion":{"enum":["success","failure","neutral","cancelled","timed_out","action_required"],"type":"string"},"details_url":{"type":"string"},"external_id":{"type":"string"},"name":{"type":"string"},"output":{"type":"object"},"output.annotations":{"type":"object[]"},"output.annotations[].annotation_level":{"enum":["notice","warning","failure"],"required":true,"type":"string"},"output.annotations[].end_column":{"type":"integer"},"output.annotations[].end_line":{"required":true,"type":"integer"},"output.annotations[].filename":{"alias":"output.annotations[].path","deprecated":true},"output.annotations[].message":{"required":true,"type":"string"},"output.annotations[].path":{"required":true,"type":"string"},"output.annotations[].raw_details":{"type":"string"},"output.annotations[].start_column":{"type":"integer"},"output.annotations[].start_line":{"required":true,"type":"integer"},"output.annotations[].title":{"type":"string"},"output.annotations[].warning_level":{"alias":"output.annotations[].annotation_level","deprecated":true},"output.images":{"type":"object[]"},"output.images[].alt":{"required":true,"type":"string"},"output.images[].caption":{"type":"string"},"output.images[].image_url":{"required":true,"type":"string"},"output.summary":{"required":true,"type":"string"},"output.text":{"type":"string"},"output.title":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"started_at":{"type":"string"},"status":{"enum":["queued","in_progress","completed"],"type":"string"}},"url":"/repos/:owner/:repo/check-runs/:check_run_id"}},"codesOfConduct":{"getConductCode":{"headers":{"accept":"application/vnd.github.scarlet-witch-preview+json"},"method":"GET","params":{"key":{"required":true,"type":"string"}},"url":"/codes_of_conduct/:key"},"getForRepo":{"headers":{"accept":"application/vnd.github.scarlet-witch-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/community/code_of_conduct"},"listConductCodes":{"headers":{"accept":"application/vnd.github.scarlet-witch-preview+json"},"method":"GET","params":{},"url":"/codes_of_conduct"}},"emojis":{"get":{"method":"GET","params":{},"url":"/emojis"}},"enterprise":{"createOrg":{"method":"POST","params":{"admin":{"required":true,"type":"string"},"login":{"required":true,"type":"string"},"profile_name":{"type":"string"}},"url":"/admin/organizations"},"createPreReceiveEnvironment":{"method":"POST","params":{"image_url":{"required":true,"type":"string"},"name":{"required":true,"type":"string"}},"url":"/admin/pre-receive-environments"},"createPreReceiveHook":{"method":"POST","params":{"allow_downstream_configuration":{"type":"boolean"},"enforcement":{"type":"string"},"environment":{"required":true,"type":"object"},"name":{"required":true,"type":"string"},"script":{"required":true,"type":"string"},"script_repository":{"required":true,"type":"object"}},"url":"/admin/pre-receive-hooks"},"deletePreReceiveEnvironment":{"method":"DELETE","params":{"id":{"required":true,"type":"string"}},"url":"/admin/pre-receive-environments/:id"},"deletePreReceiveHook":{"method":"DELETE","params":{"id":{"required":true,"type":"string"}},"url":"/admin/pre_receive_hooks/:id"},"editPreReceiveEnvironment":{"method":"PATCH","params":{"id":{"required":true,"type":"string"},"image_url":{"required":true,"type":"string"},"name":{"required":true,"type":"string"}},"url":"/admin/pre-receive-environments/:id"},"editPreReceiveHook":{"method":"PATCH","params":{"hook":{"mapTo":"data","required":true,"type":"object"},"id":{"required":true,"type":"string"}},"url":"/admin/pre_receive_hooks/:id"},"getLicense":{"method":"GET","params":{},"url":"/enterprise/settings/license"},"getPreReceiveEnvironment":{"method":"GET","params":{"id":{"required":true,"type":"string"}},"url":"/admin/pre-receive-environments/:id"},"getPreReceiveEnvironmentDownloadStatus":{"method":"GET","params":{"id":{"required":true,"type":"string"}},"url":"/admin/pre-receive-environments/:id/downloads/latest"},"getPreReceiveEnvironments":{"method":"GET","params":{},"url":"/admin/pre-receive-environments"},"getPreReceiveHook":{"method":"GET","params":{"id":{"required":true,"type":"string"}},"url":"/admin/pre-receive-hooks/:id"},"getPreReceiveHooks":{"method":"GET","params":{},"url":"/admin/pre-receive-hooks"},"queueIndexingJob":{"method":"POST","params":{"target":{"required":true,"type":"string"}},"url":"/staff/indexing_jobs"},"stats":{"method":"GET","params":{"type":{"enum":["issues","hooks","milestones","orgs","comments","pages","users","gists","pulls","repos","all"],"required":true,"type":"string"}},"url":"/enterprise/stats/:type"},"syncLdapForTeam":{"method":"POST","params":{"team_id":{"required":true,"type":"integer"}},"url":"/admin/ldap/teams/:team_id/sync"},"syncLdapForUser":{"method":"POST","params":{"username":{"required":true,"type":"string"}},"url":"/admin/ldap/users/:username/sync"},"triggerPreReceiveEnvironmentDownload":{"method":"POST","params":{"id":{"required":true,"type":"string"}},"url":"/admin/pre-receive-environments/:id/downloads"},"updateLdapForTeam":{"method":"PATCH","params":{"ldap_dn":{"required":true,"type":"string"},"team_id":{"required":true,"type":"integer"}},"url":"/admin/ldap/teams/:team_id/mapping"},"updateLdapForUser":{"method":"PATCH","params":{"ldap_dn":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/admin/ldap/users/:username/mapping"}},"gists":{"checkIsStarred":{"method":"GET","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id/star"},"checkStar":{"alias":"gists.checkIsStarred","deprecated":"`gists.checkStar()` is deprecated, use `gists.checkIsStarred()`"},"create":{"method":"POST","params":{"description":{"type":"string"},"files":{"required":true,"type":"object"},"files.content":{"type":"string"},"public":{"type":"boolean"}},"url":"/gists"},"createComment":{"method":"POST","params":{"body":{"required":true,"type":"string"},"gist_id":{"required":true,"type":"string"}},"url":"/gists/:gist_id/comments"},"delete":{"method":"DELETE","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id"},"deleteComment":{"method":"DELETE","params":{"comment_id":{"required":true,"type":"integer"},"gist_id":{"required":true,"type":"string"},"id":{"alias":"comment_id","deprecated":true}},"url":"/gists/:gist_id/comments/:comment_id"},"edit":{"alias":"gists.update","deprecated":"`gists.edit()` is deprecated, use `gists.update()`"},"editComment":{"alias":"gists.updateComment","deprecated":"`gists.editComment()` is deprecated, use `gists.updateComment()`"},"fork":{"method":"POST","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id/forks"},"get":{"method":"GET","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id"},"getAll":{"alias":"gists.list","deprecated":"`gists.getAll()` is deprecated, use `gists.list()`"},"getComment":{"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"gist_id":{"required":true,"type":"string"},"id":{"alias":"comment_id","deprecated":true}},"url":"/gists/:gist_id/comments/:comment_id"},"getComments":{"alias":"gists.listComments","deprecated":"`gists.getComments()` is deprecated, use `gists.listComments()`"},"getCommits":{"alias":"gists.listCommits","deprecated":"`gists.getCommits()` is deprecated, use `gists.listCommits()`"},"getForUser":{"alias":"gists.listPublicForUser","deprecated":"`gists.getForUser()` is deprecated, use `gists.listPublicForUser()`"},"getForks":{"alias":"gists.listForks","deprecated":"`gists.getForks()` is deprecated, use `gists.listForks()`"},"getPublic":{"alias":"gists.listPublic","deprecated":"`gists.getPublic()` is deprecated, use `gists.listPublic()`"},"getRevision":{"method":"GET","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true},"sha":{"required":true,"type":"string"}},"url":"/gists/:gist_id/:sha"},"getStarred":{"alias":"gists.listStarred","deprecated":"`gists.getStarred()` is deprecated, use `gists.listStarred()`"},"list":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/gists"},"listComments":{"method":"GET","params":{"gist_id":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/gists/:gist_id/comments"},"listCommits":{"method":"GET","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/gists/:gist_id/commits"},"listForks":{"method":"GET","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/gists/:gist_id/forks"},"listPublic":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/gists/public"},"listPublicForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"},"username":{"required":true,"type":"string"}},"url":"/users/:username/gists"},"listStarred":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/gists/starred"},"star":{"method":"PUT","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id/star"},"unstar":{"method":"DELETE","params":{"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id/star"},"update":{"method":"PATCH","params":{"description":{"type":"string"},"files":{"type":"object"},"files.content":{"type":"string"},"files.filename":{"type":"string"},"gist_id":{"required":true,"type":"string"},"id":{"alias":"gist_id","deprecated":true}},"url":"/gists/:gist_id"},"updateComment":{"method":"PATCH","params":{"body":{"required":true,"type":"string"},"comment_id":{"required":true,"type":"integer"},"gist_id":{"required":true,"type":"string"},"id":{"alias":"comment_id","deprecated":true}},"url":"/gists/:gist_id/comments/:comment_id"}},"gitdata":{"createBlob":{"method":"POST","params":{"content":{"required":true,"type":"string"},"encoding":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/blobs"},"createCommit":{"method":"POST","params":{"author":{"type":"object"},"committer":{"type":"object"},"message":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"parents":{"required":true,"type":"string[]"},"repo":{"required":true,"type":"string"},"tree":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/commits"},"createRef":{"method":"POST","params":{"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/refs"},"createReference":{"alias":"gitdata.createRef","deprecated":"`gitdata.createReference()` is deprecated, use `gitdata.createRef()`"},"createTag":{"method":"POST","params":{"message":{"required":true,"type":"string"},"object":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"tag":{"required":true,"type":"string"},"tagger":{"type":"object"},"tagger.date":{"type":"string"},"tagger.email":{"type":"string"},"tagger.name":{"type":"string"},"type":{"enum":["commit","tree","blob"],"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/tags"},"createTree":{"method":"POST","params":{"base_tree":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"tree":{"required":true,"type":"object[]"},"tree[].content":{"type":"string"},"tree[].mode":{"enum":["100644","100755","040000","160000","120000"],"type":"string"},"tree[].path":{"type":"string"},"tree[].sha":{"type":"string"},"tree[].type":{"enum":["blob","tree","commit"],"type":"string"}},"url":"/repos/:owner/:repo/git/trees"},"deleteRef":{"method":"DELETE","params":{"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/refs/:ref"},"deleteReference":{"alias":"gitdata.deleteRef","deprecated":"`gitdata.deleteReference()` is deprecated, use `gitdata.deleteRef()`"},"getBlob":{"method":"GET","params":{"file_sha":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"alias":"file_sha","deprecated":true}},"url":"/repos/:owner/:repo/git/blobs/:file_sha"},"getCommit":{"method":"GET","params":{"commit_sha":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"alias":"commit_sha","deprecated":true}},"url":"/repos/:owner/:repo/git/commits/:commit_sha"},"getCommitSignatureVerification":{"alias":"gitdata.getCommit","deprecated":"`gitdata.getCommitSignatureVerification()` is deprecated, use `gitdata.getCommit()`","params":{}},"getRef":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/refs/:ref"},"getReference":{"alias":"gitdata.getRef","deprecated":"`gitdata.getReference()` is deprecated, use `gitdata.getRef()`"},"getReferences":{"alias":"gitdata.listRefs","deprecated":"`gitdata.getReferences()` is deprecated, use `gitdata.listRefs()`"},"getTag":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"alias":"tag_sha","deprecated":true},"tag_sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/tags/:tag_sha"},"getTagSignatureVerification":{"alias":"gitdata.getTag","deprecated":"`gitdata.getTagSignatureVerification()` is deprecated, use `gitdata.getTag()`","params":{}},"getTags":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/refs/tags"},"getTree":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"recursive":{"enum":[1],"type":"integer"},"repo":{"required":true,"type":"string"},"sha":{"alias":"tree_sha","deprecated":true},"tree_sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/trees/:tree_sha"},"listRefs":{"method":"GET","params":{"namespace":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/refs/:namespace"},"updateRef":{"method":"PATCH","params":{"force":{"type":"boolean"},"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/git/refs/:ref"},"updateReference":{"alias":"gitdata.updateRef","deprecated":"`gitdata.updateReference()` is deprecated, use `gitdata.updateRef()`"}},"gitignore":{"getTemplate":{"method":"GET","params":{"name":{"required":true,"type":"string"}},"url":"/gitignore/templates/:name"},"listTemplates":{"method":"GET","params":{},"url":"/gitignore/templates"}},"integrations":{"addRepoToInstallation":{"alias":"apps.addRepoToInstallation","deprecated":"`integrations.addRepoToInstallation()` is deprecated, use `apps.addRepoToInstallation()`","params":{}},"createInstallationToken":{"alias":"apps.createInstallationToken","deprecated":"`integrations.createInstallationToken()` is deprecated, use `apps.createInstallationToken()`","params":{}},"getInstallationRepositories":{"alias":"apps.listRepos","deprecated":"`integrations.getInstallationRepositories()` is deprecated, use `apps.listRepos()`","params":{}},"getInstallations":{"alias":"apps.listInstallations","deprecated":"`integrations.getInstallations()` is deprecated, use `apps.listInstallations()`","params":{}},"removeRepoFromInstallation":{"alias":"apps.removeRepoFromInstallation","deprecated":"`integrations.removeRepoFromInstallation()` is deprecated, use `apps.removeRepoFromInstallation()`","params":{}}},"issues":{"addAssignees":{"method":"POST","params":{"assignees":{"type":"string[]"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/assignees"},"addAssigneesToIssue":{"alias":"issues.addAssignees","deprecated":"`issues.addAssigneesToIssue()` is deprecated, use `issues.addAssignees()`"},"addLabels":{"method":"POST","params":{"labels":{"required":true,"type":"string[]"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/labels"},"checkAssignee":{"method":"GET","params":{"assignee":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/assignees/:assignee"},"create":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"assignee":{"type":"string"},"assignees":{"type":"string[]"},"body":{"type":"string"},"labels":{"type":"string[]"},"milestone":{"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"title":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues"},"createComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"body":{"required":true,"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/comments"},"createLabel":{"method":"POST","params":{"color":{"required":true,"type":"string"},"description":{"type":"string"},"name":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/labels"},"createMilestone":{"method":"POST","params":{"description":{"type":"string"},"due_on":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"state":{"enum":["open","closed"],"type":"string"},"title":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/milestones"},"deleteComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"DELETE","params":{"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/comments/:comment_id"},"deleteLabel":{"method":"DELETE","params":{"name":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/labels/:name"},"deleteMilestone":{"method":"DELETE","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/milestones/:number"},"edit":{"alias":"issues.update","deprecated":"`issues.edit()` is deprecated, use `issues.update()`"},"editComment":{"alias":"issues.updateComment","deprecated":"`issues.editComment()` is deprecated, use `issues.updateComment()`"},"get":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number"},"getAll":{"alias":"issues.list","deprecated":"`issues.getAll()` is deprecated, use `issues.list()`"},"getAssignees":{"alias":"issues.listAssignees","deprecated":"`issues.getAssignees()` is deprecated, use `issues.listAssignees()`"},"getComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/comments/:comment_id"},"getComments":{"alias":"issues.listComments","deprecated":"`issues.getComments()` is deprecated, use `issues.listComments()`"},"getCommentsForRepo":{"alias":"issues.listCommentsForRepo","deprecated":"`issues.getCommentsForRepo()` is deprecated, use `issues.listCommentsForRepo()`"},"getEvent":{"method":"GET","params":{"event_id":{"required":true,"type":"integer"},"id":{"alias":"event_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/events/:event_id"},"getEvents":{"alias":"issues.listEvents","deprecated":"`issues.getEvents()` is deprecated, use `issues.listEvents()`"},"getEventsForRepo":{"alias":"issues.listEventsForRepo","deprecated":"`issues.getEventsForRepo()` is deprecated, use `issues.listEventsForRepo()`"},"getEventsTimeline":{"alias":"issues.listEventsForTimeline","deprecated":"`issues.getEventsTimeline()` is deprecated, use `issues.listEventsForTimeline()`"},"getForOrg":{"alias":"issues.listForOrg","deprecated":"`issues.getForOrg()` is deprecated, use `issues.listForOrg()`"},"getForRepo":{"alias":"issues.listForRepo","deprecated":"`issues.getForRepo()` is deprecated, use `issues.listForRepo()`"},"getForUser":{"alias":"issues.listForAuthenticatedUser","deprecated":"`issues.getForUser()` is deprecated, use `issues.listForAuthenticatedUser()`"},"getIssueLabels":{"alias":"issues.listLabelsOnIssue","deprecated":"`issues.getIssueLabels()` is deprecated, use `issues.listLabelsOnIssue()`"},"getLabel":{"method":"GET","params":{"name":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/labels/:name"},"getLabels":{"alias":"issues.listLabelsForRepo","deprecated":"`issues.getLabels()` is deprecated, use `issues.listLabelsForRepo()`"},"getMilestone":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/milestones/:number"},"getMilestoneLabels":{"alias":"issues.listLabelsForMilestone","deprecated":"`issues.getMilestoneLabels()` is deprecated, use `issues.listLabelsForMilestone()`"},"getMilestones":{"alias":"issues.listMilestonesForRepo","deprecated":"`issues.getMilestones()` is deprecated, use `issues.listMilestonesForRepo()`"},"list":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"filter":{"enum":["assigned","created","mentioned","subscribed","all"],"type":"string"},"labels":{"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"},"sort":{"enum":["created","updated","comments"],"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/issues"},"listAssignees":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/assignees"},"listComments":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"since":{"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/comments"},"listCommentsForRepo":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"since":{"type":"string"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/repos/:owner/:repo/issues/comments"},"listEvents":{"method":"GET","params":{"issue_number":{"alias":"number","deprecated":true},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/events"},"listEventsForRepo":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/events"},"listEventsForTimeline":{"headers":{"accept":"application/vnd.github.mockingbird-preview+json"},"method":"GET","params":{"issue_number":{"alias":"number","deprecated":true},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/timeline"},"listForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"filter":{"enum":["assigned","created","mentioned","subscribed","all"],"type":"string"},"labels":{"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"},"sort":{"enum":["created","updated","comments"],"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/user/issues"},"listForOrg":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"filter":{"enum":["assigned","created","mentioned","subscribed","all"],"type":"string"},"labels":{"type":"string"},"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"},"sort":{"enum":["created","updated","comments"],"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/orgs/:org/issues"},"listForRepo":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"assignee":{"type":"string"},"creator":{"type":"string"},"direction":{"enum":["asc","desc"],"type":"string"},"labels":{"type":"string"},"mentioned":{"type":"string"},"milestone":{"type":"string","validation":"^([0-9]+|none|\\*)$"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"since":{"type":"string"},"sort":{"enum":["created","updated","comments"],"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/repos/:owner/:repo/issues"},"listLabelsForMilestone":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/milestones/:number/labels"},"listLabelsForRepo":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/labels"},"listLabelsOnIssue":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/labels"},"listMilestonesForRepo":{"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"sort":{"enum":["due_on","completeness"],"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/repos/:owner/:repo/milestones"},"lock":{"method":"PUT","params":{"lock_reason":{"enum":["off-topic","too heated","resolved","spam"],"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/lock"},"removeAllLabels":{"alias":"issues.removeLabels","deprecated":"`issues.removeAllLabels()` is deprecated, use `issues.removeLabels()`"},"removeAssignees":{"method":"DELETE","params":{"assignees":{"type":"string[]"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/assignees"},"removeAssigneesFromIssue":{"alias":"issues.removeAssignees","deprecated":"`issues.removeAssigneesFromIssue()` is deprecated, use `issues.removeAssignees()`"},"removeLabel":{"method":"DELETE","params":{"name":{"required":true,"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/labels/:name"},"removeLabels":{"method":"DELETE","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/labels"},"replaceAllLabels":{"alias":"issues.replaceLabels","deprecated":"`issues.replaceAllLabels()` is deprecated, use `issues.replaceLabels()`"},"replaceLabels":{"method":"PUT","params":{"labels":{"type":"string[]"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/labels"},"unlock":{"method":"DELETE","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/lock"},"update":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"PATCH","params":{"assignee":{"type":"string"},"assignees":{"type":"string[]"},"body":{"type":"string"},"labels":{"type":"string[]"},"milestone":{"allowNull":true,"type":"integer"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"state":{"enum":["open","closed"],"type":"string"},"title":{"type":"string"}},"url":"/repos/:owner/:repo/issues/:number"},"updateComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"PATCH","params":{"body":{"required":true,"type":"string"},"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/comments/:comment_id"},"updateLabel":{"method":"PATCH","params":{"color":{"type":"string"},"current_name":{"required":true,"type":"string"},"description":{"type":"string"},"name":{"type":"string"},"oldname":{"alias":"current_name","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/labels/:current_name"},"updateMilestone":{"method":"PATCH","params":{"description":{"type":"string"},"due_on":{"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"state":{"enum":["open","closed"],"type":"string"},"title":{"type":"string"}},"url":"/repos/:owner/:repo/milestones/:number"}},"licenses":{"get":{"method":"GET","params":{"license":{"required":true,"type":"string"}},"url":"/licenses/:license"},"getForRepo":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/license"},"list":{"method":"GET","params":{},"url":"/licenses"}},"markdown":{"render":{"method":"POST","params":{"context":{"type":"string"},"mode":{"enum":["markdown","gfm"],"type":"string"},"text":{"required":true,"type":"string"}},"url":"/markdown"},"renderRaw":{"headers":{"content-type":"text/plain; charset=utf-8"},"method":"POST","params":{"data":{"mapTo":"data","required":true,"type":"string"}},"url":"/markdown/raw"}},"meta":{"get":{"method":"GET","params":{},"url":"/meta"}},"migrations":{"cancelImport":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"DELETE","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/import"},"deleteArchiveForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"DELETE","params":{"migration_id":{"required":true,"type":"integer"}},"url":"/user/migrations/:migration_id/archive"},"deleteArchiveForOrg":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"DELETE","params":{"id":{"alias":"migration_id","deprecated":true},"migration_id":{"required":true,"type":"integer"},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/migrations/:migration_id/archive"},"deleteMigrationArchive":{"alias":"migrations.deleteArchiveForOrg","deprecated":"`migrations.deleteMigrationArchive()` is deprecated, use `migrations.deleteArchiveForOrg()`"},"getArchiveForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"GET","params":{"migration_id":{"required":true,"type":"integer"}},"url":"/user/migrations/:migration_id/archive"},"getArchiveForOrg":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"GET","params":{"id":{"alias":"migration_id","deprecated":true},"migration_id":{"required":true,"type":"integer"},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/migrations/:migration_id/archive"},"getCommitAuthors":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"since":{"type":"string"}},"url":"/repos/:owner/:repo/import/authors"},"getImportCommitAuthors":{"alias":"migrations.getCommitAuthors","deprecated":"`migrations.getImportCommitAuthors()` is deprecated, use `migrations.getCommitAuthors()`"},"getImportProgress":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/import"},"getLargeFiles":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"GET","params":{"name":{"alias":"repo","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/import/large_files"},"getLargeImportFiles":{"alias":"migrations.getLargeFiles","deprecated":"`migrations.getLargeImportFiles()` is deprecated, use `migrations.getLargeFiles()`"},"getMigrationArchiveLink":{"alias":"migrations.getArchiveForOrg","deprecated":"`migrations.getMigrationArchiveLink()` is deprecated, use `migrations.getArchiveForOrg()`"},"getMigrationStatus":{"alias":"migrations.getStatusForOrg","deprecated":"`migrations.getMigrationStatus()` is deprecated, use `migrations.getStatusForOrg()`"},"getMigrations":{"alias":"migrations.listForOrg","deprecated":"`migrations.getMigrations()` is deprecated, use `migrations.listForOrg()`"},"getStatusForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"GET","params":{"migration_id":{"required":true,"type":"integer"}},"url":"/user/migrations/:migration_id"},"getStatusForOrg":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"GET","params":{"id":{"alias":"migration_id","deprecated":true},"migration_id":{"required":true,"type":"integer"},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/migrations/:migration_id"},"listForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/migrations"},"listForOrg":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/migrations"},"mapCommitAuthor":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"PATCH","params":{"author_id":{"required":true,"type":"integer"},"email":{"type":"string"},"name":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/import/authors/:author_id"},"mapImportCommitAuthor":{"alias":"migrations.mapCommitAuthor","deprecated":"`migrations.mapImportCommitAuthor()` is deprecated, use `migrations.mapCommitAuthor()`"},"setImportLfsPreference":{"alias":"migrations.setLfsPreference","deprecated":"`migrations.setImportLfsPreference()` is deprecated, use `migrations.setLfsPreference()`"},"setLfsPreference":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"PATCH","params":{"name":{"alias":"repo","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"use_lfs":{"enum":["opt_in","opt_out"],"required":true,"type":"string"}},"url":"/repos/:owner/:repo/import/lfs"},"startForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"POST","params":{"exclude_attachments":{"type":"boolean"},"lock_repositories":{"type":"boolean"},"repositories":{"required":true,"type":"string[]"}},"url":"/user/migrations"},"startForOrg":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"POST","params":{"exclude_attachments":{"type":"boolean"},"lock_repositories":{"type":"boolean"},"org":{"required":true,"type":"string"},"repositories":{"required":true,"type":"string[]"}},"url":"/orgs/:org/migrations"},"startImport":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"PUT","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"tfvc_project":{"type":"string"},"vcs":{"enum":["subversion","git","mercurial","tfvc"],"type":"string"},"vcs_password":{"type":"string"},"vcs_url":{"required":true,"type":"string"},"vcs_username":{"type":"string"}},"url":"/repos/:owner/:repo/import"},"startMigration":{"alias":"migrations.startForOrg","deprecated":"`migrations.startMigration()` is deprecated, use `migrations.startForOrg()`"},"unlockRepoForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"DELETE","params":{"migration_id":{"required":true,"type":"integer"},"repo_name":{"required":true,"type":"string"}},"url":"/user/migrations/:migration_id/repos/:repo_name/lock"},"unlockRepoForOrg":{"headers":{"accept":"application/vnd.github.wyandotte-preview+json"},"method":"DELETE","params":{"id":{"alias":"migration_id","deprecated":true},"migration_id":{"required":true,"type":"integer"},"org":{"required":true,"type":"string"},"repo_name":{"required":true,"type":"string"}},"url":"/orgs/:org/migrations/:migration_id/repos/:repo_name/lock"},"unlockRepoLockedForMigration":{"alias":"migrations.unlockRepoForOrg","deprecated":"`migrations.unlockRepoLockedForMigration()` is deprecated, use `migrations.unlockRepoForOrg()`"},"updateImport":{"headers":{"accept":"application/vnd.github.barred-rock-preview+json"},"method":"PATCH","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"vcs_password":{"type":"string"},"vcs_username":{"type":"string"}},"url":"/repos/:owner/:repo/import"}},"misc":{"getCodeOfConduct":{"alias":"codesOfConduct.getConductCode","deprecated":"`misc.getCodeOfConduct()` is deprecated, use `codesOfConduct.getConductCode()`"},"getCodesOfConduct":{"alias":"codesOfConduct.listConductCodes","deprecated":"`misc.getCodesOfConduct()` is deprecated, use `codesOfConduct.listConductCodes()`"},"getEmojis":{"alias":"emojis.get","deprecated":"`misc.getEmojis()` is deprecated, use `emojis.get()`","params":{}},"getGitignoreTemplate":{"alias":"gitignore.getTemplate","deprecated":"`misc.getGitignoreTemplate()` is deprecated, use `gitignore.getTemplate()`"},"getGitignoreTemplates":{"alias":"gitignore.listTemplates","deprecated":"`misc.getGitignoreTemplates()` is deprecated, use `gitignore.listTemplates()`"},"getLicense":{"alias":"licenses.get","deprecated":"`misc.getLicense()` is deprecated, use `licenses.get()`"},"getLicenses":{"alias":"licenses.list","deprecated":"`misc.getLicenses()` is deprecated, use `licenses.list()`"},"getMeta":{"alias":"meta.get","deprecated":"`misc.getMeta()` is deprecated, use `meta.get()`","params":{}},"getRateLimit":{"alias":"rateLimit.get","deprecated":"`misc.getRateLimit()` is deprecated, use `rateLimit.get()`"},"getRepoCodeOfConduct":{"alias":"codesOfConduct.getForRepo","deprecated":"`misc.getRepoCodeOfConduct()` is deprecated, use `codesOfConduct.getForRepo()`"},"getRepoLicense":{"alias":"licenses.getForRepo","deprecated":"`misc.getRepoLicense()` is deprecated, use `licenses.getForRepo()`"},"renderMarkdown":{"alias":"markdown.render","deprecated":"`misc.renderMarkdown()` is deprecated, use `markdown.render()`"},"renderMarkdownRaw":{"alias":"markdown.renderRaw","deprecated":"`misc.renderMarkdownRaw()` is deprecated, use `markdown.renderRaw()`"}},"orgs":{"addOrUpdateMembership":{"method":"PUT","params":{"org":{"required":true,"type":"string"},"role":{"enum":["admin","member"],"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/memberships/:username"},"addOrgMembership":{"alias":"orgs.addOrUpdateMembership","deprecated":"`orgs.addOrgMembership()` is deprecated, use `orgs.addOrUpdateMembership()`"},"addTeamMembership":{"alias":"teams.addOrUpdateMembership","deprecated":"`orgs.addTeamMembership()` is deprecated, use `teams.addOrUpdateMembership()`"},"addTeamRepo":{"alias":"teams.addOrUpdateRepo","deprecated":"`orgs.addTeamRepo()` is deprecated, use `teams.addOrUpdateRepo()`"},"blockUser":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"PUT","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/blocks/:username"},"checkBlockedUser":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"GET","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/blocks/:username"},"checkMembership":{"method":"GET","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/members/:username"},"checkPublicMembership":{"method":"GET","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/public_members/:username"},"checkTeamRepo":{"alias":"teams.checkManagesRepo","deprecated":"`orgs.checkTeamRepo()` is deprecated, use `teams.checkManagesRepo()`"},"concealMembership":{"method":"DELETE","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/public_members/:username"},"convertMemberToOutsideCollaborator":{"method":"PUT","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/outside_collaborators/:username"},"createHook":{"method":"POST","params":{"active":{"type":"boolean"},"config":{"required":true,"type":"object"},"config.content_type":{"type":"string"},"config.insecure_ssl":{"type":"string"},"config.secret":{"type":"string"},"config.url":{"required":true,"type":"string"},"events":{"type":"string[]"},"name":{"required":true,"type":"string"},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/hooks"},"createInvitation":{"headers":{"accept":"application/vnd.github.dazzler-preview+json"},"method":"POST","params":{"email":{"type":"string"},"invitee_id":{"type":"integer"},"org":{"required":true,"type":"string"},"role":{"enum":["admin","direct_member","billing_manager"],"type":"string"},"team_ids":{"type":"integer[]"}},"url":"/orgs/:org/invitations"},"createTeam":{"alias":"teams.create","deprecated":"`orgs.createTeam()` is deprecated, use `teams.create()`"},"deleteHook":{"method":"DELETE","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/hooks/:hook_id"},"deleteTeam":{"alias":"teams.delete","deprecated":"`orgs.deleteTeam()` is deprecated, use `teams.delete()`"},"deleteTeamRepo":{"alias":"teams.removeRepo","deprecated":"`orgs.deleteTeamRepo()` is deprecated, use `teams.removeRepo()`"},"editHook":{"alias":"orgs.updateHook","deprecated":"`orgs.editHook()` is deprecated, use `orgs.updateHook()`"},"editTeam":{"alias":"teams.update","deprecated":"`orgs.editTeam()` is deprecated, use `teams.update()`"},"get":{"method":"GET","params":{"org":{"required":true,"type":"string"}},"url":"/orgs/:org"},"getAll":{"alias":"orgs.list","deprecated":"`orgs.getAll()` is deprecated, use `orgs.list()`"},"getBlockedUsers":{"alias":"orgs.listBlockedUsers","deprecated":"`orgs.getBlockedUsers()` is deprecated, use `orgs.listBlockedUsers()`"},"getChildTeams":{"alias":"teams.listChild","deprecated":"`orgs.getChildTeams()` is deprecated, use `teams.listChild()`"},"getForUser":{"alias":"orgs.listForUser","deprecated":"`orgs.getForUser()` is deprecated, use `orgs.listForUser()`"},"getHook":{"method":"GET","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/hooks/:hook_id"},"getHooks":{"alias":"orgs.listHooks","deprecated":"`orgs.getHooks()` is deprecated, use `orgs.listHooks()`"},"getInvitationTeams":{"alias":"orgs.listInvitationTeams","deprecated":"`orgs.getInvitationTeams()` is deprecated, use `orgs.listInvitationTeams()`"},"getMembers":{"alias":"orgs.listMembers","deprecated":"`orgs.getMembers()` is deprecated, use `orgs.listMembers()`"},"getMembership":{"method":"GET","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/memberships/:username"},"getMembershipForAuthenticatedUser":{"method":"GET","params":{"org":{"required":true,"type":"string"}},"url":"/user/memberships/orgs/:org"},"getOrgMembership":{"alias":"orgs.getMembership","deprecated":"`orgs.getOrgMembership()` is deprecated, use `orgs.getMembership()`"},"getOutsideCollaborators":{"alias":"orgs.listOutsideCollaborators","deprecated":"`orgs.getOutsideCollaborators()` is deprecated, use `orgs.listOutsideCollaborators()`"},"getPendingOrgInvites":{"alias":"orgs.listPendingInvitations","deprecated":"`orgs.getPendingOrgInvites()` is deprecated, use `orgs.listPendingInvitations()`"},"getPendingTeamInvites":{"alias":"teams.listPendingInvitations","deprecated":"`orgs.getPendingTeamInvites()` is deprecated, use `teams.listPendingInvitations()`"},"getPublicMembers":{"alias":"orgs.listPublicMembers","deprecated":"`orgs.getPublicMembers()` is deprecated, use `orgs.listPublicMembers()`"},"getTeam":{"alias":"teams.get","deprecated":"`orgs.getTeam()` is deprecated, use `teams.get()`"},"getTeamMembers":{"alias":"teams.listMembers","deprecated":"`orgs.getTeamMembers()` is deprecated, use `teams.listMembers()`"},"getTeamMembership":{"alias":"teams.getMembership","deprecated":"`orgs.getTeamMembership()` is deprecated, use `teams.getMembership()`"},"getTeamRepos":{"alias":"teams.listRepos","deprecated":"`orgs.getTeamRepos()` is deprecated, use `teams.listRepos()`"},"getTeams":{"alias":"teams.list","deprecated":"`orgs.getTeams()` is deprecated, use `teams.list()`"},"list":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/organizations"},"listBlockedUsers":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"GET","params":{"org":{"required":true,"type":"string"}},"url":"/orgs/:org/blocks"},"listForAuthenticatedUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/orgs"},"listForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/orgs"},"listHooks":{"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/hooks"},"listInvitationTeams":{"method":"GET","params":{"invitation_id":{"required":true,"type":"integer"},"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/invitations/:invitation_id/teams"},"listMembers":{"method":"GET","params":{"filter":{"enum":["2fa_disabled","all"],"type":"string"},"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"role":{"enum":["all","admin","member"],"type":"string"}},"url":"/orgs/:org/members"},"listMemberships":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"state":{"enum":["active","pending"],"type":"string"}},"url":"/user/memberships/orgs"},"listOutsideCollaborators":{"method":"GET","params":{"filter":{"enum":["2fa_disabled","all"],"type":"string"},"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/outside_collaborators"},"listPendingInvitations":{"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/invitations"},"listPublicMembers":{"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/public_members"},"pingHook":{"method":"POST","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/hooks/:hook_id/pings"},"publicizeMembership":{"method":"PUT","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/public_members/:username"},"removeMember":{"method":"DELETE","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/members/:username"},"removeMembership":{"method":"DELETE","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/memberships/:username"},"removeOrgMembership":{"alias":"orgs.removeMembership","deprecated":"`orgs.removeOrgMembership()` is deprecated, use `orgs.removeMembership()`"},"removeOutsideCollaborator":{"method":"DELETE","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/outside_collaborators/:username"},"removeTeamMembership":{"alias":"teams.removeMembership","deprecated":"`orgs.removeTeamMembership()` is deprecated, use `teams.removeMembership()`"},"unblockUser":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"DELETE","params":{"org":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/orgs/:org/blocks/:username"},"update":{"method":"PATCH","params":{"billing_email":{"type":"string"},"company":{"type":"string"},"default_repository_permission":{"enum":["read","write","admin","none"],"type":"string"},"description":{"type":"string"},"email":{"type":"string"},"has_organization_projects":{"type":"boolean"},"has_repository_projects":{"type":"boolean"},"location":{"type":"string"},"members_can_create_repositories":{"type":"boolean"},"name":{"type":"string"},"org":{"required":true,"type":"string"}},"url":"/orgs/:org"},"updateHook":{"method":"PATCH","params":{"active":{"type":"boolean"},"config":{"type":"object"},"config.content_type":{"type":"string"},"config.insecure_ssl":{"type":"string"},"config.secret":{"type":"string"},"config.url":{"required":true,"type":"string"},"events":{"type":"string[]"},"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"org":{"required":true,"type":"string"}},"url":"/orgs/:org/hooks/:hook_id"},"updateMembership":{"method":"PATCH","params":{"org":{"required":true,"type":"string"},"state":{"enum":["active"],"required":true,"type":"string"}},"url":"/user/memberships/orgs/:org"}},"projects":{"addCollaborator":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"PUT","params":{"id":{"alias":"project_id","deprecated":true},"permission":{"enum":["read","write","admin"],"type":"string"},"project_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/projects/:project_id/collaborators/:username"},"createCard":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"POST","params":{"column_id":{"required":true,"type":"integer"},"content_id":{"type":"integer"},"content_type":{"type":"string"},"note":{"type":"string"}},"url":"/projects/columns/:column_id/cards"},"createColumn":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"POST","params":{"id":{"alias":"project_id","deprecated":true},"name":{"required":true,"type":"string"},"project_id":{"required":true,"type":"integer"}},"url":"/projects/:project_id/columns"},"createForOrg":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"POST","params":{"body":{"type":"string"},"name":{"required":true,"type":"string"},"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/projects"},"createForRepo":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"POST","params":{"body":{"type":"string"},"name":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/projects"},"createOrgProject":{"alias":"projects.createForOrg","deprecated":"`projects.createOrgProject()` is deprecated, use `projects.createForOrg()`"},"createProjectCard":{"alias":"projects.createCard","deprecated":"`projects.createProjectCard()` is deprecated, use `projects.createCard()`"},"createProjectColumn":{"alias":"projects.createColumn","deprecated":"`projects.createProjectColumn()` is deprecated, use `projects.createColumn()`"},"createRepoProject":{"alias":"projects.createForRepo","deprecated":"`projects.createRepoProject()` is deprecated, use `projects.createForRepo()`"},"delete":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"DELETE","params":{"id":{"alias":"project_id","deprecated":true},"project_id":{"required":true,"type":"integer"}},"url":"/projects/:project_id"},"deleteCard":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"DELETE","params":{"card_id":{"required":true,"type":"integer"},"id":{"alias":"card_id","deprecated":true}},"url":"/projects/columns/cards/:card_id"},"deleteColumn":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"DELETE","params":{"column_id":{"required":true,"type":"integer"},"id":{"alias":"column_id","deprecated":true}},"url":"/projects/columns/:column_id"},"deleteProject":{"alias":"projects.delete","deprecated":"`projects.deleteProject()` is deprecated, use `projects.delete()`"},"deleteProjectCard":{"alias":"projects.deleteCard","deprecated":"`projects.deleteProjectCard()` is deprecated, use `projects.deleteCard()`"},"deleteProjectColumn":{"alias":"projects.deleteColumn","deprecated":"`projects.deleteProjectColumn()` is deprecated, use `projects.deleteColumn()`"},"get":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"id":{"alias":"project_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"project_id":{"required":true,"type":"integer"}},"url":"/projects/:project_id"},"getCard":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"card_id":{"required":true,"type":"integer"},"id":{"alias":"card_id","deprecated":true}},"url":"/projects/columns/cards/:card_id"},"getCollaborators":{"alias":"projects.listCollaborators","deprecated":"`projects.getCollaborators()` is deprecated, use `projects.listCollaborators()`"},"getColumn":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"column_id":{"required":true,"type":"integer"},"id":{"alias":"column_id","deprecated":true}},"url":"/projects/columns/:column_id"},"getOrgProjects":{"alias":"projects.listForOrg","deprecated":"`projects.getOrgProjects()` is deprecated, use `projects.listForOrg()`"},"getProject":{"alias":"projects.get","deprecated":"`projects.getProject()` is deprecated, use `projects.get()`"},"getProjectCard":{"alias":"projects.getCard","deprecated":"`projects.getProjectCard()` is deprecated, use `projects.getCard()`"},"getProjectCards":{"alias":"projects.listCards","deprecated":"`projects.getProjectCards()` is deprecated, use `projects.listCards()`"},"getProjectColumn":{"alias":"projects.getColumn","deprecated":"`projects.getProjectColumn()` is deprecated, use `projects.getColumn()`"},"getProjectColumns":{"alias":"projects.listColumns","deprecated":"`projects.getProjectColumns()` is deprecated, use `projects.listColumns()`"},"getRepoProjects":{"alias":"projects.listForRepo","deprecated":"`projects.getRepoProjects()` is deprecated, use `projects.listForRepo()`"},"getUserPermissionLevel":{"alias":"projects.reviewUserPermissionLevel","deprecated":"`projects.getUserPermissionLevel()` is deprecated, use `projects.reviewUserPermissionLevel()`"},"listCards":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"archived_state":{"enum":["all","archived","not_archived"],"type":"string"},"column_id":{"required":true,"type":"integer"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/projects/columns/:column_id/cards"},"listCollaborators":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"affiliation":{"enum":["outside","direct","all"],"type":"string"},"id":{"alias":"project_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"project_id":{"required":true,"type":"integer"}},"url":"/projects/:project_id/collaborators"},"listColumns":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"id":{"alias":"project_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"project_id":{"required":true,"type":"integer"}},"url":"/projects/:project_id/columns"},"listForOrg":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/orgs/:org/projects"},"listForRepo":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/repos/:owner/:repo/projects"},"moveCard":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"POST","params":{"card_id":{"required":true,"type":"integer"},"column_id":{"type":"integer"},"id":{"alias":"card_id","deprecated":true},"position":{"required":true,"type":"string","validation":"^(top|bottom|after:\\d+)$"}},"url":"/projects/columns/cards/:card_id/moves"},"moveColumn":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"POST","params":{"column_id":{"required":true,"type":"integer"},"id":{"alias":"column_id","deprecated":true},"position":{"required":true,"type":"string","validation":"^(first|last|after:\\d+)$"}},"url":"/projects/columns/:column_id/moves"},"moveProjectCard":{"alias":"projects.moveCard","deprecated":"`projects.moveProjectCard()` is deprecated, use `projects.moveCard()`"},"moveProjectColumn":{"alias":"projects.moveColumn","deprecated":"`projects.moveProjectColumn()` is deprecated, use `projects.moveColumn()`"},"removeCollaborator":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"DELETE","params":{"id":{"alias":"project_id","deprecated":true},"project_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/projects/:project_id/collaborators/:username"},"reviewUserPermissionLevel":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"id":{"alias":"project_id","deprecated":true},"project_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/projects/:project_id/collaborators/:username/permission"},"update":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"PATCH","params":{"body":{"type":"string"},"id":{"alias":"project_id","deprecated":true},"name":{"type":"string"},"organization_permission":{"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"project_id":{"required":true,"type":"integer"},"public":{"type":"boolean"},"state":{"enum":["open","closed"],"type":"string"}},"url":"/projects/:project_id"},"updateCard":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"PATCH","params":{"archived":{"type":"boolean"},"card_id":{"required":true,"type":"integer"},"id":{"alias":"card_id","deprecated":true},"note":{"type":"string"}},"url":"/projects/columns/cards/:card_id"},"updateColumn":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"PATCH","params":{"column_id":{"required":true,"type":"integer"},"id":{"alias":"column_id","deprecated":true},"name":{"required":true,"type":"string"}},"url":"/projects/columns/:column_id"},"updateProject":{"alias":"projects.update","deprecated":"`projects.updateProject()` is deprecated, use `projects.update()`"},"updateProjectCard":{"alias":"projects.updateCard","deprecated":"`projects.updateProjectCard()` is deprecated, use `projects.updateCard()`"},"updateProjectColumn":{"alias":"projects.updateColumn","deprecated":"`projects.updateProjectColumn()` is deprecated, use `projects.updateColumn()`"}},"pullRequests":{"checkIfMerged":{"headers":{"accept":"application/vnd.github.polaris-preview"},"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/merge"},"checkMerged":{"alias":"pullRequests.checkIfMerged","deprecated":"`pullRequests.checkMerged()` is deprecated, use `pullRequests.checkIfMerged()`"},"create":{"method":"POST","params":{"base":{"required":true,"type":"string"},"body":{"type":"string"},"head":{"required":true,"type":"string"},"maintainer_can_modify":{"type":"boolean"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"title":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls"},"createComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"body":{"required":true,"type":"string"},"commit_id":{"required":true,"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"path":{"required":true,"type":"string"},"position":{"required":true,"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/comments"},"createCommentReply":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"body":{"required":true,"type":"string"},"in_reply_to":{"required":true,"type":"integer"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/comments"},"createFromIssue":{"method":"POST","params":{"base":{"required":true,"type":"string"},"head":{"required":true,"type":"string"},"issue":{"required":true,"type":"integer"},"maintainer_can_modify":{"type":"boolean"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls"},"createReview":{"method":"POST","params":{"body":{"type":"string"},"comments":{"type":"object[]"},"comments[].body":{"required":true,"type":"string"},"comments[].path":{"required":true,"type":"string"},"comments[].position":{"required":true,"type":"integer"},"commit_id":{"type":"string"},"event":{"enum":["APPROVE","REQUEST_CHANGES","COMMENT"],"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/reviews"},"createReviewRequest":{"method":"POST","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"reviewers":{"type":"string[]"},"team_reviewers":{"type":"string[]"}},"url":"/repos/:owner/:repo/pulls/:number/requested_reviewers"},"deleteComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"DELETE","params":{"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/comments/:comment_id"},"deletePendingReview":{"method":"DELETE","params":{"id":{"alias":"review_id","deprecated":true},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"review_id":{"required":true,"type":"integer"}},"url":"/repos/:owner/:repo/pulls/:number/reviews/:review_id"},"deleteReviewRequest":{"method":"DELETE","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"reviewers":{"type":"string[]"},"team_reviewers":{"type":"string[]"}},"url":"/repos/:owner/:repo/pulls/:number/requested_reviewers"},"dismissReview":{"method":"PUT","params":{"id":{"alias":"review_id","deprecated":true},"message":{"required":true,"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"review_id":{"required":true,"type":"integer"}},"url":"/repos/:owner/:repo/pulls/:number/reviews/:review_id/dismissals"},"editComment":{"alias":"pullRequests.updateComment","deprecated":"`pullRequests.editComment()` is deprecated, use `pullRequests.updateComment()`"},"get":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number"},"getAll":{"alias":"pullRequests.list","deprecated":"`pullRequests.getAll()` is deprecated, use `pullRequests.list()`"},"getComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/comments/:comment_id"},"getComments":{"alias":"pullRequests.listComments","deprecated":"`pullRequests.getComments()` is deprecated, use `pullRequests.listComments()`"},"getCommentsForRepo":{"alias":"pullRequests.listCommentsForRepo","deprecated":"`pullRequests.getCommentsForRepo()` is deprecated, use `pullRequests.listCommentsForRepo()`"},"getCommentsForReview":{"method":"GET","params":{"id":{"alias":"review_id","deprecated":true},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"review_id":{"required":true,"type":"integer"}},"url":"/repos/:owner/:repo/pulls/:number/reviews/:review_id/comments"},"getCommits":{"alias":"pullRequests.listCommits","deprecated":"`pullRequests.getCommits()` is deprecated, use `pullRequests.listCommits()`"},"getFiles":{"alias":"pullRequests.listFiles","deprecated":"`pullRequests.getFiles()` is deprecated, use `pullRequests.listFiles()`"},"getReview":{"method":"GET","params":{"id":{"alias":"review_id","deprecated":true},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"review_id":{"required":true,"type":"integer"}},"url":"/repos/:owner/:repo/pulls/:number/reviews/:review_id"},"getReviewComments":{"alias":"pullRequests.getCommentsForReview","deprecated":"`pullRequests.getReviewComments()` is deprecated, use `pullRequests.getCommentsForReview()`"},"getReviewRequests":{"alias":"pullRequests.listReviewRequests","deprecated":"`pullRequests.getReviewRequests()` is deprecated, use `pullRequests.listReviewRequests()`"},"getReviews":{"alias":"pullRequests.listReviews","deprecated":"`pullRequests.getReviews()` is deprecated, use `pullRequests.listReviews()`"},"list":{"method":"GET","params":{"base":{"type":"string"},"direction":{"enum":["asc","desc"],"type":"string"},"head":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"sort":{"enum":["created","updated","popularity","long-running"],"type":"string"},"state":{"enum":["open","closed","all"],"type":"string"}},"url":"/repos/:owner/:repo/pulls"},"listComments":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"since":{"type":"string"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/comments"},"listCommentsForRepo":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"since":{"type":"string"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/repos/:owner/:repo/pulls/comments"},"listCommits":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/commits"},"listFiles":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/files"},"listReviewRequests":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/requested_reviewers"},"listReviews":{"method":"GET","params":{"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/reviews"},"merge":{"headers":{"accept":"application/vnd.github.polaris-preview"},"method":"PUT","params":{"commit_message":{"type":"string"},"commit_title":{"type":"string"},"merge_method":{"enum":["merge","squash","rebase"],"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number/merge"},"submitReview":{"method":"POST","params":{"body":{"type":"string"},"event":{"enum":["APPROVE","REQUEST_CHANGES","COMMENT"],"required":true,"type":"string"},"id":{"alias":"review_id","deprecated":true},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"review_id":{"required":true,"type":"integer"}},"url":"/repos/:owner/:repo/pulls/:number/reviews/:review_id/events"},"update":{"method":"PATCH","params":{"base":{"type":"string"},"body":{"type":"string"},"maintainer_can_modify":{"type":"boolean"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"state":{"enum":["open","closed"],"type":"string"},"title":{"type":"string"}},"url":"/repos/:owner/:repo/pulls/:number"},"updateComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"PATCH","params":{"body":{"required":true,"type":"string"},"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/comments/:comment_id"}},"rateLimit":{"get":{"method":"GET","params":{},"url":"/rate_limit"}},"reactions":{"createForCommitComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"comment_id":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"required":true,"type":"string"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/comments/:comment_id/reactions"},"createForIssue":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"required":true,"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/reactions"},"createForIssueComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"comment_id":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"required":true,"type":"string"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/comments/:comment_id/reactions"},"createForPullRequestReviewComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"comment_id":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"required":true,"type":"string"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/comments/:comment_id/reactions"},"createForTeamDiscussion":{"headers":{"accept":"application/vnd.github.echo-preview+json,application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"required":true,"type":"string"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/reactions"},"createForTeamDiscussionComment":{"headers":{"accept":"application/vnd.github.echo-preview+json,application/vnd.github.squirrel-girl-preview+json"},"method":"POST","params":{"comment_number":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"required":true,"type":"string"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments/:comment_number/reactions"},"delete":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"DELETE","params":{"id":{"alias":"reaction_id","deprecated":true},"reaction_id":{"required":true,"type":"integer"}},"url":"/reactions/:reaction_id"},"getForCommitComment":{"alias":"reactions.listForCommitComment","deprecated":"`reactions.getForCommitComment()` is deprecated, use `reactions.listForCommitComment()`"},"getForIssue":{"alias":"reactions.listForIssue","deprecated":"`reactions.getForIssue()` is deprecated, use `reactions.listForIssue()`"},"getForIssueComment":{"alias":"reactions.listForIssueComment","deprecated":"`reactions.getForIssueComment()` is deprecated, use `reactions.listForIssueComment()`"},"getForPullRequestReviewComment":{"alias":"reactions.listForPullRequestReviewComment","deprecated":"`reactions.getForPullRequestReviewComment()` is deprecated, use `reactions.listForPullRequestReviewComment()`"},"getForTeamDiscussion":{"alias":"reactions.listForTeamDiscussion","deprecated":"`reactions.getForTeamDiscussion()` is deprecated, use `reactions.listForTeamDiscussion()`"},"getForTeamDiscussionComment":{"alias":"reactions.listForTeamDiscussionComment","deprecated":"`reactions.getForTeamDiscussionComment()` is deprecated, use `reactions.listForTeamDiscussionComment()`"},"listForCommitComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"type":"string"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/comments/:comment_id/reactions"},"listForIssue":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"type":"string"},"number":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/:number/reactions"},"listForIssueComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"type":"string"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/issues/comments/:comment_id/reactions"},"listForPullRequestReviewComment":{"headers":{"accept":"application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"type":"string"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pulls/comments/:comment_id/reactions"},"listForTeamDiscussion":{"headers":{"accept":"application/vnd.github.echo-preview+json,application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"type":"string"},"discussion_number":{"required":true,"type":"integer"},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/reactions"},"listForTeamDiscussionComment":{"headers":{"accept":"application/vnd.github.echo-preview+json,application/vnd.github.squirrel-girl-preview+json"},"method":"GET","params":{"comment_number":{"required":true,"type":"integer"},"content":{"enum":["+1","-1","laugh","confused","heart","hooray"],"type":"string"},"discussion_number":{"required":true,"type":"integer"},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments/:comment_number/reactions"}},"repos":{"acceptInvitation":{"method":"PATCH","params":{"invitation_id":{"required":true,"type":"integer"}},"url":"/user/repository_invitations/:invitation_id"},"addCollaborator":{"method":"PUT","params":{"owner":{"required":true,"type":"string"},"permission":{"enum":["pull","push","admin"],"type":"string"},"repo":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/collaborators/:username"},"addDeployKey":{"method":"POST","params":{"key":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"read_only":{"type":"boolean"},"repo":{"required":true,"type":"string"},"title":{"type":"string"}},"url":"/repos/:owner/:repo/keys"},"addProtectedBranchAdminEnforcement":{"method":"POST","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/enforce_admins"},"addProtectedBranchRequiredSignatures":{"headers":{"accept":"application/vnd.github.zzzax-preview+json"},"method":"POST","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_signatures"},"addProtectedBranchRequiredStatusChecksContexts":{"method":"POST","params":{"branch":{"required":true,"type":"string"},"contexts":{"mapTo":"data","required":true,"type":"string[]"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks/contexts"},"addProtectedBranchTeamRestrictions":{"method":"POST","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"teams":{"mapTo":"data","required":true,"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/teams"},"addProtectedBranchUserRestrictions":{"method":"POST","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"users":{"mapTo":"data","required":true,"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/users"},"checkCollaborator":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/collaborators/:username"},"compareCommits":{"method":"GET","params":{"base":{"required":true,"type":"string"},"head":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/compare/:base...:head"},"create":{"alias":"repos.createForAuthenticatedUser","deprecated":"`repos.create()` is deprecated, use `repos.createForAuthenticatedUser()`"},"createCommitComment":{"method":"POST","params":{"body":{"required":true,"type":"string"},"line":{"type":"integer"},"owner":{"required":true,"type":"string"},"path":{"type":"string"},"position":{"type":"integer"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:sha/comments"},"createDeployment":{"headers":{"accept":"application/vnd.github.ant-man-preview+json"},"method":"POST","params":{"auto_merge":{"type":"boolean"},"description":{"type":"string"},"environment":{"type":"string"},"owner":{"required":true,"type":"string"},"payload":{"type":"string"},"production_environment":{"type":"boolean"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"required_contexts":{"type":"string[]"},"task":{"type":"string"},"transient_environment":{"type":"boolean"}},"url":"/repos/:owner/:repo/deployments"},"createDeploymentStatus":{"headers":{"accept":"application/vnd.github.ant-man-preview+json"},"method":"POST","params":{"auto_inactive":{"type":"boolean"},"deployment_id":{"required":true,"type":"integer"},"description":{"type":"string"},"environment":{"enum":["production","staging","qa"],"type":"string"},"environment_url":{"type":"string"},"id":{"alias":"deployment_id","deprecated":true},"log_url":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"state":{"enum":["error","failure","inactive","in_progress","queued","pending","success"],"required":true,"type":"string"},"target_url":{"type":"string"}},"url":"/repos/:owner/:repo/deployments/:deployment_id/statuses"},"createFile":{"method":"PUT","params":{"author":{"type":"object"},"author.email":{"required":true,"type":"string"},"author.name":{"required":true,"type":"string"},"branch":{"type":"string"},"committer":{"type":"object"},"committer.email":{"required":true,"type":"string"},"committer.name":{"required":true,"type":"string"},"content":{"required":true,"type":"string"},"message":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"path":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/contents/:path"},"createForAuthenticatedUser":{"method":"POST","params":{"allow_merge_commit":{"type":"boolean"},"allow_rebase_merge":{"type":"boolean"},"allow_squash_merge":{"type":"boolean"},"auto_init":{"type":"boolean"},"description":{"type":"string"},"gitignore_template":{"type":"string"},"has_issues":{"type":"boolean"},"has_projects":{"type":"boolean"},"has_wiki":{"type":"boolean"},"homepage":{"type":"string"},"license_template":{"type":"string"},"name":{"required":true,"type":"string"},"private":{"type":"boolean"},"team_id":{"type":"integer"}},"url":"/user/repos"},"createForOrg":{"alias":"repos.createInOrg","deprecated":"`repos.createForOrg()` is deprecated, use `repos.createInOrg()`"},"createFork":{"method":"POST","params":{"organization":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/forks"},"createHook":{"method":"POST","params":{"active":{"type":"boolean"},"config":{"required":true,"type":"object"},"config.content_type":{"type":"string"},"config.insecure_ssl":{"type":"string"},"config.secret":{"type":"string"},"config.url":{"required":true,"type":"string"},"events":{"type":"string[]"},"name":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks"},"createInOrg":{"method":"POST","params":{"allow_merge_commit":{"type":"boolean"},"allow_rebase_merge":{"type":"boolean"},"allow_squash_merge":{"type":"boolean"},"auto_init":{"type":"boolean"},"description":{"type":"string"},"gitignore_template":{"type":"string"},"has_issues":{"type":"boolean"},"has_projects":{"type":"boolean"},"has_wiki":{"type":"boolean"},"homepage":{"type":"string"},"license_template":{"type":"string"},"name":{"required":true,"type":"string"},"org":{"required":true,"type":"string"},"private":{"type":"boolean"},"team_id":{"type":"integer"}},"url":"/orgs/:org/repos"},"createRelease":{"method":"POST","params":{"body":{"type":"string"},"draft":{"type":"boolean"},"name":{"type":"string"},"owner":{"required":true,"type":"string"},"prerelease":{"type":"boolean"},"repo":{"required":true,"type":"string"},"tag_name":{"required":true,"type":"string"},"target_commitish":{"type":"string"}},"url":"/repos/:owner/:repo/releases"},"createStatus":{"method":"POST","params":{"context":{"type":"string"},"description":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"},"state":{"enum":["error","failure","pending","success"],"required":true,"type":"string"},"target_url":{"type":"string"}},"url":"/repos/:owner/:repo/statuses/:sha"},"declineInvitation":{"method":"DELETE","params":{"invitation_id":{"required":true,"type":"integer"}},"url":"/user/repository_invitations/:invitation_id"},"delete":{"method":"DELETE","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo"},"deleteAsset":{"alias":"repos.deleteReleaseAsset","deprecated":"`repos.deleteAsset()` is deprecated, use `repos.deleteReleaseAsset()`"},"deleteCommitComment":{"method":"DELETE","params":{"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/comments/:comment_id"},"deleteDeployKey":{"alias":"repos.removeDeployKey","deprecated":"`repos.deleteDeployKey()` is deprecated, use `repos.removeDeployKey()`"},"deleteDownload":{"method":"DELETE","params":{"download_id":{"required":true,"type":"integer"},"id":{"alias":"download_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/downloads/:download_id"},"deleteFile":{"method":"DELETE","params":{"author":{"type":"object"},"branch":{"type":"string"},"committer":{"type":"object"},"message":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"path":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/contents/:path"},"deleteHook":{"method":"DELETE","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks/:hook_id"},"deleteInvitation":{"method":"DELETE","params":{"invitation_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/invitations/:invitation_id"},"deleteInvite":{"alias":"repos.deleteInvitation","deprecated":"`repos.deleteInvite()` is deprecated, use `repos.deleteInvitation()`"},"deleteRelease":{"method":"DELETE","params":{"id":{"alias":"release_id","deprecated":true},"owner":{"required":true,"type":"string"},"release_id":{"required":true,"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/:release_id"},"deleteReleaseAsset":{"method":"DELETE","params":{"asset_id":{"required":true,"type":"integer"},"id":{"alias":"asset_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/assets/:asset_id"},"edit":{"alias":"repos.update","deprecated":"`repos.edit()` is deprecated, use `repos.update()`"},"editAsset":{"alias":"repos.updateReleaseAsset","deprecated":"`repos.editAsset()` is deprecated, use `repos.updateReleaseAsset()`"},"editHook":{"alias":"repos.updateHook","deprecated":"`repos.editHook()` is deprecated, use `repos.updateHook()`"},"editRelease":{"alias":"repos.updateRelease","deprecated":"`repos.editRelease()` is deprecated, use `repos.updateRelease()`"},"fork":{"alias":"repos.createFork","deprecated":"`repos.fork()` is deprecated, use `repos.createFork()`"},"get":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo"},"getAll":{"alias":"repos.list","deprecated":"`repos.getAll()` is deprecated, use `repos.list()`"},"getAllCommitComments":{"alias":"repos.listCommitComments","deprecated":"`repos.getAllCommitComments()` is deprecated, use `repos.listCommitComments()`"},"getArchiveLink":{"method":"GET","params":{"archive_format":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/:archive_format/:ref"},"getAsset":{"alias":"repos.getReleaseAsset","deprecated":"`repos.getAsset()` is deprecated, use `repos.getReleaseAsset()`"},"getAssets":{"alias":"repos.listAssetsForRelease","deprecated":"`repos.getAssets()` is deprecated, use `repos.listAssetsForRelease()`"},"getBranch":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch"},"getBranchProtection":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection"},"getBranches":{"alias":"repos.listBranches","deprecated":"`repos.getBranches()` is deprecated, use `repos.listBranches()`"},"getById":{"method":"GET","params":{"id":{"required":true,"type":"string"}},"url":"/repositories/:id"},"getClones":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"per":{"enum":["day","week"],"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/traffic/clones"},"getCodeFrequencyStats":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/stats/code_frequency"},"getCollaboratorPermissionLevel":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/collaborators/:username/permission"},"getCollaborators":{"alias":"repos.listCollaborators","deprecated":"`repos.getCollaborators()` is deprecated, use `repos.listCollaborators()`"},"getCombinedStatusForRef":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:ref/status"},"getCommit":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:sha"},"getCommitActivityStats":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/stats/commit_activity"},"getCommitComment":{"method":"GET","params":{"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/comments/:comment_id"},"getCommitComments":{"alias":"repos.listCommentsForCommit","deprecated":"`repos.getCommitComments()` is deprecated, use `repos.listCommentsForCommit()`"},"getCommitRefSha":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:ref"},"getCommits":{"alias":"repos.listCommits","deprecated":"`repos.getCommits()` is deprecated, use `repos.listCommits()`"},"getCommunityProfileMetrics":{"alias":"repos.retrieveCommunityProfileMetrics","deprecated":"`repos.getCommunityProfileMetrics()` is deprecated, use `repos.retrieveCommunityProfileMetrics()`"},"getContent":{"alias":"repos.getContents","deprecated":"`repos.getContent()` is deprecated, use `repos.getContents()`"},"getContents":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"path":{"required":true,"type":"string"},"ref":{"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/contents/:path"},"getContributors":{"alias":"repos.listContributors","deprecated":"`repos.getContributors()` is deprecated, use `repos.listContributors()`"},"getContributorsStats":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/stats/contributors"},"getDeployKey":{"method":"GET","params":{"id":{"alias":"key_id","deprecated":true},"key_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/keys/:key_id"},"getDeployKeys":{"alias":"repos.listDeployKeys","deprecated":"`repos.getDeployKeys()` is deprecated, use `repos.listDeployKeys()`"},"getDeployment":{"method":"GET","params":{"deployment_id":{"required":true,"type":"integer"},"id":{"alias":"deployment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/deployments/:deployment_id"},"getDeploymentStatus":{"method":"GET","params":{"deployment_id":{"required":true,"type":"integer"},"id":{"alias":"deployment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"status_id":{"required":true,"type":"integer"}},"url":"/repos/:owner/:repo/deployments/:deployment_id/statuses/:status_id"},"getDeploymentStatuses":{"alias":"repos.listDeploymentStatuses","deprecated":"`repos.getDeploymentStatuses()` is deprecated, use `repos.listDeploymentStatuses()`"},"getDeployments":{"alias":"repos.listDeployments","deprecated":"`repos.getDeployments()` is deprecated, use `repos.listDeployments()`"},"getDownload":{"method":"GET","params":{"download_id":{"required":true,"type":"integer"},"id":{"alias":"download_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/downloads/:download_id"},"getDownloads":{"alias":"repos.listDownloads","deprecated":"`repos.getDownloads()` is deprecated, use `repos.listDownloads()`"},"getForOrg":{"alias":"repos.listForOrg","deprecated":"`repos.getForOrg()` is deprecated, use `repos.listForOrg()`"},"getForUser":{"alias":"repos.listForUser","deprecated":"`repos.getForUser()` is deprecated, use `repos.listForUser()`"},"getForks":{"alias":"repos.listForks","deprecated":"`repos.getForks()` is deprecated, use `repos.listForks()`"},"getHook":{"method":"GET","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks/:hook_id"},"getHooks":{"alias":"repos.listHooks","deprecated":"`repos.getHooks()` is deprecated, use `repos.listHooks()`"},"getInvites":{"alias":"repos.listInvitations","deprecated":"`repos.getInvites()` is deprecated, use `repos.listInvitations()`"},"getLanguages":{"alias":"repos.listLanguages","deprecated":"`repos.getLanguages()` is deprecated, use `repos.listLanguages()`"},"getLatestPagesBuild":{"headers":{"accept":"application/vnd.github.mister-fantastic-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pages/builds/latest"},"getLatestRelease":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/latest"},"getPages":{"headers":{"accept":"application/vnd.github.mister-fantastic-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pages"},"getPagesBuild":{"headers":{"accept":"application/vnd.github.mister-fantastic-preview+json"},"method":"GET","params":{"build_id":{"required":true,"type":"integer"},"id":{"alias":"build_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pages/builds/:build_id"},"getPagesBuilds":{"alias":"repos.listPagesBuilds","deprecated":"`repos.getPagesBuilds()` is deprecated, use `repos.listPagesBuilds()`"},"getParticipationStats":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/stats/participation"},"getPaths":{"alias":"repos.getTopPaths","deprecated":"`repos.getPaths()` is deprecated, use `repos.getTopPaths()`"},"getProtectedBranchAdminEnforcement":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/enforce_admins"},"getProtectedBranchPullRequestReviewEnforcement":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_pull_request_reviews"},"getProtectedBranchRequiredSignatures":{"headers":{"accept":"application/vnd.github.zzzax-preview+json"},"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_signatures"},"getProtectedBranchRequiredStatusChecks":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks"},"getProtectedBranchRequiredStatusChecksContexts":{"alias":"repos.listProtectedBranchRequiredStatusChecksContexts","deprecated":"`repos.getProtectedBranchRequiredStatusChecksContexts()` is deprecated, use `repos.listProtectedBranchRequiredStatusChecksContexts()`"},"getProtectedBranchRestrictions":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions"},"getProtectedBranchTeamRestrictions":{"alias":"repos.listProtectedBranchTeamRestrictions","deprecated":"`repos.getProtectedBranchTeamRestrictions()` is deprecated, use `repos.listProtectedBranchTeamRestrictions()`"},"getProtectedBranchUserRestrictions":{"alias":"repos.listProtectedBranchUserRestrictions","deprecated":"`repos.getProtectedBranchUserRestrictions()` is deprecated, use `repos.listProtectedBranchUserRestrictions()`"},"getPublic":{"alias":"repos.listPublic","deprecated":"`repos.getPublic()` is deprecated, use `repos.listPublic()`"},"getPunchCardStats":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/stats/punch_card"},"getReadme":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"ref":{"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/readme"},"getReferrers":{"alias":"repos.getTopReferrers","deprecated":"`repos.getReferrers()` is deprecated, use `repos.getTopReferrers()`"},"getRelease":{"method":"GET","params":{"id":{"alias":"release_id","deprecated":true},"owner":{"required":true,"type":"string"},"release_id":{"required":true,"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/:release_id"},"getReleaseAsset":{"method":"GET","params":{"asset_id":{"required":true,"type":"integer"},"id":{"alias":"asset_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/assets/:asset_id"},"getReleaseByTag":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"tag":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/tags/:tag"},"getReleases":{"alias":"repos.listReleases","deprecated":"`repos.getReleases()` is deprecated, use `repos.listReleases()`"},"getShaOfCommitRef":{"alias":"repos.getCommitRefSha","deprecated":"`repos.getShaOfCommitRef()` is deprecated, use `repos.getCommitRefSha()`"},"getStatsCodeFrequency":{"alias":"repos.getCodeFrequencyStats","deprecated":"`repos.getStatsCodeFrequency()` is deprecated, use `repos.getCodeFrequencyStats()`"},"getStatsCommitActivity":{"alias":"repos.getCommitActivityStats","deprecated":"`repos.getStatsCommitActivity()` is deprecated, use `repos.getCommitActivityStats()`"},"getStatsContributors":{"alias":"repos.getContributorsStats","deprecated":"`repos.getStatsContributors()` is deprecated, use `repos.getContributorsStats()`"},"getStatsParticipation":{"alias":"repos.getParticipationStats","deprecated":"`repos.getStatsParticipation()` is deprecated, use `repos.getParticipationStats()`"},"getStatsPunchCard":{"alias":"repos.getPunchCardStats","deprecated":"`repos.getStatsPunchCard()` is deprecated, use `repos.getPunchCardStats()`"},"getStatuses":{"alias":"repos.listStatusesForRef","deprecated":"`repos.getStatuses()` is deprecated, use `repos.listStatusesForRef()`"},"getTags":{"alias":"repos.listTags","deprecated":"`repos.getTags()` is deprecated, use `repos.listTags()`"},"getTeams":{"alias":"repos.listTeams","deprecated":"`repos.getTeams()` is deprecated, use `repos.listTeams()`"},"getTopPaths":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/traffic/popular/paths"},"getTopReferrers":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/traffic/popular/referrers"},"getTopics":{"alias":"repos.listTopics","deprecated":"`repos.getTopics()` is deprecated, use `repos.listTopics()`"},"getViews":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"per":{"enum":["day","week"],"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/traffic/views"},"list":{"method":"GET","params":{"affiliation":{"enum":["owner","collaborator","organization_member"],"type":"string"},"direction":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"sort":{"enum":["created","updated","pushed","full_name"],"type":"string"},"type":{"enum":["all","owner","public","private","member"],"type":"string"},"visibility":{"enum":["all","public","private"],"type":"string"}},"url":"/user/repos"},"listAssetsForRelease":{"method":"GET","params":{"id":{"alias":"release_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"release_id":{"required":true,"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/:release_id/assets"},"listBranches":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"protected":{"type":"boolean"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches"},"listCollaborators":{"method":"GET","params":{"affiliation":{"enum":["outside","direct","all"],"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/collaborators"},"listCommentsForCommit":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:ref/comments"},"listCommitComments":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/comments"},"listCommits":{"method":"GET","params":{"author":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"path":{"type":"string"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"sha":{"type":"string"},"since":{"type":"string"},"until":{"type":"string"}},"url":"/repos/:owner/:repo/commits"},"listContributors":{"method":"GET","params":{"anon":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/contributors"},"listDeployKeys":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/keys"},"listDeploymentStatuses":{"headers":{"accept":"application/vnd.github.ant-man-preview+json"},"method":"GET","params":{"deployment_id":{"required":true,"type":"integer"},"id":{"alias":"deployment_id","deprecated":true},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/deployments/:deployment_id/statuses"},"listDeployments":{"headers":{"accept":"application/vnd.github.ant-man-preview+json"},"method":"GET","params":{"environment":{"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"ref":{"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"type":"string"},"task":{"type":"string"}},"url":"/repos/:owner/:repo/deployments"},"listDownloads":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/downloads"},"listForOrg":{"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"type":{"enum":["all","public","private","forks","sources","member"],"type":"string"}},"url":"/orgs/:org/repos"},"listForUser":{"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"sort":{"enum":["created","updated","pushed","full_name"],"type":"string"},"type":{"enum":["all","owner","member"],"type":"string"},"username":{"required":true,"type":"string"}},"url":"/users/:username/repos"},"listForks":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"},"sort":{"enum":["newest","oldest","stargazers"],"type":"string"}},"url":"/repos/:owner/:repo/forks"},"listHooks":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks"},"listInvitations":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/invitations"},"listInvitationsForAuthenticatedUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/repository_invitations"},"listLanguages":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/languages"},"listPagesBuilds":{"headers":{"accept":"application/vnd.github.mister-fantastic-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pages/builds"},"listProtectedBranchRequiredStatusChecksContexts":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks/contexts"},"listProtectedBranchTeamRestrictions":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/teams"},"listProtectedBranchUserRestrictions":{"method":"GET","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/users"},"listPublic":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/repositories"},"listReleases":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases"},"listStatusesForRef":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"ref":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/commits/:ref/statuses"},"listTags":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/tags"},"listTeams":{"method":"GET","params":{"owner":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/teams"},"listTopics":{"headers":{"accept":"application/vnd.github.mercy-preview+json"},"method":"GET","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/topics"},"merge":{"method":"POST","params":{"base":{"required":true,"type":"string"},"commit_message":{"type":"string"},"head":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/merges"},"pingHook":{"method":"POST","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks/:hook_id/pings"},"removeBranchProtection":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection"},"removeCollaborator":{"method":"DELETE","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/collaborators/:username"},"removeDeployKey":{"method":"DELETE","params":{"id":{"alias":"key_id","deprecated":true},"key_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/keys/:key_id"},"removeProtectedBranchAdminEnforcement":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/enforce_admins"},"removeProtectedBranchPullRequestReviewEnforcement":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_pull_request_reviews"},"removeProtectedBranchRequiredSignatures":{"headers":{"accept":"application/vnd.github.zzzax-preview+json"},"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_signatures"},"removeProtectedBranchRequiredStatusChecks":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks"},"removeProtectedBranchRequiredStatusChecksContexts":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"contexts":{"mapTo":"data","required":true,"type":"string[]"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks/contexts"},"removeProtectedBranchRestrictions":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions"},"removeProtectedBranchTeamRestrictions":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"teams":{"mapTo":"data","required":true,"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/teams"},"removeProtectedBranchUserRestrictions":{"method":"DELETE","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"users":{"mapTo":"data","required":true,"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/users"},"replaceProtectedBranchRequiredStatusChecksContexts":{"method":"PUT","params":{"branch":{"required":true,"type":"string"},"contexts":{"mapTo":"data","required":true,"type":"string[]"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks/contexts"},"replaceProtectedBranchTeamRestrictions":{"method":"PUT","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"teams":{"mapTo":"data","required":true,"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/teams"},"replaceProtectedBranchUserRestrictions":{"method":"PUT","params":{"branch":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"users":{"mapTo":"data","required":true,"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/users"},"replaceTopics":{"headers":{"accept":"application/vnd.github.mercy-preview+json"},"method":"PUT","params":{"names":{"required":true,"type":"string[]"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/topics"},"requestPageBuild":{"headers":{"accept":"application/vnd.github.mister-fantastic-preview+json"},"method":"POST","params":{"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/pages/builds"},"retrieveCommunityProfileMetrics":{"headers":{"accept":"application/vnd.github.black-panther-preview+json"},"method":"GET","params":{"name":{"alias":"repo","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/community/profile"},"reviewUserPermissionLevel":{"alias":"repos.getCollaboratorPermissionLevel","deprecated":"`repos.reviewUserPermissionLevel()` is deprecated, use `repos.getCollaboratorPermissionLevel()`"},"testHook":{"alias":"repos.testPushHook","deprecated":"`repos.testHook()` is deprecated, use `repos.testPushHook()`"},"testPushHook":{"method":"POST","params":{"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks/:hook_id/tests"},"transfer":{"headers":{"accept":"application/vnd.github.nightshade-preview+json"},"method":"POST","params":{"new_owner":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"team_id":{"alias":"team_ids","deprecated":true},"team_ids":{"type":"integer[]"}},"url":"/repos/:owner/:repo/transfer"},"update":{"method":"PATCH","params":{"allow_merge_commit":{"type":"boolean"},"allow_rebase_merge":{"type":"boolean"},"allow_squash_merge":{"type":"boolean"},"archived":{"type":"boolean"},"default_branch":{"type":"string"},"description":{"type":"string"},"has_issues":{"type":"boolean"},"has_projects":{"type":"boolean"},"has_wiki":{"type":"boolean"},"homepage":{"type":"string"},"name":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"private":{"type":"boolean"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo"},"updateBranchProtection":{"method":"PUT","params":{"branch":{"required":true,"type":"string"},"enforce_admins":{"allowNull":true,"required":true,"type":"boolean"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"required_pull_request_reviews":{"allowNull":true,"required":true,"type":"object"},"required_pull_request_reviews.dismiss_stale_reviews":{"type":"boolean"},"required_pull_request_reviews.dismissal_restrictions":{"type":"object"},"required_pull_request_reviews.dismissal_restrictions.teams":{"type":"string[]"},"required_pull_request_reviews.dismissal_restrictions.users":{"type":"string[]"},"required_pull_request_reviews.require_code_owner_reviews":{"type":"boolean"},"required_pull_request_reviews.required_approving_review_count":{"type":"integer"},"required_status_checks":{"allowNull":true,"required":true,"type":"object"},"required_status_checks.contexts":{"required":true,"type":"string[]"},"required_status_checks.strict":{"required":true,"type":"boolean"},"restrictions":{"allowNull":true,"required":true,"type":"object"},"restrictions.teams":{"type":"string[]"},"restrictions.users":{"type":"string[]"}},"url":"/repos/:owner/:repo/branches/:branch/protection"},"updateCommitComment":{"method":"PATCH","params":{"body":{"required":true,"type":"string"},"comment_id":{"required":true,"type":"integer"},"id":{"alias":"comment_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/comments/:comment_id"},"updateFile":{"method":"PUT","params":{"author":{"type":"object"},"author.email":{"required":true,"type":"string"},"author.name":{"required":true,"type":"string"},"branch":{"type":"string"},"committer":{"type":"object"},"committer.email":{"required":true,"type":"string"},"committer.name":{"required":true,"type":"string"},"content":{"required":true,"type":"string"},"message":{"required":true,"type":"string"},"owner":{"required":true,"type":"string"},"path":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"sha":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/contents/:path"},"updateHook":{"method":"PATCH","params":{"active":{"type":"boolean"},"add_events":{"type":"string[]"},"config":{"type":"object"},"config.content_type":{"type":"string"},"config.insecure_ssl":{"type":"string"},"config.secret":{"type":"string"},"config.url":{"required":true,"type":"string"},"events":{"type":"string[]"},"hook_id":{"required":true,"type":"integer"},"id":{"alias":"hook_id","deprecated":true},"owner":{"required":true,"type":"string"},"remove_events":{"type":"string[]"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/hooks/:hook_id"},"updateInformationAboutPagesSite":{"headers":{"accept":"application/vnd.github.mister-fantastic-preview+json"},"method":"PUT","params":{"cname":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"source":{"enum":["\"gh-pages\"","\"master\"","\"master /docs\""],"type":"string"}},"url":"/repos/:owner/:repo/pages"},"updateInvitation":{"method":"PATCH","params":{"invitation_id":{"required":true,"type":"integer"},"owner":{"required":true,"type":"string"},"permissions":{"enum":["read","write","admin"],"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/invitations/:invitation_id"},"updateInvite":{"alias":"repos.updateInvitation","deprecated":"`repos.updateInvite()` is deprecated, use `repos.updateInvitation()`"},"updateProtectedBranchPullRequestReviewEnforcement":{"method":"PATCH","params":{"branch":{"required":true,"type":"string"},"dismiss_stale_reviews":{"type":"boolean"},"dismissal_restrictions":{"type":"object"},"dismissal_restrictions.teams":{"type":"string[]"},"dismissal_restrictions.users":{"type":"string[]"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"require_code_owner_reviews":{"type":"boolean"},"required_approving_review_count":{"type":"integer"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_pull_request_reviews"},"updateProtectedBranchRequiredStatusChecks":{"method":"PATCH","params":{"branch":{"required":true,"type":"string"},"contexts":{"type":"string[]"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"strict":{"type":"boolean"}},"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks"},"updateRelease":{"method":"PATCH","params":{"body":{"type":"string"},"draft":{"type":"boolean"},"id":{"alias":"release_id","deprecated":true},"name":{"type":"string"},"owner":{"required":true,"type":"string"},"prerelease":{"type":"boolean"},"release_id":{"required":true,"type":"integer"},"repo":{"required":true,"type":"string"},"tag_name":{"type":"string"},"target_commitish":{"type":"string"}},"url":"/repos/:owner/:repo/releases/:release_id"},"updateReleaseAsset":{"method":"PATCH","params":{"asset_id":{"required":true,"type":"integer"},"id":{"alias":"asset_id","deprecated":true},"label":{"type":"string"},"name":{"type":"string"},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"}},"url":"/repos/:owner/:repo/releases/assets/:asset_id"},"uploadAsset":{"alias":"repos.uploadReleaseAsset","deprecated":"`repos.uploadAsset()` is deprecated, use `repos.uploadReleaseAsset()`"},"uploadReleaseAsset":{"method":"POST","params":{"contentLength":{"alias":"headers.content-length","deprecated":true},"contentType":{"alias":"headers.content-type","deprecated":true},"file":{"mapTo":"data","required":true,"type":"string | object"},"headers.content-length":{"required":true,"type":"integer"},"headers.content-type":{"required":true,"type":"string"},"label":{"type":"string"},"name":{"required":true,"type":"string"},"url":{"required":true,"type":"string"}},"url":":url"}},"search":{"code":{"method":"GET","params":{"order":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"q":{"required":true,"type":"string"},"sort":{"enum":["indexed"],"type":"string"}},"url":"/search/code"},"commits":{"headers":{"accept":"application/vnd.github.cloak-preview+json"},"method":"GET","params":{"order":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"q":{"required":true,"type":"string"},"sort":{"enum":["author-date","committer-date"],"type":"string"}},"url":"/search/commits"},"issues":{"method":"GET","params":{"order":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"q":{"required":true,"type":"string"},"sort":{"enum":["comments","created","updated"],"type":"string"}},"url":"/search/issues"},"labels":{"headers":{"accept":"application/vnd.github.symmetra-preview+json"},"method":"GET","params":{"order":{"enum":["asc","desc"],"type":"string"},"q":{"required":true,"type":"string"},"repository_id":{"required":true,"type":"integer"},"sort":{"enum":["created","updated"],"type":"string"}},"url":"/search/labels"},"repos":{"headers":{"accept":"application/vnd.github.mercy-preview+json"},"method":"GET","params":{"order":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"q":{"required":true,"type":"string"},"sort":{"enum":["stars","forks","updated"],"type":"string"}},"url":"/search/repositories"},"topics":{"headers":{"accept":"application/vnd.github.mercy-preview+json"},"method":"GET","params":{"q":{"required":true,"type":"string"}},"url":"/search/topics"},"users":{"method":"GET","params":{"order":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"q":{"required":true,"type":"string"},"sort":{"enum":["followers","repositories","joined"],"type":"string"}},"url":"/search/users"}},"teams":{"addMember":{"method":"PUT","params":{"team_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/teams/:team_id/members/:username"},"addOrUpdateMembership":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"PUT","params":{"id":{"alias":"team_id","deprecated":true},"role":{"enum":["member","maintainer"],"type":"string"},"team_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/teams/:team_id/memberships/:username"},"addOrUpdateProject":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"PUT","params":{"permission":{"enum":["read","write","admin"],"type":"string"},"project_id":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/projects/:project_id"},"addOrUpdateRepo":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"PUT","params":{"id":{"alias":"team_id","deprecated":true},"org":{"alias":"owner","deprecated":true},"owner":{"required":true,"type":"string"},"permission":{"enum":["pull","push","admin"],"type":"string"},"repo":{"required":true,"type":"string"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/repos/:owner/:repo"},"checkManagesRepo":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/repos/:owner/:repo"},"create":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"POST","params":{"description":{"type":"string"},"maintainers":{"type":"string[]"},"name":{"required":true,"type":"string"},"org":{"required":true,"type":"string"},"parent_team_id":{"type":"integer"},"permission":{"enum":["pull","push","admin"],"type":"string"},"privacy":{"enum":["secret","closed"],"type":"string"},"repo_names":{"type":"string[]"}},"url":"/orgs/:org/teams"},"createDiscussion":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"POST","params":{"body":{"required":true,"type":"string"},"private":{"type":"boolean"},"team_id":{"required":true,"type":"integer"},"title":{"required":true,"type":"string"}},"url":"/teams/:team_id/discussions"},"createDiscussionComment":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"POST","params":{"body":{"required":true,"type":"string"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments"},"delete":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"DELETE","params":{"id":{"alias":"team_id","deprecated":true},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id"},"deleteDiscussion":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"DELETE","params":{"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number"},"deleteDiscussionComment":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"DELETE","params":{"comment_number":{"required":true,"type":"integer"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments/:comment_number"},"get":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id"},"getDiscussion":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"GET","params":{"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number"},"getDiscussionComment":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"GET","params":{"comment_number":{"required":true,"type":"integer"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments/:comment_number"},"getMember":{"method":"GET","params":{"team_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/teams/:team_id/members/:username"},"getMembership":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"team_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/teams/:team_id/memberships/:username"},"list":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"org":{"required":true,"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/orgs/:org/teams"},"listChild":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/teams"},"listDiscussionComments":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"discussion_number":{"required":true,"type":"integer"},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments"},"listDiscussions":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"GET","params":{"direction":{"enum":["asc","desc"],"type":"string"},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions"},"listForAuthenticatedUser":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/teams"},"listMembers":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"role":{"enum":["member","maintainer","all"],"type":"string"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/members"},"listPendingInvitations":{"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/invitations"},"listProjects":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/projects"},"listRepos":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"GET","params":{"id":{"alias":"team_id","deprecated":true},"page":{"type":"integer"},"per_page":{"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/repos"},"removeMember":{"method":"DELETE","params":{"team_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/teams/:team_id/members/:username"},"removeMembership":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"DELETE","params":{"id":{"alias":"team_id","deprecated":true},"team_id":{"required":true,"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/teams/:team_id/memberships/:username"},"removeProject":{"method":"DELETE","params":{"project_id":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/projects/:project_id"},"removeRepo":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"DELETE","params":{"id":{"alias":"team_id","deprecated":true},"owner":{"required":true,"type":"string"},"repo":{"required":true,"type":"string"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/repos/:owner/:repo"},"reviewProject":{"headers":{"accept":"application/vnd.github.inertia-preview+json"},"method":"GET","params":{"project_id":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/projects/:project_id"},"update":{"headers":{"accept":"application/vnd.github.hellcat-preview+json"},"method":"PATCH","params":{"description":{"type":"string"},"id":{"alias":"team_id","deprecated":true},"name":{"required":true,"type":"string"},"parent_team_id":{"type":"integer"},"permission":{"enum":["pull","push","admin"],"type":"string"},"privacy":{"type":"string"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id"},"updateDiscussion":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"PATCH","params":{"body":{"type":"string"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"},"title":{"type":"string"}},"url":"/teams/:team_id/discussions/:discussion_number"},"updateDiscussionComment":{"headers":{"accept":"application/vnd.github.echo-preview+json"},"method":"PATCH","params":{"body":{"required":true,"type":"string"},"comment_number":{"required":true,"type":"integer"},"discussion_number":{"required":true,"type":"integer"},"team_id":{"required":true,"type":"integer"}},"url":"/teams/:team_id/discussions/:discussion_number/comments/:comment_number"}},"users":{"acceptRepoInvite":{"alias":"repos.acceptInvitation","deprecated":"`users.acceptRepoInvite()` is deprecated, use `repos.acceptInvitation()`"},"addEmails":{"method":"POST","params":{"emails":{"required":true,"type":"string[]"}},"url":"/user/emails"},"addRepoToInstallation":{"alias":"apps.addRepoToInstallation","deprecated":"`integrations.addRepoToInstallation()` is deprecated, use `apps.addRepoToInstallation()`","params":{}},"block":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"PUT","params":{"username":{"required":true,"type":"string"}},"url":"/user/blocks/:username"},"blockUser":{"alias":"users.block","deprecated":"`users.blockUser()` is deprecated, use `users.block()`"},"checkBlocked":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"GET","params":{"username":{"required":true,"type":"string"}},"url":"/user/blocks/:username"},"checkBlockedUser":{"alias":"users.checkBlocked","deprecated":"`users.checkBlockedUser()` is deprecated, use `users.checkBlocked()`"},"checkFollowing":{"method":"GET","params":{"username":{"required":true,"type":"string"}},"url":"/user/following/:username"},"checkFollowingForUser":{"method":"GET","params":{"target_user":{"required":true,"type":"string"},"username":{"required":true,"type":"string"}},"url":"/users/:username/following/:target_user"},"checkIfOneFollowersOther":{"alias":"users.checkFollowingForUser","deprecated":"`users.checkIfOneFollowersOther()` is deprecated, use `users.checkFollowingForUser()`"},"createGpgKey":{"method":"POST","params":{"armored_public_key":{"type":"string"}},"url":"/user/gpg_keys"},"createKey":{"alias":"users.createPublicKey","deprecated":"`users.createKey()` is deprecated, use `users.createPublicKey()`"},"createPublicKey":{"method":"POST","params":{"key":{"type":"string"},"title":{"type":"string"}},"url":"/user/keys"},"declineRepoInvite":{"alias":"repos.declineInvitation","deprecated":"`users.declineRepoInvite()` is deprecated, use `repos.declineInvitation()`"},"deleteEmails":{"method":"DELETE","params":{"emails":{"required":true,"type":"string[]"}},"url":"/user/emails"},"deleteGpgKey":{"method":"DELETE","params":{"gpg_key_id":{"required":true,"type":"integer"},"id":{"alias":"gpg_key_id","deprecated":true}},"url":"/user/gpg_keys/:gpg_key_id"},"deleteKey":{"alias":"users.deletePublicKey","deprecated":"`users.deleteKey()` is deprecated, use `users.deletePublicKey()`"},"deletePublicKey":{"method":"DELETE","params":{"id":{"alias":"key_id","deprecated":true},"key_id":{"required":true,"type":"integer"}},"url":"/user/keys/:key_id"},"demote":{"method":"DELETE","params":{"username":{"required":true,"type":"string"}},"url":"/users/:username/site_admin"},"editOrgMembership":{"alias":"orgs.updateMembership","deprecated":"`users.editOrgMembership()` is deprecated, use `orgs.updateMembership()`"},"follow":{"method":"PUT","params":{"username":{"required":true,"type":"string"}},"url":"/user/following/:username"},"followUser":{"alias":"users.follow","deprecated":"`users.followUser()` is deprecated, use `users.follow()`"},"get":{"alias":"users.getAuthenticated","deprecated":"`users.get()` is deprecated, use `users.getAuthenticated()`"},"getAll":{"alias":"users.list","deprecated":"`users.getAll()` is deprecated, use `users.list()`"},"getAuthenticated":{"method":"GET","params":{},"url":"/user"},"getBlockedUsers":{"alias":"users.listBlocked","deprecated":"`users.getBlockedUsers()` is deprecated, use `users.listBlocked()`"},"getById":{"method":"GET","params":{"id":{"required":true,"type":"string"}},"url":"/user/:id"},"getByUsername":{"method":"GET","params":{"username":{"required":true,"type":"string"}},"url":"/users/:username"},"getContextForUser":{"headers":{"accept":"application/vnd.github.hagar-preview+json"},"method":"GET","params":{"subject_id":{"type":"string"},"subject_type":{"enum":["organization","repository","issue","pull_request"],"type":"string"},"username":{"required":true,"type":"string"}},"url":"/users/:username/hovercard"},"getEmails":{"alias":"users.listEmails","deprecated":"`users.getEmails()` is deprecated, use `users.listEmails()`"},"getFollowers":{"alias":"users.listFollowersForAuthenticatedUser","deprecated":"`users.getFollowers()` is deprecated, use `users.listFollowersForAuthenticatedUser()`"},"getFollowersForUser":{"alias":"users.listFollowersForUser","deprecated":"`users.getFollowersForUser()` is deprecated, use `users.listFollowersForUser()`"},"getFollowing":{"alias":"users.listFollowingForAuthenticatedUser","deprecated":"`users.getFollowing()` is deprecated, use `users.listFollowingForAuthenticatedUser()`"},"getFollowingForUser":{"alias":"users.listFollowingForUser","deprecated":"`users.getFollowingForUser()` is deprecated, use `users.listFollowingForUser()`"},"getForUser":{"alias":"users.getByUsername","deprecated":"`users.getForUser()` is deprecated, use `users.getByUsername()`"},"getGpgKey":{"method":"GET","params":{"gpg_key_id":{"required":true,"type":"integer"},"id":{"alias":"gpg_key_id","deprecated":true}},"url":"/user/gpg_keys/:gpg_key_id"},"getGpgKeys":{"alias":"users.listGpgKeys","deprecated":"`users.getGpgKeys()` is deprecated, use `users.listGpgKeys()`"},"getGpgKeysForUser":{"alias":"users.listGpgKeysForUser","deprecated":"`users.getGpgKeysForUser()` is deprecated, use `users.listGpgKeysForUser()`"},"getInstallationRepos":{"alias":"apps.listInstallationReposForAuthenticatedUser","deprecated":"`users.getInstallationRepos()` is deprecated, use `apps.listInstallationReposForAuthenticatedUser()`"},"getInstallations":{"alias":"apps.listInstallationsForAuthenticatedUser","deprecated":"`users.getInstallations()` is deprecated, use `apps.listInstallationsForAuthenticatedUser()`"},"getKey":{"alias":"users.getPublicKey","deprecated":"`users.getKey()` is deprecated, use `users.getPublicKey()`"},"getKeys":{"alias":"users.listPublicKeys","deprecated":"`users.getKeys()` is deprecated, use `users.listPublicKeys()`"},"getKeysForUser":{"alias":"users.listPublicKeysForUser","deprecated":"`users.getKeysForUser()` is deprecated, use `users.listPublicKeysForUser()`"},"getMarketplacePurchases":{"alias":"apps.listMarketplacePurchasesForAuthenticatedUser","deprecated":"`users.getMarketplacePurchases()` is deprecated, use `apps.listMarketplacePurchasesForAuthenticatedUser()`"},"getMarketplaceStubbedPurchases":{"alias":"apps.listMarketplacePurchasesForAuthenticatedUserStubbed","deprecated":"`users.getMarketplaceStubbedPurchases()` is deprecated, use `apps.listMarketplacePurchasesForAuthenticatedUserStubbed()`"},"getOrgMembership":{"alias":"orgs.getMembershipForAuthenticatedUser","deprecated":"`users.getOrgMembership()` is deprecated, use `orgs.getMembershipForAuthenticatedUser()`"},"getOrgMemberships":{"alias":"orgs.listMemberships","deprecated":"`users.getOrgMemberships()` is deprecated, use `orgs.listMemberships()`"},"getOrgs":{"alias":"orgs.listForAuthenticatedUser","deprecated":"`users.getOrgs()` is deprecated, use `orgs.listForAuthenticatedUser()`"},"getPublicEmails":{"alias":"users.listPublicEmails","deprecated":"`users.getPublicEmails()` is deprecated, use `users.listPublicEmails()`"},"getPublicKey":{"method":"GET","params":{"id":{"alias":"key_id","deprecated":true},"key_id":{"required":true,"type":"integer"}},"url":"/user/keys/:key_id"},"getRepoInvites":{"alias":"repos.listInvitationsForAuthenticatedUser","deprecated":"`users.getRepoInvites()` is deprecated, use `repos.listInvitationsForAuthenticatedUser()`"},"getTeams":{"alias":"teams.listForAuthenticatedUser","deprecated":"`users.getTeams()` is deprecated, use `teams.listForAuthenticatedUser()`"},"list":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"since":{"type":"string"}},"url":"/users"},"listBlocked":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"GET","params":{},"url":"/user/blocks"},"listEmails":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/emails"},"listFollowersForAuthenticatedUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/followers"},"listFollowersForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/followers"},"listFollowingForAuthenticatedUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/following"},"listFollowingForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/following"},"listGpgKeys":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/gpg_keys"},"listGpgKeysForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/gpg_keys"},"listPublicEmails":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/public_emails"},"listPublicKeys":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"}},"url":"/user/keys"},"listPublicKeysForUser":{"method":"GET","params":{"page":{"type":"integer"},"per_page":{"type":"integer"},"username":{"required":true,"type":"string"}},"url":"/users/:username/keys"},"promote":{"method":"PUT","params":{"username":{"required":true,"type":"string"}},"url":"/users/:username/site_admin"},"removeRepoFromInstallation":{"alias":"apps.removeRepoFromInstallation","deprecated":"`integrations.removeRepoFromInstallation()` is deprecated, use `apps.removeRepoFromInstallation()`","params":{}},"suspend":{"method":"PUT","params":{"username":{"required":true,"type":"string"}},"url":"/users/:username/suspended"},"togglePrimaryEmailVisibility":{"method":"PATCH","params":{"email":{"required":true,"type":"string"},"visibility":{"required":true,"type":"string"}},"url":"/user/email/visibility"},"unblock":{"headers":{"accept":"application/vnd.github.giant-sentry-fist-preview+json"},"method":"DELETE","params":{"username":{"required":true,"type":"string"}},"url":"/user/blocks/:username"},"unblockUser":{"alias":"users.unblock","deprecated":"`users.unblockUser()` is deprecated, use `users.unblock()`"},"unfollow":{"method":"DELETE","params":{"username":{"required":true,"type":"string"}},"url":"/user/following/:username"},"unfollowUser":{"alias":"users.unfollow","deprecated":"`users.unfollowUser()` is deprecated, use `users.unfollow()`"},"unsuspend":{"method":"DELETE","params":{"username":{"required":true,"type":"string"}},"url":"/users/:username/suspended"},"update":{"alias":"users.updateAuthenticated","deprecated":"`users.update()` is deprecated, use `users.updateAuthenticated()`"},"updateAuthenticated":{"method":"PATCH","params":{"bio":{"type":"string"},"blog":{"type":"string"},"company":{"type":"string"},"email":{"type":"string"},"hireable":{"type":"boolean"},"location":{"type":"string"},"name":{"type":"string"}},"url":"/user"}}}
 
 /***/ }),
-/* 499 */
+/* 504 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = paginationPlugin
 
 function paginationPlugin (octokit) {
-  octokit.getFirstPage = __webpack_require__(500).bind(null, octokit)
-  octokit.getLastPage = __webpack_require__(501).bind(null, octokit)
-  octokit.getNextPage = __webpack_require__(502).bind(null, octokit)
-  octokit.getPreviousPage = __webpack_require__(503).bind(null, octokit)
-  octokit.hasFirstPage = __webpack_require__(504)
-  octokit.hasLastPage = __webpack_require__(505)
-  octokit.hasNextPage = __webpack_require__(506)
-  octokit.hasPreviousPage = __webpack_require__(507)
+  octokit.getFirstPage = __webpack_require__(505).bind(null, octokit)
+  octokit.getLastPage = __webpack_require__(506).bind(null, octokit)
+  octokit.getNextPage = __webpack_require__(507).bind(null, octokit)
+  octokit.getPreviousPage = __webpack_require__(508).bind(null, octokit)
+  octokit.hasFirstPage = __webpack_require__(509)
+  octokit.hasLastPage = __webpack_require__(510)
+  octokit.hasNextPage = __webpack_require__(511)
+  octokit.hasPreviousPage = __webpack_require__(512)
 }
 
 
 /***/ }),
-/* 500 */
+/* 505 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = getFirstPage
@@ -44768,7 +44943,7 @@ function getFirstPage (octokit, link, headers, callback) {
 
 
 /***/ }),
-/* 501 */
+/* 506 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = getLastPage
@@ -44781,7 +44956,7 @@ function getLastPage (octokit, link, headers, callback) {
 
 
 /***/ }),
-/* 502 */
+/* 507 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = getNextPage
@@ -44794,7 +44969,7 @@ function getNextPage (octokit, link, headers, callback) {
 
 
 /***/ }),
-/* 503 */
+/* 508 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = getPreviousPage
@@ -44807,7 +44982,7 @@ function getPreviousPage (octokit, link, headers, callback) {
 
 
 /***/ }),
-/* 504 */
+/* 509 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = hasFirstPage
@@ -44820,7 +44995,7 @@ function hasFirstPage (link) {
 
 
 /***/ }),
-/* 505 */
+/* 510 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = hasLastPage
@@ -44833,7 +45008,7 @@ function hasLastPage (link) {
 
 
 /***/ }),
-/* 506 */
+/* 511 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = hasNextPage
@@ -44846,7 +45021,7 @@ function hasNextPage (link) {
 
 
 /***/ }),
-/* 507 */
+/* 512 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = hasPreviousPage

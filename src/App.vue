@@ -17,6 +17,7 @@
       <!-- Right column -->
       <div class="d-none d-lg-block col-lg-2 col-xl-4 listz-aside">
         <div class="listz-brush"></div>
+        <contributors-component></contributors-component>
       </div>
       
     </div>
@@ -27,6 +28,7 @@
 import ListComponent from "./components/ListComponent.vue";
 import FormComponent from "./components/FormComponent.vue";
 import ActivityComponent from "./components/ActivityComponent.vue";
+import ContributorsComponent from "./components/ContributorsComponent.vue";
 
 import Listz from "listz";
 import queryString from "query-string";
@@ -39,6 +41,8 @@ export default {
     FormComponent,
     ListComponent,
     ActivityComponent,
+    ContributorsComponent
+
   },
   data() {
     return {
@@ -107,7 +111,9 @@ export default {
   --listz-item-tag-hover: #da3e58;
   --listz-title-hover: #da3e58;
   
-  --listz-activity-color: rgba(255, 255, 255, 0.8);
+  --listz-white-color: rgba(255, 255, 255, 0.8);
+
+  --listz-top-margin: calc(3em - 25px);
 }
 
 .listz-gradient {
@@ -171,5 +177,40 @@ body {
 .listz-brush-left {
   right: 0;
   background-image: url("~./assets/img/brushed-left.png");
+}
+
+@media screen and (max-width: 1200px) {
+  .listz-scroll-outer-container {
+    display: none;
+  }
+}
+
+.listz-scroll-outer-container {
+  position: absolute;
+
+  box-sizing: border-box;
+
+  left: var(--listz-top-margin);
+  top: var(--listz-top-margin);
+  bottom: 0;
+  right: var(--listz-brush-width);
+
+  overflow: hidden;
+}
+
+.listz-scroll-inner-container {
+  height: 100%;
+  width: calc(100% + var(--listz-scroll-overflow));
+
+  overflow-y: scroll;
+}
+
+.listz-scroll-inner-container h2 {
+  font-size: 1.2em;
+  padding: 10px;
+  color: var(--listz-white-color);
+
+  display: flex;
+  flex-direction: column;
 }
 </style>

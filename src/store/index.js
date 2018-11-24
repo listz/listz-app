@@ -16,6 +16,7 @@ export const store = new Vuex.Store({
     query: "",
     queryString: "",
     commits: new Array(),
+    contributors: new Object()
 
   },
   getters: {
@@ -67,6 +68,12 @@ export const store = new Vuex.Store({
     [Actions.SET_COMMITS](state, payload) {
 
       state.commits = payload.commits;
+    },
+
+    [Actions.SET_CONTRIBUTORS](state, payload) {
+
+      console.log(payload.contributors);
+      state.contributors = payload.contributors;
     }
   },
   actions: {
@@ -109,21 +116,70 @@ export const store = new Vuex.Store({
         type: Actions.SET_LISTZ_URL_QUERY_STRING,
         queryString: payload.queryString
       });
- 
+
       dispatch({
         type: Actions.LOAD_COMMITS
       });
+
+      dispatch({
+        type: Actions.LOAD_CONTRIBUTORS
+      })
     },
 
-    [Actions.LOAD_COMMITS]({ commit }) {
+    [Actions.LOAD_COMMITS]({ commit, dispatch }) {
 
-      octokit.repos.getCommits({owner: "listz", repo: this.state.queryString }).then(response => {
+      octokit.repos.listCommits({ owner: "listz", repo: this.state.queryString }).then(response => {
 
         commit({
           type: Actions.SET_COMMITS,
           commits: response.data
         })
       });
+    },
+
+    [Actions.LOAD_CONTRIBUTORS]({ commit }) {
+
+      octokit.repos.listContributors({ owner: "listz", repo: this.state.queryString, per_page: 20}).then(response => {
+        commit({
+          type: Actions.SET_CONTRIBUTORS,
+          contributors: response.data
+        });
+      });
+
+      /*let page = 1;
+      let hasNextPage = true;
+      let data;
+
+      do {
+        octokit.repos.listCommits({ owner: "listz", repo: this.state.queryString, page: 1 }).then(response => {
+
+          if (response.data.length == 0) hasNextPage = false;
+
+          for (let item of response.data) data.push(item);
+          
+        });
+      } while (hasNextPage)
+
+      console.log(data);*/
+
+      /*octokit.paginate('GET /repos/:owner/:repo/commits', { owner: 'listz', repo: this.state.queryString }).then(commits => {
+
+        let contributors = new Object();
+
+        commits.map(currentCommit => {
+          if (typeof currentCommit.author != "undefined" && currentCommit.author != null) {
+            let currentAuthor = currentCommit.author;
+            if (typeof contributors[currentAuthor.login] != "undefined" && contributors[currentAuthor.login] != null) contributors[currentAuthor]++;
+            else contributors[currentAuthor.login] = 1;
+          }
+        });
+
+        commit({
+          type: Actions.SET_CONTRIBUTORS,
+          contributors
+        });
+
+      });*/
     }
   }
 });
