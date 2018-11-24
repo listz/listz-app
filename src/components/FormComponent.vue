@@ -1,13 +1,18 @@
 <template>
   <div id="listz-form" class="listz-normal-gradient row rounded">
 
-    <div id="listz-form-title-container" class="d-flex justify-content-between align-items-center">
-      <h2 class="listz-gradient rounded">{{$store.state.listz.name}}</h2>
+    <div id="listz-form-title-container" class="d-flex justify-content-end align-items-center">
+      <h2 id="listz-form-title-container-title" class="listz-gradient rounded">{{$store.state.listz.name}}</h2>
       <h2 id="listz-form-title-arrow" class="listz-gradient rounded listz-form-arrow" 
           :class="{ 'listz-arrow-turned' : moreVisible  }" 
           @click="toggleMore">
         <i class="fas fa-angle-down"></i>
       </h2>
+      <a href="https://listz.github.io/" class="">
+        <h2 id="listz-form-title-home" class="listz-gradient rounded listz-form-arrow">
+          <i class="fa fa-home" aria-hidden="true"></i>
+        </h2>
+      </a>
     </div>
 
     <div :class="{ 'listz-form-more-hidden': !moreVisible, 'listz-form-more-visible': moreVisible }">
@@ -84,10 +89,21 @@ export default {
   top: -25px;
 }
 
+#listz-form-title-container a {
+  text-decoration: none;
+  color: white;
+}
+
 #listz-form-title-container h2 {
   font-size: 1.2em;
   padding: 10px;
   margin-right: 10px;
+}
+
+#listz-form-title-container-title {
+  left: 0;
+  margin-left: 0;
+  margin-right: auto !important;
 }
 
 #listz-form-title-arrow {

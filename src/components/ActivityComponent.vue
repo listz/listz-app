@@ -5,7 +5,7 @@
 
       <h2>Activity</h2>
 
-        <a :key="index" v-for="(commit, index) of $store.state.commits" class="listz-activity-item" :href="commit.html_url">
+        <a :key="index" v-for="(commit, index) of $store.state.commits" v-if="typeof commit.author != 'undefined' && commit.author != null" class="listz-activity-item" :href="commit.html_url">
 
           <div class="listz-activity-item-title">
             <img :src="commit.author.avatar_url" tag="Url of authors avatar.">
